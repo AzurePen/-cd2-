@@ -1,0 +1,5502 @@
+{
+  "Name": "Hazard 9-Seven Lab-1.6-Tier 1(beta3-d8)",
+  "Description": "made by SEvEN，【自然潮时间：2分20秒-2分40秒】,
+  创建日期（Creation Date）：2025/03/15  更新日期（Update Date）：2026/01/29
+  当前版本（Version）：beta3-d8  所需最低CD2版本：Update-17
+  更新内容（Changelog）：CD2-916系列。Tier 1难度。
+  #Tier 1-beta3-d8改动#具体各任务详情看Hard难度简介#
+  ●Tips●请勿在对局中使用沙盒切换人物，否则可能会出现部分事件无法触发。
+  ●Change●蚁狮与蜂拥洞替换为小甲虫。怪物池新增小甲虫。
+  ==================================================================================================================
+  #Tier 1-beta3-d7-u17改动#
+  ●d7-Special●提高了「模仿者」微缩模块-矮人小队在小队事件中的占比。体验新事件-Time。
+  ●Change●调整了「模仿者」微缩模块-矮人小队成员的部分参数。
+  ●Change●不再刷新空事件。即60s~240s将刷新一次事件。
+  ●Change●调整了部分事件聊天播报提示时间。减少刷屏。
+  ==================================================================================================================
+  #Tier 1-beta3-d6-u17改动#
+  ●New Event●「模仿者」微缩模块-矮人小队：
+  ▶成员：微缩模块-侦查兵、微缩模块-工程师、微缩模块-钻机手、微缩模块-枪手。
+  ▶「模仿者」微缩模块-矮人小队成员点燃均不会死亡。
+  ▶「模仿者」微缩模块-矮人小队与精锐小队均处于一个事件类，随机到该事件类时会从这两项中随机选择一个。两者奖励一致。
+  「模仿者」微缩模块：模仿对应生物部分技能攻击。
+  ●Change●优化了部分代码结构。
+  ==================================================================================================================
+  #Tier 1-beta3-d5-u17-Patch1改动#
+  ●Fix●修复了精锐小队事件、「额外补给增援」与「速战速决」的补给冲突的问题。
+  #Tier 1-beta3-d5-u17改动#
+  ●Change●调整了精英大自爆的受爆炸伤害倍率（1->1.5），鼓励核出生点。
+  ●Fix●修复了无畏、虫群守护者-艾芙、「超致密」氪石-艾蚀生成机制不正确的问题。现上述异虫生成后在短时间内会大幅降低重复刷新率。
+  ●Remake●虫蛋收集「速战速决」-有自然潮
+  ▶开启一个虫蛋且未触发播报潮或存入一个虫蛋均可获得一次免费补给。
+  ●Remake●采矿探险「速战速决」-无自然潮-播报潮时间缩短：120s~140s
+  ▶每存40个墨菱石可以获得一次免费补给。
+  「速战速决」：地图不会生成硝石。不会影响补给所需消耗硝数量。第一个补给依旧免费。
+  ●Change●聊天播报调整：
+  ▶新增：虫蛋收集与采矿探险-获取的补给剩余量（包括精锐小队与副任务补给奖励）；消灭任务的当前威胁等级；深层扫描水晶生成与水晶凝聚完成；
+  ●Refactor●虫蛋收集、消灭任务、采矿探险的代码。
+  ==================================================================================================================
+  #Tier 1-beta3-d4-u17改动#
+  ●Change●聊天播报调整：
+  ▶新增：Mia-「生物活化装甲芯片」激活与失效；维度空间刷新时的等级；
+  ==================================================================================================================
+  #Tier 1-beta3-d3-u17#已遗弃#
+  ==================================================================================================================
+  #Tier 1-beta3-d2-u17改动#
+  ●NEW●（测试中）每次选择该难度或进入大厅时，会播报一次当前选择的难度。
+  ●NEW●彩蛋：实力不够运气来凑！存入一个ERR://23¤Y%/（错误方块-生成几率为3.84％），立即激活一次维度空间-III！该效果只能生效一次。
+  ●Change●搜救行动-燃料电池充能时：当异虫数量多于（350->300）时无法充能。
+  ●Change●聊天播报调整：
+  ▶新增：「真空零阻治疗-长效」激活时；搜救行动-燃料充能电池阶段异虫数量多于300时；执勤护送-心石各阶段参数调整&心石第四阶段结束后。
+  ▶修复：①维度空间激活时不播报的问题。
+  ●Change●优化了部分代码结构。
+  ==================================================================================================================
+  #Tier 1-beta3-d1-u17改动#
+  ●搜救行动-燃料电池充能阶段
+  ▶※Change※启动后需所有矮人（不包括倒地矮人）离空降仓均不超过22m，将激活「超维度地形摧毁者」，否则守点将一直无法充能。
+  ▶燃料电池充能低于50％时矮人免疫摔落伤害。当异虫数量大于350时，守点无法充能。
+  ▶守点范围更大（2.3->4.3），但范围缩减更快（每1％进度0.013->每1％进度0.028）。
+  ▶进入撤离阶段时，矮人永久进入无敌状态。异虫不再刷新。
+  ●Change●调整了「真空零阻治疗-长效」效果：每存3个王草碎片立即生效一次。
+  「真空零阻治疗-长效」触发呼吸回血时间减少到0、最终呼吸回血速度+100％、呼吸回血上限+20％，该效果持续120s，重复触发将刷新持续时间。
+  ●Change●聊天播报调整：
+  ▶新增：双子★日咒&月魇奖励的复活剩余次数；
+  ▶移除：副任务圣诞小精灵/春节兔子刷新与消灭。
+  ▶修复：①当多个同等级维度触发时，剩余时间播报不正确的问题。现在多个同等级维度触发下，会重新调整播报的时间。
+  ●副任务机制调整-Beta3 Version
+  ▶※Change※取消调整消灭脓蚤/消灭巴氏藤壶副任务。
+  ▶收集硬胶果实与粘液种子副任务调整为分阶段奖励：
+  「阶段一」收集10个硬胶果实/8个粘液种子，奖励「超时空维度装置」与「战斗维生系统」。
+  「阶段二」完成副任务指示目标数，奖励「额外补给增援」。
+  ※其他副任务仅存在阶段二目标，完成后阶段一与阶段二的奖励均会获取。
+  「超时空维度装置」在矮人仅剩一个存活时（倒地矮人为三个）立即展开维度空间-II。
+  「战斗维生系统」永久+25％呼吸回血上限，矮人被救助后恢复血量永久+15％。
+  「额外补给增援」呼叫补给时不消耗硝石，该效果在呼叫2次补给后移除。
+  ●Change●调整了部分怪物名字；微调了粉碎无畏异虫的材质。
+  ==================================================================================================================
+  #Tier 1-beta3-c1~c3改动#
+  ●Change●母巢调整：点燃值提升至300但点燃后即死。（仍会爆出大量蜂拥异虫）
+  ●Fix●修复维度空间-III持续时间不对的问题。
+  ●NEW●维度空间与Mia-「生物活化装甲芯片」现可减免/免疫摔落伤害！
+  ●Change●搜救行动-现守点会刷新事件，但是不会刷新维度空间事件。
+  ●Change●移除大量BOSS血条显示，使用聊天窗口播报。播报以下部分：
+  ▶倒计时播报：事件；额外自然潮；维度空间、「真空零阻治疗-长效」剩余时间不足20s。
+  ▶生效播报：维度空间激活；「真空零阻治疗-长效」；「真空零阻治疗-增强」。
+  ●Change●机械无畏异虫抛射物调整：深渊复仇者屏障->看守者屏障。
+  ●Change●狙击炮台抛射物调整：强弩火球->鞭策炮台。（伤害大幅削弱）
+  ==================================================================================================================
+  #Tier 1-beta2-d改动#
+  ●Fix●当副任务补给奖励与精锐小队奖励都存在时，呼叫补给会同时计算的问题。
+  ●Change●搜救行动-上传系统结束后自然潮调整：【1分40秒~2分】->【1分30秒~1分50秒】。
+  ●Change●双子★日咒&月魇-日咒存在时，矮人之间的友伤提升50％->100％。
+  ●Change●Mia_M3c-Remake：
+  ▶Mia生命值上限与攻击力提升、且被骇入后的初始生命值为100％。
+  ▶击落后芯片处于失活状态并在30s后重启，如果重启成功将激活「生物活化装甲芯片」
+  「生物活化装甲芯片」10％矮人受到的所有伤害由Mia承担。所承担伤害会以100~200％的伤害作用于Mia。
+  ●NEW●每存1个数据核心立即生效一次「真空零阻治疗-增强」。
+  「真空零阻治疗-增强」立即使全队回复至满血。每个数据核心都能永久减少触发呼吸回血时间（-0.5s）、增加呼吸回血速度（+0.25HP/s）与呼吸回血上限（+5％）。
+  ●Change●触发维度空间-III：+100％呼吸回血的增益调整为在持续时间内立即使矮人回复至满血。
+  ==================================================================================================================
+  #Tier 1-beta1改动#
+  ▶任务部分
+  ★执勤护送★
+  【心石阶段】第三阶段开始持续刷新精英怪：精英刀锋、精英护卫、精英三眼与精英吐酸。
+  ★搜救行动★
+  【自然潮】不再延长第一波自然潮时间，全程维持【2分20秒-2分40秒】。
+  ▶事件部分
+  【双子★日咒&月魇】血缘连接复活时间缩短：40s->30s。
+  ▶怪物部分
+  【红色变种瘟疫吐珠】增加红蜂拥生成数量。
+  ==================================================================================================================
+  ★怪物介绍与机制调整★
+  【固定单位】
+  #新增：连射炮台，推斥炮台（发射脓毒），狙击炮台（发射鞭策炮台-伤害已削弱）。
+  #红色变种瘟疫吐珠：对矮人吐信息素球，无伤害，但是会生成红蜂拥。非冻结状态下腰射一弹夹即可击杀。
+  #霰射瘟疫吐珠：冰冻值上调至-50。
+  #科洛克王草：外壳打开后不再关闭。
+  【非固定单位】
+  #所有怪物冰冻值与回温值均已调整-推荐冰枪。
+  #红色变种纳多赛特饲育水母：高速生产红蜂拥，威胁度极高。
+  #机械双子-机械无畏异虫-粉碎无畏异虫：双子变异版，机械无畏异虫会持续召唤机器人，粉碎无畏异虫会持续召唤粉碎者。
+  #「超致密」氪石★艾蚀：击杀后生成一波氪石异虫（氪石吐刺与氪石吐酸极弱辐射。所有氪石异虫点燃或冻住都即死）。
+  #巢主无畏异虫：召唤精英三眼，几乎无法冻结（冻结击杀会出现bug），但弱冰。破黄甲后C4炸即可不锁血一次击杀。
+  #虫群守护者★艾芙（极弱爆炸、近战与火）：增幅虫子范围增大、数量增多，并每隔一段时间会召唤刀锋异虫。击杀后立即清除所有已召唤的刀锋异虫。
+  ==================================================================================================================
+  ★事件一览★
+  【双子★日咒&月魇】月魇存在时矮人陷入黑暗状态；双子存在血缘连接：30s内未击杀另一只会复活；两只均击杀后获得7次矮人被救助后满血；上限为7。日咒点燃或冻住即死。
+  【维度空间波动】随机刷新维度空间I/II/Prototype，击杀增益#无敌（不免疫dot伤害）：20s/40s/60s；#回复至满血：无/无/有。
+  【小队突袭】击杀所有小队成员后补给不消耗硝石，该效果不可叠加且在呼叫一次补给后移除；精锐小队不会被恐惧。
+  【任务专属事件】目前仅推车有，若该任务无专属事件则为空事件。
+  ==================================================================================================================",
+  "Caps": {
+    "MaxActiveCritters": 40,
+    "MaxActiveSwarmers": 240,
+    "MaxActiveEnemies": 770
+  },
+  "Resupply": {
+    "Cost": {
+      "Mutate": "ByResuppliesCalled",
+      "Values": [
+        0,
+        {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "EDs": [
+              "ED_Secondary_Reward_Stage_II",
+              "ED_ResupplySupport"
+            ]
+          },
+          ">=": 1,
+          "Then": 0,
+          "Else": {
+            "Mutate": "ByMissionType",
+            "Default": 60,
+            "Escort": {
+              "Mutate": "ByEscortPhase",
+              "Default": 60,
+              "FinalEventA": 55,
+              "FinalEventB": 50,
+              "FinalEventC": 45,
+              "FinalEventD": 40
+            },
+            "Egg": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "var": "Egg_Resupplies_Count"
+              },
+              ">=": 1,
+              "Then": 0,
+              "Else": 60
+            },
+            "Refinery": {
+              "Mutate": "ByResuppliesCalled",
+              "Values": [
+                0,
+                20,
+                40,
+                60
+              ]
+            },
+            "Mining": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "var": "Mining_Resupplies_Count"
+              },
+              ">=": 1,
+              "Then": 0,
+              "Else": 60
+            }
+          }
+        }
+      ]
+    }
+  },
+  "NitraMultiplier": {
+    "Mutate": "ByMissionType",
+    "Default": 1,
+    "Egg": 0,
+    "Mining": 0
+  },
+  "DifficultySetting": {
+    "ExtraLargeEnemyDamageResistance": 2.6,
+    "ExtraLargeEnemyDamageResistanceB": 0.177,
+    "ExtraLargeEnemyDamageResistanceC": 0.1,
+    "ExtraLargeEnemyDamageResistanceD": 2.6,
+    "EnemyDamageResistance": 2.3,
+    "SmallEnemyDamageResistance": 1.2,
+    "EnemyDamageModifier": {
+      "Mutate": "Clamp",
+      "Value": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "Or",
+          "A": {
+            "Var": "Dimensional_Space_Exists"
+          },
+          "B": {
+            "Mutate": "BySalvagePhase",
+            "Default": false,
+            "Finished": {
+              "var": "Salvage_DuringExtraction"
+            }
+          }
+        },
+        "Then": 0,
+        "Else": {
+          "Mutate": "Multiply",
+          "A": 6.1,
+          "B": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "ED_Mia_Support"
+            },
+            ">=": 1,
+            "Then": 0.9,
+            "Else": 1
+          }
+        }
+      },
+      "Min": 0
+    },
+    "EnemyCountModifier": {
+      "Mutate": "Multiply",
+      "A": 3.2,
+      "B": {
+        "Mutate": "ByMissionType",
+        "Default": 1,
+        "Escort": {
+          "Mutate": "ByEscortPhase",
+          "Default": 1,
+          "FinalEventA": 1.3,
+          "FinalEventB": 1.5,
+          "FinalEventC": 1.6,
+          "FinalEventD": 1.7
+        },
+        "Salvage": {
+          "Mutate": "BySalvagePhase",
+          "Default": 1,
+          "Uplink": 1.2,
+          "Refuel": 1.5,
+          "Finished": {
+            "Mutate": "If",
+            "Condition": {
+              "var": "Salvage_DuringExtraction"
+            },
+            "Then": 0,
+            "Else": 1
+          }
+        },
+        "DeepScan": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Crystal_Condensed_Resonance"
+          },
+          ">=": 1,
+          "Then": 1.5,
+          "Else": 1
+        },
+        "Refinery": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Swarm_Army"
+          },
+          ">=": 1,
+          "Then": 1.5,
+          "Else": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "ED_Swarm_Rout"
+            },
+            ">=": 1,
+            "Then": 0,
+            "Else": 1
+          }
+        }
+      }
+    },
+    "EncounterDifficulty": [
+      {
+        "weight": 5,
+        "min": {
+          "Mutate": "ByMissionType",
+          "Default": 1300,
+          "Elimination": 0
+        },
+        "max": {
+          "Mutate": "ByMissionType",
+          "Default": 1400,
+          "Elimination": 0
+        }
+      }
+    ],
+    "StationaryDifficulty": [
+      {
+        "weight": 5,
+        "min": {
+          "Mutate": "ByMissionType",
+          "Default": 1100,
+          "Elimination": 0
+        },
+        "max": {
+          "Mutate": "ByMissionType",
+          "Default": 1250,
+          "Elimination": 0
+        }
+      }
+    ],
+    "EnemyWaveInterval": [
+      {
+        "weight": 5,
+        "min": {
+          "Mutate": "ByMissionType",
+          "Default": 130,
+          "Mining": 120,
+          "Refinery": 160
+        },
+        "max": {
+          "Mutate": "ByMissionType",
+          "Default": 180,
+          "Mining": 140
+        }
+      }
+    ],
+    "EnemyNormalWaveInterval": [
+      {
+        "weight": 5,
+        "min": 140,
+        "max": 160
+      }
+    ],
+    "EnemyNormalWaveDifficulty": [
+      {
+        "weight": 5,
+        "min": {
+          "Mutate": "ByMissionType",
+          "Default": 3050,
+          "Escort": {
+            "Mutate": "ByEscortPhase",
+            "Default": 3050,
+            "Finished": 0
+          },
+          "Salvage": {
+            "Mutate": "BySalvagePhase",
+            "Default": 3050,
+            "PreRefuel": 0
+          },
+          "Elimination": 0,
+          "Mining": 0,
+          "Sabotage": 0,
+          "DeepScan": 0
+        },
+        "max": {
+          "Mutate": "ByMissionType",
+          "Default": 3150,
+          "Escort": {
+            "Mutate": "ByEscortPhase",
+            "Default": 3150,
+            "Finished": 0
+          },
+          "Salvage": {
+            "Mutate": "BySalvagePhase",
+            "Default": 3050,
+            "PreRefuel": 0
+          },
+          "Elimination": 0,
+          "Mining": 0,
+          "Sabotage": 0,
+          "DeepScan": 0
+        }
+      }
+    ],
+    "EnemyDiversity": [
+      {
+        "weight": 5,
+        "min": 160,
+        "max": 177
+      }
+    ],
+    "StationaryEnemyDiversity": [
+      {
+        "weight": 5,
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "VeteranNormal": [
+      {
+        "weight": 9,
+        "min": 0.8,
+        "max": 1
+      },
+      {
+        "weight": 1,
+        "min": 0.5,
+        "max": 0.8
+      }
+    ],
+    "VeteranLarge": [
+      {
+        "weight": 1,
+        "min": 0.33,
+        "max": 0.33
+      }
+    ],
+    "EnvironmentalDamageModifier": {
+      "Mutate": "If",
+      "Condition": {
+        "Var": "Dimensional_Space_Exists"
+      },
+      "Then": 0,
+      "Else": 1.8
+    },
+    "PointExtractionScalar": 1.8,
+    "FriendlyFireModifier": {
+      "Mutate": "If",
+      "Condition": {
+        "Mutate": "Or",
+        "A": {
+          "Var": "Dimensional_Space_Exists"
+        },
+        "B": {
+          "Mutate": "BySalvagePhase",
+          "Default": false,
+          "Finished": {
+            "var": "Salvage_DuringExtraction"
+          }
+        }
+      },
+      "Then": 0,
+      "Else": {
+        "Mutate": "Multiply",
+        "A": 1,
+        "B": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Sun_Queen"
+          },
+          ">=": 1,
+          "Then": 2,
+          "Else": 1
+        },
+        "C": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Mia_Support"
+          },
+          ">=": 1,
+          "Then": 0.9,
+          "Else": 1
+        }
+      }
+    },
+    "WaveStartDelayScale": 0,
+    "SpeedModifier": 1.6,
+    "AttackCooldownModifier": 2.6,
+    "ProjectileSpeedModifier": 2.65,
+    "HealthRegenerationMax": {
+      "Mutate": "Clamp",
+      "Value": {
+        "Mutate": "Add",
+        "A": 0.25,
+        "B": {
+          "Mutate": "If",
+          "Condition": {
+            "var": "Secondary_Reward_Stage_I"
+          },
+          "Then": 0.25,
+          "Else": 0
+        },
+        "C": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "EDs": [
+              "ED_Vacuum_ZeroHeal_Enhance",
+              "ED_Dimensional_Space_III"
+            ]
+          },
+          ">=": 1,
+          "Then": 1,
+          "Else": 0
+        },
+        "D": {
+          "Mutate": "Multiply",
+          "A": 0.05,
+          "B": {
+            "Mutate": "TotalResource",
+            "Resource": "Data Cell"
+          }
+        },
+        "E": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Vacuum_ZeroHeal_Long"
+          },
+          ">=": 1,
+          "Then": 0.2,
+          "Else": 0
+        }
+      },
+      "Min": 0.25,
+      "Max": 1
+    },
+    "ReviveHealthRatio": {
+      "Mutate": "Clamp",
+      "Value": {
+        "Mutate": "Add",
+        "A": 0.25,
+        "B": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Revive_Bonus"
+          },
+          ">=": 1,
+          "Then": 1,
+          "Else": 0
+        },
+        "C": {
+          "Mutate": "If",
+          "Condition": {
+            "var": "Secondary_Reward_Stage_I"
+          },
+          "Then": 0.15,
+          "Else": 0
+        }
+      },
+      "Min": 0.25,
+      "Max": 1
+    }
+  },
+  "Dwarves": {
+    "RegenHealthPerSecond": {
+      "Mutate": "Clamp",
+      "Value": {
+        "Mutate": "Multiply",
+        "A": {
+          "Mutate": "Add",
+          "A": 2,
+          "B": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "EDs": [
+                "ED_Vacuum_ZeroHeal_Enhance",
+                "ED_Dimensional_Space_III"
+              ]
+            },
+            ">=": 1,
+            "Then": 268,
+            "Else": 0
+          },
+          "C": {
+            "Mutate": "Multiply",
+            "A": 0.25,
+            "B": {
+              "Mutate": "TotalResource",
+              "Resource": "Data Cell"
+            }
+          }
+        },
+        "B": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Vacuum_ZeroHeal_Long"
+          },
+          ">=": 1,
+          "Then": 2,
+          "Else": 1
+        }
+      },
+      "Min": 0,
+      "Max": 270
+    },
+    "RegenDelayAfterDamage": {
+      "Mutate": "Clamp",
+      "Value": {
+        "Mutate": "Add",
+        "A": 10,
+        "B": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "EDs": [
+              "ED_Vacuum_ZeroHeal_Long",
+              "ED_Vacuum_ZeroHeal_Enhance",
+              "ED_Dimensional_Space_III"
+            ]
+          },
+          ">=": 1,
+          "Then": -10,
+          "Else": 0
+        },
+        "C": {
+          "Mutate": "Multiply",
+          "A": -0.5,
+          "B": {
+            "Mutate": "TotalResource",
+            "Resource": "Data Cell"
+          }
+        }
+      },
+      "Min": 0
+    },
+    "FallDamageModifier": {
+      "Mutate": "Clamp",
+      "Value": {
+        "Mutate": "Multiply",
+        "A": {
+          "Mutate": "Add",
+          "A": 0.175,
+          "B": {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "Or",
+              "A": {
+                "Var": "Dimensional_Space_Exists"
+              },
+              "B": {
+                "Mutate": "BySalvagePhase",
+                "Default": false,
+                "Refuel": {
+                  "Mutate": "IfFloat",
+                  "Value": {
+                    "Mutate": "DefenseProgress"
+                  },
+                  "<=": 0.5,
+                  "Then": true,
+                  "Else": false
+                },
+                "Finished": {
+                  "var": "Salvage_DuringExtraction"
+                }
+              }
+            },
+            "Then": -7.77,
+            "Else": 0
+          }
+        },
+        "B": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Mia_Support"
+          },
+          ">=": 1,
+          "Then": 0.9,
+          "Else": 1
+        }
+      },
+      "Min": 0
+    }
+  },
+  "Vars": {
+    "Moon_Stalker_Exists": {
+      "Type": "Float",
+      "Value": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Moon_Stalker"
+        },
+        ">=": 1,
+        "Then": 0,
+        "Else": 1
+      }
+    },
+    "Crack_Team_Count": {
+      "Type": "Float",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "EDs": [
+          "ED_Crack_Code_Bee",
+          "ED_Crack_Code_Elephant",
+          "ED_Crack_Code_Rhinoceros",
+          "ED_Crack_Code_Mantis",
+          "ED_Crack_Code_Crow"
+        ]
+      }
+    },
+    "Miniature_Module_Team_Count": {
+      "Type": "Float",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "EDs": [
+          "ED_Miniature_Module_Scout",
+          "ED_Miniature_Module_Engineer",
+          "ED_Miniature_Module_Driller",
+          "ED_Miniature_Module_Gunner"
+        ]
+      }
+    },
+    "Dimensional_Space_Exists": {
+      "Type": "Boolean",
+      "Value": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "EDs": [
+            "ED_Dimensional_Space_I",
+            "ED_Dimensional_Space_II",
+            "ED_Dimensional_Space_III"
+          ]
+        },
+        ">=": 1,
+        "Then": true,
+        "Else": false
+      }
+    },
+    "Salvage_Refuel_TooMoreEnemies": {
+      "Type": "Boolean",
+      "Value": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount"
+        },
+        ">=": 300,
+        "Then": true,
+        "Else": false
+      }
+    },
+    "Salvage_DuringExtraction": {
+      "Type": "Boolean",
+      "Value": {
+        "Mutate": "BySalvagePhase",
+        "Default": false,
+        "Finished": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Countdown",
+            "Start": 90,
+            "Stop": 0,
+            "Enable": {
+              "Mutate": "DuringExtraction"
+            }
+          },
+          "<=": 0,
+          "Then": true,
+          "Else": false
+        }
+      }
+    },
+    "Secondary_Reward_Stage_I": {
+      "Type": "Boolean",
+      "Value": {
+        "Mutate": "BySecondary",
+        "Default": {
+          "Mutate": "SecondaryFinished"
+        },
+        "OBJ_2nd_Find_Gunkseed": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "DepositedResource",
+            "Resource": "Gunk Seed"
+          },
+          ">=": 8,
+          "Then": true,
+          "Else": false
+        },
+        "OBJ_2nd_Find_Ebonut": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "DepositedResource",
+            "Resource": "Ebonut"
+          },
+          ">=": 10,
+          "Then": true,
+          "Else": false
+        }
+      }
+    },
+    "Boss_Rarity_Adjust": {
+      "Type": "Boolean",
+      "Value": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "Or",
+          "A": {
+            "Mutate": "DuringGenericSwarm"
+          },
+          "B": {
+            "Mutate": "DuringDefend"
+          },
+          "C": {
+            "Mutate": "DuringDrillevator"
+          }
+        },
+        "Then": true,
+        "Else": false
+      }
+    },
+    "Egg_Resupplies_Count": {
+      "Type": "Float",
+      "Value": {
+        "Mutate": "Subtract",
+        "A": {
+          "Mutate": "Add",
+          "A": 1,
+          "B": {
+            "Mutate": "EnemiesKilled",
+            "EDs": [
+              "ED_Egg_Resupplies",
+              "ED_Nitra_Resupply",
+              "ED_Crack_Team"
+            ]
+          },
+          "C": {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "SecondaryFinished"
+            },
+            "Then": 2,
+            "Else": 0
+          }
+        },
+        "B": {
+          "Mutate": "ResuppliesCalled"
+        }
+      }
+    },
+    "Mining_Resupplies_Count": {
+      "Type": "Float",
+      "Value": {
+        "Mutate": "Subtract",
+        "A": {
+          "Mutate": "Add",
+          "A": 1,
+          "B": {
+            "Mutate": "Floor",
+            "Value": {
+              "Mutate": "Divide",
+              "A": {
+                "Mutate": "DepositedResource",
+                "Resource": "Morkite"
+              },
+              "B": 40
+            }
+          },
+          "C": {
+            "Mutate": "EnemiesKilled",
+            "EDs": [
+              "ED_Nitra_Resupply",
+              "ED_Crack_Team"
+            ]
+          },
+          "D": {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "SecondaryFinished"
+            },
+            "Then": 2,
+            "Else": 0
+          }
+        },
+        "B": {
+          "Mutate": "ResuppliesCalled"
+        }
+      }
+    },
+    "Elimination_Threat_Level": {
+      "Type": "Float",
+      "Value": {
+        "Mutate": "Clamp",
+        "Value": {
+          "Mutate": "Add",
+          "A": 1,
+          "B": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_Elimination_Threat_Level"
+          }
+        },
+        "Min": 1,
+        "Max": 3
+      }
+    }
+  },
+  "Messages": [
+    {
+      "SendOnChange": true,
+      "Type": "Streamer",
+      "Sender": "SEvEN",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "已选择难度 ▶",
+          {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 2,
+              "Stop": 0,
+              "Enable": true
+            },
+            "==": 0,
+            "Then": "九级风险：七号实验室-进阶1",
+            "Else": ""
+          }
+        ]
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Developer",
+      "Sender": "即将遭遇：双子★日咒&月魇",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 10,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyCount",
+                  "ED": "ED_Monitor_Double_Star"
+                },
+                ">=": 1,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Streamer",
+      "Sender": "复活满血剩余次数",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Ceil",
+              "Value": {
+                "Mutate": "Divide",
+                "A": {
+                  "Mutate": "EnemyHealth",
+                  "ED": "ED_Revive_Bonus",
+                  "Default": 0,
+                  "Type": "Max"
+                },
+                "B": 0.15
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Developer",
+      "Sender": "扫描到小队突袭",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 10,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyCount",
+                  "ED": "ED_Monitor_Team_Event"
+                },
+                ">=": 1,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "已发现",
+      "Message": [
+        "▶ 精锐小队"
+      ],
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "In": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Crack_Team"
+        }
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "已发现",
+      "Message": [
+        "▶ 微缩模块小队"
+      ],
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "In": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Miniature_Module_Team"
+        }
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Developer",
+      "Sender": "探测到维度空间波动",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 10,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyCount",
+                  "ED": "ED_Monitor_Dimensional_Space"
+                },
+                ">=": 1,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "已发现",
+      "Message": [
+        "▶ 维度空间-I"
+      ],
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "In": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Dimensional_Space_SE"
+        }
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "已发现",
+      "Message": [
+        "▶ 维度空间-II"
+      ],
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "In": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Dimensional_Space_TE"
+        }
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "已发现",
+      "Message": [
+        "▶ 维度空间-III"
+      ],
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "In": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Dimensional_Space_Pr"
+        }
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Developer",
+      "Sender": "ERR://23¤Y%/-未知生物入侵",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 10,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyCount",
+                  "ED": "ED_Unknown_Biological_Invasion"
+                },
+                ">=": 1,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "「生物活化装甲芯片」",
+      "Message": [
+        "待激活 ▶ 30s"
+      ],
+      "Send": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Monitor_Mia_Killed"
+        },
+        ">=": 1,
+        "Then": true,
+        "Else": false
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Developer",
+      "Sender": "「生物活化装甲芯片」",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "激活中 ▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 6,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyHealth",
+                  "ED": "ED_Monitor_Mia_Killed",
+                  "Default": 1,
+                  "Type": "Max"
+                },
+                "<=": 0.17,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "「生物活化装甲芯片」",
+      "Message": [
+        "已激活"
+      ],
+      "Send": {
+        "Mutate": "Nonzero",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Mia_Support"
+        }
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "「生物活化装甲芯片」",
+      "Message": [
+        "激活失败或Mia已被摧毁"
+      ],
+      "Send": {
+        "Mutate": "Or",
+        "A": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "TriggerDelay",
+            "N": 3,
+            "In": {
+              "Mutate": "TriggerOnChange",
+              "In": {
+                "Mutate": "EnemiesKilled",
+                "ED": "ED_Monitor_Mia_Killed"
+              }
+            }
+          },
+          "Then": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "ED_Mia_Support"
+            },
+            "==": 0,
+            "Then": true,
+            "Else": false
+          },
+          "Else": false
+        },
+        "B": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "TriggerOnChange",
+            "In": {
+              "Mutate": "EnemiesKilled",
+              "ED": "ED_Mia_Support"
+            }
+          },
+          "Then": true,
+          "Else": false
+        }
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Developer",
+      "Sender": "扫描到：奥魔兰心之石-飞石袭击",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 10,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyCount",
+                  "ED": "ED_Monitor_FlyingSmartRock_Attack"
+                },
+                ">=": 1,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "获取的补给剩余数量",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "ByMissionType",
+              "Default": 0,
+              "Egg": {
+                "var": "Egg_Resupplies_Count"
+              },
+              "Mining": {
+                "var": "Mining_Resupplies_Count"
+              }
+            }
+          },
+          "次"
+        ]
+      },
+      "Send": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "TriggerDelay",
+          "N": 3,
+          "In": {
+            "Mutate": "TriggerOnChange",
+            "In": {
+              "Mutate": "ByMissionType",
+              "Default": 0,
+              "Egg": {
+                "var": "Egg_Resupplies_Count"
+              },
+              "Mining": {
+                "var": "Mining_Resupplies_Count"
+              }
+            }
+          }
+        },
+        "Then": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemiesRecentlySpawned",
+            "Seconds": 3,
+            "ED": "ED_Nitra_Resupply"
+          },
+          ">=": 1,
+          "Then": false,
+          "Else": true
+        },
+        "Else": false
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "当前威胁等级",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "var": "Elimination_Threat_Level"
+            }
+          }
+        ]
+      },
+      "Send": {
+        "Mutate": "Or",
+        "A": {
+          "Mutate": "ByDNA",
+          "Default": false,
+          "Elimination,3,3": {
+            "Mutate": "DuringMission",
+            "StartingAt": 10,
+            "StoppingAfter": 11
+          }
+        },
+        "B": {
+          "Mutate": "TriggerDelay",
+          "N": 2,
+          "In": {
+            "Mutate": "TriggerOnChange",
+            "In": {
+              "var": "Elimination_Threat_Level"
+            }
+          }
+        }
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Streamer",
+      "Sender": "额外自然潮剩余时间",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 15,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyCount",
+                  "ED": "ED_NormalWave_Warn"
+                },
+                ">=": 1,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "维度空间-I",
+      "Message": [
+        "已激活"
+      ],
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "In": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Dimensional_Space_I"
+        }
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "维度空间-II",
+      "Message": [
+        "已激活"
+      ],
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "In": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Dimensional_Space_II"
+        }
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "维度空间-III",
+      "Message": [
+        "已激活"
+      ],
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "In": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Dimensional_Space_III"
+        }
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Streamer",
+      "Sender": "维度空间-I",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "剩余时间 ▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 21,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyHealth",
+                  "ED": "ED_Dimensional_Space_I",
+                  "Default": 1,
+                  "Type": "Max"
+                },
+                "<=": 0.99,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Streamer",
+      "Sender": "维度空间-II",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "剩余时间 ▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 21,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyHealth",
+                  "ED": "ED_Dimensional_Space_II",
+                  "Default": 1,
+                  "Type": "Max"
+                },
+                "<=": 0.5,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Streamer",
+      "Sender": "维度空间-III",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "剩余时间 ▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 21,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyHealth",
+                  "ED": "ED_Dimensional_Space_III",
+                  "Default": 1,
+                  "Type": "Max"
+                },
+                "<=": 0.33,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "「真空零阻治疗-长效」",
+      "Message": [
+        "已激活"
+      ],
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "In": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Vacuum_ZeroHeal_Long"
+        }
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Developer",
+      "Sender": "「真空零阻治疗-长效」",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "剩余时间 ▶",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "Countdown",
+              "Start": 6,
+              "Enable": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyHealth",
+                  "ED": "ED_Vacuum_ZeroHeal_Long",
+                  "Default": 1,
+                  "Type": "Max"
+                },
+                "<=": 0.05,
+                "Then": true,
+                "Else": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Developer",
+      "Sender": "「真空零阻治疗-增强」",
+      "Message": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "TriggerOnChange",
+          "In": {
+            "Mutate": "Delta",
+            "Value": {
+              "Mutate": "TotalResource",
+              "Resource": "Data Cell"
+            }
+          }
+        },
+        "Then": "已存储数据核心",
+        "Else": {
+          "Mutate": "Join",
+          "Values": [
+            "当前增益：减少呼吸回血时间",
+            {
+              "Mutate": "Float2String",
+              "Value": {
+                "Mutate": "Multiply",
+                "A": 0.5,
+                "B": {
+                  "Mutate": "TotalResource",
+                  "Resource": "Data Cell"
+                }
+              }
+            },
+            "s 增加回血速度",
+            {
+              "Mutate": "Float2String",
+              "Value": {
+                "Mutate": "Multiply",
+                "A": 0.25,
+                "B": {
+                  "Mutate": "TotalResource",
+                  "Resource": "Data Cell"
+                }
+              }
+            },
+            "HP/s 增加呼吸回血上限",
+            {
+              "Mutate": "Int2String",
+              "Value": {
+                "Mutate": "Multiply",
+                "A": 5,
+                "B": {
+                  "Mutate": "TotalResource",
+                  "Resource": "Data Cell"
+                }
+              }
+            },
+            "％"
+          ]
+        }
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "奥魔兰心之石",
+      "Message": {
+        "Mutate": "ByEscortPhase",
+        "Default": "",
+        "FinalEventA": "阶段一：额外虫量30％，补给消耗55硝，掘进机抗性94％。",
+        "FinalEventB": "阶段二：额外虫量50％，补给消耗50硝，掘进机抗性94％。",
+        "FinalEventC": "阶段三：额外虫量60％，补给消耗45硝，掘进机抗性95％，精英怪将不断刷新。",
+        "FinalEventD": "阶段四：额外虫量70％，补给消耗40硝，掘进机抗性96％。精英怪将不断刷新。",
+        "Finished": "已结束，不再刷新自然潮。"
+      },
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "In": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "Accumulate",
+            "Initial": 0,
+            "Value": 1,
+            "Min": 0,
+            "Max": {
+              "Mutate": "ByEscortPhase",
+              "Default": 0,
+              "FinalEventA": 1,
+              "FinalEventB": 2,
+              "FinalEventC": 3,
+              "FinalEventD": 4,
+              "Finished": 5
+            }
+          }
+        }
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "已发现",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "▶ 水晶碎片◆",
+          {
+            "Mutate": "RandomChoice",
+            "Choices": [
+              "共振",
+              "谐振",
+              "永振"
+            ],
+            "Weights": [
+              {
+                "Mutate": "If",
+                "Condition": {
+                  "Mutate": "TriggerOnChange",
+                  "RiseOnly": true,
+                  "In": {
+                    "Mutate": "EnemyCount",
+                    "ED": "ED_Crystal_Fragment_Resonance"
+                  }
+                },
+                "Then": 1,
+                "Else": 0
+              },
+              {
+                "Mutate": "If",
+                "Condition": {
+                  "Mutate": "TriggerOnChange",
+                  "RiseOnly": true,
+                  "In": {
+                    "Mutate": "EnemyCount",
+                    "ED": "ED_Crystal_Fragment_Resonant"
+                  }
+                },
+                "Then": 1,
+                "Else": 0
+              },
+              {
+                "Mutate": "If",
+                "Condition": {
+                  "Mutate": "TriggerOnChange",
+                  "RiseOnly": true,
+                  "In": {
+                    "Mutate": "EnemyCount",
+                    "ED": "ED_Crystal_Fragment_EtVibration"
+                  }
+                },
+                "Then": 1,
+                "Else": 0
+              }
+            ]
+          }
+        ]
+      },
+      "Send": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "Value": {
+          "Mutate": "EnemyCount",
+          "EDs": [
+            "ED_Crystal_Fragment_Resonance",
+            "ED_Crystal_Fragment_Resonant",
+            "ED_Crystal_Fragment_EtVibration"
+          ]
+        }
+      }
+    },
+    {
+      "SendOnChange": true,
+      "Type": "Streamer",
+      "Sender": "水晶碎片",
+      "Message": {
+        "Mutate": "Join",
+        "Values": [
+          "当前场上存在数量：",
+          {
+            "Mutate": "Int2String",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "EDs": [
+                "ED_Crystal_Fragment_Resonance",
+                "ED_Crystal_Fragment_Resonant",
+                "ED_Crystal_Fragment_EtVibration"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "Warning",
+      "Message": [
+        "水晶已凝聚完成！"
+      ],
+      "Send": {
+        "Mutate": "Nonzero",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Crystal_Condensed_Resonance"
+        }
+      }
+    },
+    {
+      "Type": "Streamer",
+      "Sender": "燃料电池",
+      "Message": [
+        "！！！怪物数量过多！！！"
+      ],
+      "Send": {
+        "Mutate": "BySalvagePhase",
+        "Default": false,
+        "Refuel": {
+          "var": "Salvage_Refuel_TooMoreEnemies"
+        }
+      }
+    }
+  ],
+  "WaveSpawners": [
+    {
+      "Name": "「超致密」氪石-艾蚀",
+      "Enabled": {
+        "Mutate": "TriggerOnChange",
+        "In": {
+          "Mutate": "EnemiesKilled",
+          "ED": "ED_Spider_Boss_Aivore"
+        }
+      },
+      "Enemies": [
+        "ED_Mactera_Shooter_Amber",
+        "ED_Spider_Amber_Shooter",
+        "ED_Spider_Tank_Amber"
+      ],
+      "Interval": 0,
+      "Difficulty": 177,
+      "Distance": 1000,
+      "Locations": 1
+    },
+    {
+      "Name": "事件生成",
+      "Enabled": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "ByMissionType",
+          "Default": false,
+          "Elimination": {
+            "Mutate": "DuringDread"
+          }
+        },
+        "Then": false,
+        "Else": {
+          "Mutate": "DuringMission",
+          "StartingAt": 60
+        }
+      },
+      "Enemies": {
+        "Mutate": "RandomChoice",
+        "Choices": [
+          [
+            "ED_Monitor_Double_Star"
+          ],
+          [
+            "ED_Monitor_Dimensional_Space"
+          ],
+          [
+            "ED_Monitor_Team_Event"
+          ],
+          [
+            "ED_Unknown_Biological_Invasion"
+          ],
+          [
+            "ED_Mission_Special_Event"
+          ]
+        ],
+        "Weights": [
+          {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "ED_Monitor_Star_Killed"
+            },
+            ">=": 1,
+            "Then": 0,
+            "Else": 1
+          },
+          {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "DuringDefend"
+            },
+            "Then": 0,
+            "Else": {
+              "Mutate": "Divide",
+              "A": 1,
+              "B": {
+                "Mutate": "Add",
+                "A": 1,
+                "B": {
+                  "Mutate": "EnemyCount",
+                  "EDs": [
+                    "ED_Dimensional_Space_SE",
+                    "ED_Dimensional_Space_TE",
+                    "ED_Dimensional_Space_Pr"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "EDs": [
+                "ED_Crack_Team",
+                "ED_Miniature_Module_Team"
+              ]
+            },
+            ">=": 1,
+            "Then": 0,
+            "Else": 1
+          },
+          {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "ED_Mia_M3c"
+            },
+            ">=": 1,
+            "Then": 0,
+            "Else": 1
+          },
+          {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "Escort": 3
+          }
+        ]
+      },
+      "Interval": {
+        "Mutate": "Random",
+        "Min": 60,
+        "Max": 240
+      },
+      "Difficulty": 1,
+      "Distance": 5000,
+      "Locations": 1,
+      "PauseOnDisable": true
+    },
+    {
+      "Name": "任务参数初始化",
+      "Enabled": {
+        "Mutate": "DuringMission",
+        "StartingAt": 10
+      },
+      "Enemies": {
+        "Mutate": "ByMissionType",
+        "Default": [],
+        "DeepScan": [
+          "ED_Monitor_Crystal_Condensed"
+        ],
+        "Elimination": {
+          "Mutate": "ByDNA",
+          "Default": [],
+          "Elimination,2,2": [
+            "ED_Elimination_Threat_Level"
+          ]
+        }
+      },
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 5000,
+      "Locations": 1
+    },
+    {
+      "Name": "双子★日咒&月魇-事件",
+      "Enabled": {
+        "Mutate": "TriggerOnChange",
+        "In": {
+          "Mutate": "EnemiesKilled",
+          "ED": "ED_Monitor_Double_Star"
+        }
+      },
+      "Enemies": [
+        [
+          "ED_Moon_Stalker",
+          "ED_Sun_Queen"
+        ]
+      ],
+      "Interval": 0,
+      "Difficulty": 5,
+      "Distance": 2500,
+      "Locations": 2
+    },
+    {
+      "Name": "双子★日咒&月魇-血缘",
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "EDs": [
+            "ED_Moon_Stalker",
+            "ED_Sun_Queen"
+          ]
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Moon_Stalker"
+        },
+        ">=": 1,
+        "Then": [
+          "ED_Sun_Queen"
+        ],
+        "Else": [
+          "ED_Moon_Stalker"
+        ]
+      },
+      "Interval": 30,
+      "Difficulty": 1,
+      "Distance": 2500,
+      "Locations": 1
+    },
+    {
+      "Name": "双子★日咒&月魇-奖励",
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Revive_Bonus"
+        },
+        ">=": 1,
+        "Then": false,
+        "Else": {
+          "Mutate": "TriggerOnChange",
+          "In": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_Monitor_Star_Killed"
+          }
+        }
+      },
+      "Enemies": [
+        "ED_Revive_Bonus"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 2000,
+      "Locations": 1
+    },
+    {
+      "Name": "精锐小队事件",
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Crack_Team"
+        },
+        ">=": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        [
+          "ED_Crack_Code_Bee",
+          "ED_Crack_Code_Elephant",
+          "ED_Crack_Code_Rhinoceros",
+          "ED_Crack_Code_Mantis",
+          "ED_Crack_Code_Crow"
+        ]
+      ],
+      "Interval": 0,
+      "Difficulty": 3,
+      "Distance": 4000,
+      "Locations": 4
+    },
+    {
+      "Name": "微缩模块矮人小队事件",
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Miniature_Module_Team"
+        },
+        ">=": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        [
+          "ED_Miniature_Module_Scout",
+          "ED_Miniature_Module_Engineer",
+          "ED_Miniature_Module_Driller",
+          "ED_Miniature_Module_Gunner"
+        ]
+      ],
+      "Interval": 0,
+      "Difficulty": 4,
+      "Distance": 4000,
+      "Locations": 4
+    },
+    {
+      "Name": "推车-心石三阶段-精英刷新",
+      "Enabled": {
+        "Mutate": "ByMissionType",
+        "Default": false,
+        "Escort": {
+          "Mutate": "ByEscortPhase",
+          "Default": false,
+          "FinalEventC": true,
+          "FinalEventD": true
+        }
+      },
+      "Enemies": [
+        "ED_FlyingSmartRock"
+      ],
+      "Interval": {
+        "Mutate": "Random",
+        "Min": 20,
+        "Max": 40
+      },
+      "Difficulty": {
+        "Mutate": "Random",
+        "Min": 4,
+        "Max": 8
+      },
+      "Distance": {
+        "Mutate": "Random",
+        "Min": 3000,
+        "Max": 7000
+      },
+      "Locations": 3,
+      "SpawnOnEnable": true
+    },
+    {
+      "Name": "虫蛋-补给",
+      "Enabled": {
+        "Mutate": "ByMissionType",
+        "Default": false,
+        "Egg": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "Or",
+            "A": {
+              "Mutate": "DuringEggAmbush",
+              "StartingAt": 0,
+              "StoppingAfter": 1
+            },
+            "B": {
+              "Mutate": "TriggerOnChange",
+              "In": {
+                "Mutate": "Delta",
+                "Value": {
+                  "Mutate": "TotalResource",
+                  "Resource": "Egg"
+                }
+              }
+            }
+          },
+          "Then": true,
+          "Else": false
+        }
+      },
+      "Enemies": [
+        "ED_Egg_Resupplies"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 3000,
+      "Locations": 1
+    },
+    {
+      "Name": "搜救行动-超维度地形摧毁者",
+      "Enabled": {
+        "Mutate": "BySalvagePhase",
+        "Default": false,
+        "Refuel": {
+          "Mutate": "TriggerOnce",
+          "In": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "DistanceToDroppod",
+              "Default": 7777,
+              "IncludeDowned": false
+            },
+            "<=": 2200,
+            "Then": true,
+            "Else": false
+          }
+        }
+      },
+      "Enemies": [
+        "ED_Terrain_Destroyer"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 1,
+      "Locations": 1
+    },
+    {
+      "Name": "自定义自然潮-时间机制",
+      "Enabled": {
+        "Mutate": "BySalvagePhase",
+        "Default": false,
+        "PreRefuel": true
+      },
+      "Enemies": [
+        "ED_NormalWave_Warn"
+      ],
+      "Interval": {
+        "Mutate": "Random",
+        "Min": 105,
+        "Max": 125
+      },
+      "Difficulty": 1,
+      "Distance": 5000,
+      "Locations": 1,
+      "SpawnOnEnable": true
+    },
+    {
+      "Name": "消灭任务-威胁等级机制",
+      "Enabled": {
+        "Mutate": "TriggerOnChange",
+        "RiseOnly": true,
+        "In": {
+          "Mutate": "EnemyCount",
+          "EDs": [
+            "ED_Spider_Boss_TwinA_Spawn",
+            "ED_Rival_Boss_TwinA",
+            "ED_Spider_Tank_Boss",
+            "ED_Spider_Boss_Heavy"
+          ]
+        }
+      },
+      "Enemies": [
+        "ED_Elimination_Threat_Level"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 2000,
+      "Locations": 1
+    },
+    {
+      "Name": "真空零阻治疗-长效",
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Subtract",
+          "A": {
+            "Mutate": "Floor",
+            "Value": {
+              "Mutate": "Divide",
+              "A": {
+                "Mutate": "TotalResource",
+                "Resource": "Tyrant Shard"
+              },
+              "B": 3
+            }
+          },
+          "B": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_Vacuum_ZeroHeal_Long"
+          }
+        },
+        ">=": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "ED_Vacuum_ZeroHeal_Long"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 5000,
+      "Locations": 1
+    },
+    {
+      "Name": "真空零阻治疗-增强",
+      "Enabled": {
+        "Mutate": "TriggerOnChange",
+        "In": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "TotalResource",
+            "Resource": "Data Cell"
+          }
+        }
+      },
+      "Enemies": [
+        "ED_Vacuum_ZeroHeal_Enhance"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 5000,
+      "Locations": 1
+    },
+    {
+      "Name": "消灭任务-巢主机制",
+      "Enabled": {
+        "Mutate": "ByMissionType",
+        "Default": false,
+        "Elimination": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "TriggerOnChange",
+            "In": {
+              "Mutate": "EnemiesKilled",
+              "ED": "ED_Spider_Tank_HeavySpawn"
+            }
+          },
+          "Then": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "ED_Monitor_Threat_I"
+            },
+            ">=": 1,
+            "Then": false,
+            "Else": true
+          },
+          "Else": false
+        }
+      },
+      "Enemies": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Monitor_Threat_II"
+        },
+        ">=": 1,
+        "Then": [
+          "ED_Spider_Grunt_Attacker_Elite"
+        ],
+        "Else": [
+          "ED_Spider_Grunt_Guard_Elite"
+        ]
+      },
+      "Interval": 0,
+      "Difficulty": 20,
+      "Distance": 2000,
+      "Locations": 1
+    },
+    {
+      "Name": "自定义自然潮-生成机制",
+      "Enabled": {
+        "Mutate": "ByMissionType",
+        "Default": false,
+        "DeepScan": {
+          "Mutate": "TriggerOnChange",
+          "In": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_Crystal_Condensed_Resonance"
+          }
+        },
+        "Salvage": {
+          "Mutate": "BySalvagePhase",
+          "Default": false,
+          "PreRefuel": {
+            "Mutate": "TriggerOnChange",
+            "In": {
+              "Mutate": "EnemiesKilled",
+              "ED": "ED_NormalWave_Warn"
+            }
+          }
+        }
+      },
+      "Interval": 0,
+      "Difficulty": {
+        "Mutate": "Random",
+        "Min": 3050,
+        "Max": 3150
+      },
+      "Distance": {
+        "Mutate": "Random",
+        "Min": 3000,
+        "Max": 4000
+      },
+      "Locations": 1
+    },
+    {
+      "Name": "深层扫描-水晶生成机制",
+      "Enabled": {
+        "Mutate": "ByMissionType",
+        "Default": false,
+        "DeepScan": {
+          "Mutate": "Not",
+          "Value": {
+            "Mutate": "Or",
+            "A": {
+              "Mutate": "DuringDrillevator"
+            },
+            "B": {
+              "Mutate": "DuringGenericSwarm"
+            },
+            "C": {
+              "Mutate": "DuringExtraction",
+              "StartingAt": 2
+            },
+            "D": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "ED_Crystal_Condensed_Resonance"
+              },
+              ">=": 1,
+              "Then": {
+                "Mutate": "IfFloat",
+                "Value": {
+                  "Mutate": "EnemyCount",
+                  "ED": "ED_Monitor_Crystal_Condensed"
+                },
+                "==": 0,
+                "Then": true,
+                "Else": false
+              },
+              "Else": false
+            }
+          }
+        }
+      },
+      "Enemies": [
+        "ED_Crystal_Fragment_Resonance"
+      ],
+      "Interval": {
+        "Mutate": "Random",
+        "Min": 20,
+        "Max": 30
+      },
+      "Difficulty": 1,
+      "Distance": 1000,
+      "Locations": 1,
+      "PauseOnDisable": true
+    },
+    {
+      "Name": "副任务检测-补给奖励",
+      "Enabled": {
+        "Mutate": "SecondaryFinished"
+      },
+      "Enemies": [
+        "ED_Secondary_Reward_Stage_II"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 5000,
+      "Locations": 1
+    },
+    {
+      "Name": "副任务维度空间触发",
+      "Enabled": {
+        "Mutate": "TriggerOnce",
+        "In": {
+          "Mutate": "And",
+          "A": {
+            "var": "Secondary_Reward_Stage_I"
+          },
+          "B": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "DwarfCount"
+            },
+            "==": 4,
+            "Then": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "DwarvesDown"
+              },
+              "==": 3,
+              "Then": true,
+              "Else": false
+            },
+            "Else": false
+          }
+        }
+      },
+      "Enemies": [
+        "ED_Dimensional_Space_II"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 5000,
+      "Locations": 1
+    },
+    {
+      "Name": "彩蛋-ERR://23¤Y%/",
+      "Enabled": {
+        "Mutate": "TriggerOnce",
+        "In": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "DepositedResource",
+            "Resource": "ERR://23¤Y%/"
+          },
+          ">=": 1,
+          "Then": true,
+          "Else": false
+        }
+      },
+      "Enemies": [
+        "ED_Dimensional_Space_III"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 5000,
+      "Locations": 1
+    },
+    {
+      "Name": "就地精炼-精炼启动阶段",
+      "Enabled": {
+        "Mutate": "ByMissionType",
+        "Default": false,
+        "Refinery": {
+          "Mutate": "ByRefineryPhase",
+          "Default": false,
+          "Refining": true,
+          "RefiningStalled": true
+        }
+      },
+      "Enemies": [
+        "ED_Swarm_Army"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 5000,
+      "Locations": 1
+    },
+    {
+      "Name": "补给呼叫数量",
+      "Enabled": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "ByMissionType",
+          "Default": false,
+          "Egg": true,
+          "Mining": true
+        },
+        "Then": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "TriggerOnChange",
+            "FallOnly": true,
+            "In": {
+              "Mutate": "DepositedResource",
+              "Resource": "Nitra"
+            }
+          },
+          "Then": true,
+          "Else": false
+        },
+        "Else": false
+      },
+      "Enemies": [
+        "ED_Nitra_Resupply"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 3000,
+      "Locations": 1
+    }
+  ],
+  "Darkness": {
+    "FlashlightStrength": {
+      "var": "Moon_Stalker_Exists"
+    },
+    "PlayerIllumination": {
+      "var": "Moon_Stalker_Exists"
+    },
+    "FlareStrength": {
+      "var": "Moon_Stalker_Exists"
+    },
+    "EnvironmentalLight": {
+      "var": "Moon_Stalker_Exists"
+    },
+    "FlareGunStrength": {
+      "var": "Moon_Stalker_Exists"
+    },
+    "FlareGunDuration": 999,
+    "FlareDuration": 999
+  },
+  "Salvage": {
+    "Uplink": {
+      "Scale": {
+        "Mutate": "Add",
+        "A": 2.3,
+        "B": {
+          "Mutate": "Multiply",
+          "A": -1.3,
+          "B": {
+            "Mutate": "DefenseProgress"
+          }
+        }
+      },
+      "LeavePenaltyMultiplier": 0
+    },
+    "Refuel": {
+      "Scale": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "Or",
+          "A": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemiesKilled",
+              "ED": "ED_Terrain_Destroyer"
+            },
+            "==": 0,
+            "Then": true,
+            "Else": false
+          },
+          "B": {
+            "var": "Salvage_Refuel_TooMoreEnemies"
+          }
+        },
+        "Then": 0.1,
+        "Else": {
+          "Mutate": "Add",
+          "A": 4.3,
+          "B": {
+            "Mutate": "Multiply",
+            "A": -2.8,
+            "B": {
+              "Mutate": "DefenseProgress"
+            }
+          }
+        }
+      },
+      "LeavePenaltyMultiplier": 0
+    }
+  },
+  "Enemies": {
+    "ED_Spider_Grunt_Attacker_Elite": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 6,
+      "MaxSpawnCount": 6,
+      "MinSpawnCount": 4,
+      "Rarity": 10,
+      "Elite": true,
+      "Resistances": {
+        "ColdDamageMultiplier": 8,
+        "CorrosiveDamageMultiplier": 2,
+        "ElectricDamageMultiplier": 2,
+        "ExplosionDamageMultiplier": 2.5,
+        "FireDamageMultiplier": 3.5,
+        "InternalDamageMultiplier": 2,
+        "KineticDamageMultiplier": 2.5,
+        "PhysicalDamageMultiplier": 3,
+        "PoisonDamageMultiplier": 7,
+        "RadiationDamageMultiplier": 3
+      },
+      "Temperature": {
+        "FreezeTemperature": -7.7
+      }
+    },
+    "ED_Spider_Grunt_Guard_Elite": {
+      "Base": "ED_Spider_Grunt_Guard",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 4,
+      "MaxSpawnCount": 4,
+      "MinSpawnCount": 3,
+      "Rarity": 10,
+      "Elite": true,
+      "Resistances": {
+        "ColdDamageMultiplier": 14,
+        "CorrosiveDamageMultiplier": 2,
+        "ElectricDamageMultiplier": 2,
+        "ExplosionDamageMultiplier": 2.5,
+        "FireDamageMultiplier": 3.5,
+        "InternalDamageMultiplier": 1,
+        "KineticDamageMultiplier": 2.5,
+        "PhysicalDamageMultiplier": 4,
+        "PoisonDamageMultiplier": 9,
+        "RadiationDamageMultiplier": 3
+      },
+      "Temperature": {
+        "FreezeTemperature": -7.7
+      }
+    },
+    "ED_Bomber_Explosive": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 90,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Resistances": {
+        "ColdDamageMultiplier": 5,
+        "ExplosionDamageMultiplier": 2,
+        "FireDamageMultiplier": 3,
+        "PoisonDamageMultiplier": 6
+      },
+      "Temperature": {
+        "FreezeTemperature": -170
+      }
+    },
+    "ED_Bomber_Ice": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 70,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 15,
+      "Resistances": {
+        "ColdDamageMultiplier": 5,
+        "ExplosionDamageMultiplier": 2,
+        "FireDamageMultiplier": 2.5,
+        "PoisonDamageMultiplier": 6
+      },
+      "Temperature": {
+        "FreezeTemperature": -170
+      }
+    },
+    "ED_Spider_Tank_HeavySpawn_Spawn": {
+      "Base": "ED_Spider_Tank_HeavySpawn",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 70,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Resistances": {
+        "ColdDamageMultiplier": 7,
+        "FireDamageMultiplier": 2.5,
+        "PoisonDamageMultiplier": 6
+      }
+    },
+    "ED_Spider_Tank_HeavySpawn": {
+      "Base": "ED_Mactera_TripleShooter",
+      "Elite": true,
+      "Resistances": {
+        "ColdDamageMultiplier": 20,
+        "CorrosiveDamageMultiplier": 2,
+        "ElectricDamageMultiplier": 2,
+        "ExplosionDamageMultiplier": 3,
+        "FireDamageMultiplier": 3.5,
+        "InternalDamageMultiplier": 2,
+        "KineticDamageMultiplier": 3,
+        "PhysicalDamageMultiplier": 4,
+        "PoisonDamageMultiplier": 6,
+        "RadiationDamageMultiplier": 9
+      },
+      "Temperature": {
+        "FreezeTemperature": -777,
+        "WarmingRate": 777
+      }
+    },
+    "ED_Spider_Buffer": {
+      "Resistances": {
+        "ColdDamageMultiplier": 7,
+        "FireDamageMultiplier": 2.5,
+        "PoisonDamageMultiplier": 6
+      }
+    },
+    "ED_Spider_Tank": {
+      "Resistances": {
+        "ColdDamageMultiplier": 7,
+        "FireDamageMultiplier": 2.5,
+        "PoisonDamageMultiplier": 6
+      },
+      "Temperature": {
+        "FreezeTemperature": -100,
+        "UnfreezeTemperature": -90,
+        "WarmingRate": 7
+      }
+    },
+    "ED_Bomber": {
+      "Resistances": {
+        "ColdDamageMultiplier": 5,
+        "FireDamageMultiplier": 2.5,
+        "PoisonDamageMultiplier": 6
+      },
+      "Temperature": {
+        "FreezeTemperature": -170
+      }
+    },
+    "ED_Spider_RapidShooter": {
+      "Resistances": {
+        "ColdDamageMultiplier": 9,
+        "FireDamageMultiplier": 2.5,
+        "PoisonDamageMultiplier": 6
+      }
+    },
+    "ED_Woodlouse": {
+      "Resistances": {
+        "PhysicalDamageMultiplier": 4.5
+      },
+      "Temperature": {
+        "FreezeTemperature": -77
+      }
+    },
+    "ED_Spider_Tank_Ice": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 60,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 25,
+      "Resistances": {
+        "ColdDamageMultiplier": 7,
+        "ExplosionDamageMultiplier": 2,
+        "FireDamageMultiplier": 2.5,
+        "PoisonDamageMultiplier": 6
+      },
+      "Temperature": {
+        "FreezeTemperature": -150,
+        "UnfreezeTemperature": -140,
+        "WarmingRate": 10
+      }
+    },
+    "ED_Spider_Tank_Mutated": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 60,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 25,
+      "Resistances": {
+        "ColdDamageMultiplier": 7,
+        "ExplosionDamageMultiplier": 2,
+        "FireDamageMultiplier": 2.5,
+        "PoisonDamageMultiplier": 6
+      },
+      "Temperature": {
+        "FreezeTemperature": -100,
+        "UnfreezeTemperature": -90,
+        "WarmingRate": 7
+      }
+    },
+    "ED_Spider_Spawn": {
+      "Base": "ED_Spider_Swarmer_Pheromone_NOFX",
+      "IdealSpawnSize": 7,
+      "MaxSpawnCount": 177,
+      "MinSpawnCount": 5,
+      "Resistances": {
+        "PoisonDamageMultiplier": 0.5
+      },
+      "Temperature": {
+        "FreezeTemperature": -1
+      }
+    },
+    "ED_EggSpider": {
+      "Base": "ED_Jelly_Swarmer",
+      "IdealSpawnSize": 7,
+      "MaxSpawnCount": 7,
+      "MinSpawnCount": 7
+    },
+    "ED_TunnelSwarmer": {
+      "Base": "ED_Ossiran_Scrab",
+      "IdealSpawnSize": 60,
+      "MaxSpawnCount": 60,
+      "MinSpawnCount": 40
+    },
+    "ED_Ossiran_Scrab": {
+      "Base": "ED_Ossiran_Scrab",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 15,
+      "IdealSpawnSize": 15,
+      "MaxSpawnCount": 15,
+      "MinSpawnCount": 15,
+      "Rarity": 10
+    },
+    "ED_Jelly_Swarmer": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 15,
+      "IdealSpawnSize": 40,
+      "MaxSpawnCount": 40,
+      "MinSpawnCount": 25,
+      "Rarity": 10
+    },
+    "ED_Shredder": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 15,
+      "IdealSpawnSize": 15,
+      "MaxSpawnCount": 20,
+      "MinSpawnCount": 15,
+      "Rarity": 10,
+      "Resistances": {
+        "FireDamageMultiplier": 2,
+        "KineticDamageMultiplier": 2,
+        "RadiationDamageMultiplier": 2
+      }
+    },
+    "ED_Spider_Swarmer_Pheromone_NOFX": {
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "MaxSpawnCount": 10,
+      "MinSpawnCount": 10,
+      "Resistances": {
+        "PoisonDamageMultiplier": 0.5
+      },
+      "Temperature": {
+        "FreezeTemperature": -1
+      }
+    },
+    "ED_Spider_Swarmer_Pheromone_NOFX_Spawn": {
+      "Base": "ED_Spider_Swarmer_Pheromone_NOFX",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 15,
+      "IdealSpawnSize": 40,
+      "MaxSpawnCount": 40,
+      "MinSpawnCount": 25,
+      "Rarity": 10,
+      "Resistances": {
+        "PoisonDamageMultiplier": 0.5
+      },
+      "Temperature": {
+        "FreezeTemperature": -1
+      }
+    },
+    "ED_Spider_Boss_Heavy_Weak": {
+      "Base": "ED_Spider_Boss_Heavy",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 280,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "SpawnRarityModifiers": {
+        "Duration": 7,
+        "Rarity": 30
+      },
+      "Resistances": {
+        "ColdDamageMultiplier": 5,
+        "CorrosiveDamageMultiplier": 5,
+        "ElectricDamageMultiplier": 5,
+        "ExplosionDamageMultiplier": 18.700001,
+        "FireDamageMultiplier": 5,
+        "InternalDamageMultiplier": 5,
+        "KineticDamageMultiplier": 5,
+        "PhysicalDamageMultiplier": 16,
+        "PoisonDamageMultiplier": 5,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -200,
+        "UnfreezeTemperature": -180,
+        "WarmingRate": 4
+      }
+    },
+    "ED_Spider_Tank_Boss_Weak": {
+      "Base": "ED_Spider_Tank_Boss",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": {
+        "Mutate": "If",
+        "Condition": {
+          "var": "Boss_Rarity_Adjust"
+        },
+        "Then": 3500,
+        "Else": 1350
+      },
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "SpawnRarityModifiers": {
+        "Duration": 7,
+        "Rarity": 30
+      },
+      "Resistances": {
+        "ColdDamageMultiplier": 23,
+        "CorrosiveDamageMultiplier": 5,
+        "ElectricDamageMultiplier": 5,
+        "ExplosionDamageMultiplier": 5,
+        "FireDamageMultiplier": 23,
+        "InternalDamageMultiplier": 5,
+        "KineticDamageMultiplier": 5,
+        "PhysicalDamageMultiplier": 13,
+        "PoisonDamageMultiplier": 13,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -200,
+        "UnfreezeTemperature": -180,
+        "WarmingRate": 4,
+        "FozenDamageBonusScale": 0
+      }
+    },
+    "ED_Spider_Boss_TwinA_Weak": {
+      "Base": "ED_Spider_Boss_TwinA",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "SpawnRarityModifiers": {
+        "Duration": 7,
+        "Rarity": 30
+      },
+      "Resistances": {
+        "ColdDamageMultiplier": 12,
+        "CorrosiveDamageMultiplier": 5,
+        "ElectricDamageMultiplier": 5,
+        "ExplosionDamageMultiplier": 6,
+        "FireDamageMultiplier": 14,
+        "InternalDamageMultiplier": 5,
+        "KineticDamageMultiplier": 5,
+        "PhysicalDamageMultiplier": 12,
+        "PoisonDamageMultiplier": 11,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -90,
+        "UnfreezeTemperature": -70,
+        "WarmingRate": 4
+      }
+    },
+    "ED_Spider_Boss_TwinB_Weak": {
+      "Base": "ED_Spider_Boss_TwinB",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "SpawnRarityModifiers": {
+        "Duration": 7,
+        "Rarity": 30
+      },
+      "Resistances": {
+        "ColdDamageMultiplier": 12,
+        "CorrosiveDamageMultiplier": 4,
+        "ElectricDamageMultiplier": 4,
+        "ExplosionDamageMultiplier": 5,
+        "FireDamageMultiplier": 12,
+        "InternalDamageMultiplier": 4,
+        "KineticDamageMultiplier": 4,
+        "PhysicalDamageMultiplier": 10,
+        "PoisonDamageMultiplier": 11,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -90,
+        "UnfreezeTemperature": -70,
+        "WarmingRate": 4
+      }
+    },
+    "ED_Spider_Boss_Aivore": {
+      "Base": "ED_Spider_Tank_HeavySpawn",
+      "DisplayName": "★「超致密」氪石-艾蚀★",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 200,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "SpawnRarityModifiers": {
+        "Duration": 7,
+        "Rarity": 30
+      },
+      "IsBossFight": true,
+      "Scale": 1.7,
+      "Resistances": {
+        "DamageMultiplier": 0.5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Materials": [
+        "M_Particle_DeadAmber",
+        "M_Particle_DeadAmber",
+        "M_Gem_Amber",
+        "M_Gem_Amber"
+      ]
+    },
+    "ED_Spider_Boss_Eve": {
+      "Base": "ED_Spider_Buffer",
+      "DisplayName": "★虫群守护者-艾芙★",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 280,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "SpawnRarityModifiers": {
+        "Duration": 7,
+        "Rarity": 30
+      },
+      "IsBossFight": true,
+      "Scale": 1.7,
+      "Resistances": {
+        "DamageMultiplier": 0.7,
+        "ExplosionDamageMultiplier": 3.7,
+        "FireDamageMultiplier": 3.7,
+        "PhysicalDamageMultiplier": 4.7
+      },
+      "Materials": [
+        "M_FloatingLightPlant_Bulb_Inst",
+        "M_GiftBox08",
+        "M_GiftBox08",
+        "M_FaceAccessories_CigarLight"
+      ],
+      "Direct": {
+        "Float:EnemyBuffer.BuffRadius": 2770,
+        "Int:EnemyBuffer.MaxBuffedTargets": 77
+      },
+      "Spawner": {
+        "ED": "ED_Spider_Grunt_Attacker",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 7,
+        "Interval": 10,
+        "OnDeathCount": 0,
+        "MaxSpawns": 21,
+        "OnDeathKillSpawns": true
+      }
+    },
+    "ED_Rival_Boss_TwinA_Weak": {
+      "Base": "ED_Spider_Boss_TwinA",
+      "DisplayName": "粉碎无畏异虫",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "SpawnRarityModifiers": {
+        "Duration": 7,
+        "Rarity": 30
+      },
+      "IsBossFight": true,
+      "Resistances": {
+        "ColdDamageMultiplier": 12,
+        "CorrosiveDamageMultiplier": 5,
+        "ElectricDamageMultiplier": 5,
+        "ExplosionDamageMultiplier": 6,
+        "FireDamageMultiplier": 14,
+        "InternalDamageMultiplier": 5,
+        "KineticDamageMultiplier": 5,
+        "PhysicalDamageMultiplier": 12,
+        "PoisonDamageMultiplier": 11,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -90,
+        "UnfreezeTemperature": -70,
+        "WarmingRate": 4
+      },
+      "Materials": [
+        "M_Greybox_Rock01",
+        "M_GlobalSkin_BlackNBronze_S05",
+        "M_GlobalSkin_BlackNBronze_S05",
+        "M_Oktoberfest_LeafOrange"
+      ],
+      "Projectile": "PRJ_Spider_Lobber_Projectile_C",
+      "Spawner": {
+        "ED": "ED_Shredder",
+        "OnSpawnDelay": 10,
+        "IntervalSpawnCount": 10,
+        "Interval": 7,
+        "OnDeathCount": 10,
+        "MaxSpawns": 30,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Rival_Boss_TwinB_Weak": {
+      "Base": "ED_Spider_Boss_TwinB",
+      "DisplayName": "机械无畏异虫",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "SpawnRarityModifiers": {
+        "Duration": 7,
+        "Rarity": 30
+      },
+      "IsBossFight": true,
+      "Resistances": {
+        "ColdDamageMultiplier": 12,
+        "CorrosiveDamageMultiplier": 4,
+        "ElectricDamageMultiplier": 4,
+        "ExplosionDamageMultiplier": 5,
+        "FireDamageMultiplier": 12,
+        "InternalDamageMultiplier": 4,
+        "KineticDamageMultiplier": 4,
+        "PhysicalDamageMultiplier": 10,
+        "PoisonDamageMultiplier": 11,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -90,
+        "UnfreezeTemperature": -70,
+        "WarmingRate": 4
+      },
+      "Materials": [
+        "M_PatrolBot_Metal",
+        "M_Facility_Vault_Shield",
+        "M_PatrolBot_Metal",
+        "M_PatrolBot_Metal"
+      ],
+      "Projectile": "PRJ_CaretakerBarrier_C",
+      "Spawner": {
+        "ED": "ED_PatrolBot",
+        "OnSpawnDelay": 10,
+        "IntervalSpawnCount": 1,
+        "Interval": 7,
+        "OnDeathCount": 1,
+        "MaxSpawns": 3,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Mactera_Shooter_Amber": {
+      "Resistances": {
+        "ExplosionDamageMultiplier": 2,
+        "RadiationDamageMultiplier": 27
+      },
+      "Temperature": {
+        "DieIfBurning": true
+      }
+    },
+    "ED_Spider_Tank_Amber": {
+      "IdealSpawnSize": 4,
+      "MaxSpawnCount": 4,
+      "MinSpawnCount": 3,
+      "Resistances": {
+        "ColdDamageMultiplier": 7,
+        "ExplosionDamageMultiplier": 4,
+        "FireDamageMultiplier": 2.5,
+        "PoisonDamageMultiplier": 6,
+        "RadiationDamageMultiplier": 3
+      },
+      "Temperature": {
+        "DieIfFrozen": true,
+        "DieIfBurning": true
+      }
+    },
+    "ED_Spider_Amber_Shooter": {
+      "Resistances": {
+        "ExplosionDamageMultiplier": 2,
+        "RadiationDamageMultiplier": 27
+      },
+      "Temperature": {
+        "DieIfFrozen": true,
+        "DieIfBurning": true
+      }
+    },
+    "ED_Spider_Grunt_RockpoxPlague": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 35,
+      "IdealSpawnSize": 6,
+      "MaxSpawnCount": 8,
+      "MinSpawnCount": 6,
+      "Rarity": 15,
+      "Movement": {
+        "MaxPawnSpeed": 1.6,
+        "MaxStrafeDistance": 1.6,
+        "AlignDirectionSpeed": 1.6,
+        "MaxAcceleration": 1.6
+      }
+    },
+    "ED_Spider_Exploder_Rockpox_Plague": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 30,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 15,
+      "Resistances": {
+        "ExplosionDamageMultiplier": 2
+      }
+    },
+    "ED_Spider_Tank_RockpoxPlague": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 45,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 20,
+      "Resistances": {
+        "ExplosionDamageMultiplier": 2
+      },
+      "Temperature": {
+        "FreezeTemperature": -30,
+        "UnfreezeTemperature": -20,
+        "WarmingRate": 4
+      }
+    },
+    "ED_Spider_Shooter_Rockpox_Plague": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 30,
+      "IdealSpawnSize": 4,
+      "MaxSpawnCount": 4,
+      "MinSpawnCount": 2,
+      "Rarity": 20,
+      "Resistances": {
+        "ExplosionDamageMultiplier": 2
+      },
+      "Temperature": {
+        "FreezeTemperature": -30,
+        "UnfreezeTemperature": -20,
+        "WarmingRate": 4
+      }
+    },
+    "ED_JellyBreeder_NOFX": {
+      "Base": "ED_JellyBreeder",
+      "DisplayName": "红色变种纳多赛特饲育水母",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 40,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "JellyBreeder": {
+        "EnemyToSpawn": "ED_Spider_Swarmer_Pheromone_NOFX",
+        "SpawnAmount": 10,
+        "TimeBetweenBursts": 3,
+        "CloseToSpawnEggTime": 1,
+        "EggBurstSize": 18,
+        "MaxJellies": 240,
+        "TimeBetweenEggs": 1.7,
+        "EggName": "红蜂拥异虫卵",
+        "EggMaterial": "M_JellyBreeder_Rockpox_Plague_Body_TEMP",
+        "EggHealth": 50,
+        "EggTime": 5
+      },
+      "Resistances": {
+        "DamageMultiplier": 7
+      },
+      "Temperature": {
+        "FreezeTemperature": -200
+      },
+      "Materials": [
+        "M_JellyBreeder_Rockpox_Plague_Body_TEMP",
+        "M_JellyBreeder_Rockpox_Plague_Body_TEMP",
+        "M_JellyBreeder_Rockpox_Plague_Body_TEMP",
+        "M_JellyBreeder_Rockpox_Plague_Body_TEMP",
+        "M_JellyBreeder_Rockpox_Plague_Body_TEMP",
+        "M_JellyBreeder_Rockpox_Plague_Body_TEMP",
+        "M_JellyBreeder_Rockpox_Plague_Body_TEMP"
+      ],
+      "Spawner": {
+        "ED": "ED_Spider_Swarmer_Pheromone_NOFX",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 20,
+        "MaxSpawns": 20,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_ShootingPlant_NOFX": {
+      "Base": "ED_ShootingPlant",
+      "DisplayName": "红色变种瘟疫吐珠",
+      "Rarity": 5,
+      "Projectile": "PRJ_Spider_Tank_Boss_Eggshot_C",
+      "Materials": [
+        "M_Drone_Lens01"
+      ],
+      "Resistances": {
+        "ColdDamageMultiplier": 5,
+        "FireDamageMultiplier": 5.5,
+        "KineticDamageMultiplier": 2.6
+      }
+    },
+    "ED_SpiderSpawner": {
+      "Temperature": {
+        "TemperatureChangeScale": 0.2,
+        "BurnTemperature": 60,
+        "DieIfBurning": true
+      },
+      "Direct": {
+        "Int:DeathSpawnCount": 77,
+        "Float:Spawn Interval": 1.7
+      }
+    },
+    "ED_ShootingPlant": {
+      "Resistances": {
+        "ColdDamageMultiplier": 5,
+        "FireDamageMultiplier": 2.5,
+        "KineticDamageMultiplier": 1.2
+      }
+    },
+    "ED_BarrageInfector": {
+      "Resistances": {
+        "ColdDamageMultiplier": 5,
+        "DamageMultiplier": 2
+      },
+      "Temperature": {
+        "FreezeTemperature": -50,
+        "UnfreezeTemperature": 0
+      }
+    },
+    "ED_PitJaw": {
+      "Base": "ED_Ossiran_Scrab",
+      "MaxSpawnCount": 7,
+      "MinSpawnCount": 7
+    },
+    "ED_FacilityTurret_Barrier": {
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 3,
+      "MinSpawnCount": 1,
+      "Rarity": 5,
+      "Resistances": {
+        "ColdDamageMultiplier": 16,
+        "CorrosiveDamageMultiplier": 2,
+        "ElectricDamageMultiplier": 8,
+        "FireDamageMultiplier": 2,
+        "KineticDamageMultiplier": 8,
+        "PhysicalDamageMultiplier": 12,
+        "PiercingDamageMultiplier": 37
+      },
+      "Projectile": "PRJ_Base_Spider_Lobber_Projectile_C"
+    },
+    "ED_FacilityTurret_Burst": {
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 50,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 3,
+      "MinSpawnCount": 1,
+      "Rarity": 5,
+      "Resistances": {
+        "ColdDamageMultiplier": 16,
+        "CorrosiveDamageMultiplier": 2,
+        "ElectricDamageMultiplier": 8,
+        "FireDamageMultiplier": 2,
+        "KineticDamageMultiplier": 10,
+        "PhysicalDamageMultiplier": 13,
+        "PiercingDamageMultiplier": 37
+      }
+    },
+    "ED_FacilityTurret_Sniper": {
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": true,
+      "AttackDamageMultiplier": 0.07,
+      "DifficultyRating": 100,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 5,
+      "Resistances": {
+        "DamageMultiplier": 2.5,
+        "ElectricDamageMultiplier": 4,
+        "ExplosionDamageMultiplier": 4,
+        "FireDamageMultiplier": 2,
+        "PiercingDamageMultiplier": 17
+      },
+      "Projectile": "PRJ_SentryOvercharge_Projectile_C"
+    },
+    "ED_Crawler": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 25,
+      "IdealSpawnSize": 8,
+      "MaxSpawnCount": 8,
+      "MinSpawnCount": 6,
+      "Rarity": 10,
+      "Resistances": {
+        "ColdDamageMultiplier": 2,
+        "FireDamageMultiplier": 2.5,
+        "PoisonDamageMultiplier": 7
+      },
+      "Temperature": {
+        "FreezeTemperature": -50,
+        "UnfreezeTemperature": -40,
+        "WarmingRate": 4
+      }
+    },
+    "ED_PatrolBot": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 40,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 15,
+      "Resistances": {
+        "ColdDamageMultiplier": 3,
+        "CorrosiveDamageMultiplier": 11,
+        "ElectricDamageMultiplier": 7,
+        "ExplosionDamageMultiplier": 6,
+        "FireDamageMultiplier": 2,
+        "KineticDamageMultiplier": 7,
+        "PhysicalDamageMultiplier": 9,
+        "PoisonDamageMultiplier": 9,
+        "RadiationDamageMultiplier": 9
+      },
+      "Temperature": {
+        "DieIfFrozen": true,
+        "BurnTemperature": 45,
+        "FreezeTemperature": -50
+      }
+    },
+    "ED_PumpkinLootBug_Crystal": {
+      "Base": "ED_PumpkinLootBug",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 10,
+      "IdealSpawnSize": 6,
+      "MaxSpawnCount": 6,
+      "MinSpawnCount": 5,
+      "Rarity": 15,
+      "Materials": [
+        "M_Crystal_BlueGlow"
+      ]
+    },
+    "ED_FlyingSmartRock": {
+      "Base": "ED_Spider_Shooter",
+      "DifficultyRating": 2,
+      "Elite": true,
+      "CustomVeterans": {
+        "ED_FlyingSmartRock": 1,
+        "ED_Spider_Grunt_Attacker_Elite": 1,
+        "ED_Spider_Grunt_Guard_Elite": 1,
+        "ED_Spider_Tank_HeavySpawn": 1
+      },
+      "Resistances": {
+        "ColdDamageMultiplier": 7,
+        "CorrosiveDamageMultiplier": 3,
+        "ElectricDamageMultiplier": 2,
+        "ExplosionDamageMultiplier": 7,
+        "FireDamageMultiplier": 7,
+        "InternalDamageMultiplier": 2,
+        "KineticDamageMultiplier": 7,
+        "PhysicalDamageMultiplier": 9,
+        "PoisonDamageMultiplier": 9,
+        "RadiationDamageMultiplier": 5
+      },
+      "Temperature": {
+        "FreezeTemperature": -7,
+        "UnfreezeTemperature": -6,
+        "WarmingRate": 10
+      }
+    },
+    "ED_Spider_ShieldTank": {
+      "Resistances": {
+        "PhysicalDamageMultiplier": 2.7
+      },
+      "Temperature": {
+        "FreezeTemperature": -200,
+        "UnfreezeTemperature": -150,
+        "WarmingRate": 20
+      }
+    },
+    "ED_Spider_ExploderTank": {
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 250,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 25,
+      "Elite": true,
+      "Resistances": {
+        "DamageMultiplier": 2.7,
+        "ExplosionDamageMultiplier": 1.5,
+        "FireDamageMultiplier": 2.5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.2,
+        "StrafeSpeed": 1.2,
+        "MaxStrafeDistance": 1.2,
+        "AlignDirectionSpeed": 1.2,
+        "MaxAcceleration": 1.2
+      },
+      "Temperature": {
+        "FreezeTemperature": -300,
+        "UnfreezeTemperature": -200,
+        "WarmingRate": 20
+      }
+    },
+    "ED_Prospector": {
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 200,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 5,
+      "Resistances": {
+        "DamageMultiplier": 77
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0.07,
+        "StrafeSpeed": 0.07,
+        "MaxStrafeDistance": 0.07,
+        "AlignDirectionSpeed": 0.07,
+        "MaxAcceleration": 0.07
+      }
+    },
+    "ED_HydraWeed": {
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 2888,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 5,
+      "Direct": {
+        "Float:StayOpenWhenBellowThisHealthPercentage": 1,
+        "Float:MinHealthPercentageToSpawnHealingPods": 1
+      }
+    },
+    "ED_Monitor_Double_Star": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "即将遭遇：双子★太阳&月亮",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -300,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": "ED_Monitor_Star_Killed",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Moon_Stalker": {
+      "Base": "ED_Spider_Stalker",
+      "DisplayName": "★潜影虫王-月魇★",
+      "DifficultyRating": 10,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "IsBossFight": true,
+      "Scale": 1.5,
+      "TimeDilation": 1.5,
+      "Resistances": {
+        "PhysicalDamageMultiplier": 7,
+        "DamageMultiplier": 0.35
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.5,
+        "StrafeSpeed": 1.5,
+        "MaxAcceleration": 1.5
+      },
+      "Temperature": {
+        "FreezeTemperature": -777,
+        "WarmingRate": 777
+      }
+    },
+    "ED_Sun_Queen": {
+      "Base": "ED_Spider_ShooterQueen",
+      "DisplayName": "★伏击虫后-日咒★",
+      "DifficultyRating": 10,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "IsBossFight": true,
+      "Resistances": {
+        "ColdDamageMultiplier": 3,
+        "CorrosiveDamageMultiplier": 3,
+        "ElectricDamageMultiplier": 3,
+        "ExplosionDamageMultiplier": 7,
+        "FireDamageMultiplier": 7,
+        "InternalDamageMultiplier": 3,
+        "KineticDamageMultiplier": 3,
+        "PhysicalDamageMultiplier": 3,
+        "RadiationDamageMultiplier": 3
+      },
+      "Temperature": {
+        "DieIfFrozen": true,
+        "DieIfBurning": true,
+        "FreezeTemperature": -77
+      },
+      "Materials": [
+        "M_GreatEggHunt_LightChain_Pink",
+        "M_GreatEggHunt_LightChain_Pink"
+      ]
+    },
+    "ED_Monitor_Star_Killed": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "双子★检测器",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": {
+        "InitialRate": 0,
+        "FinalRate": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "EDs": [
+              "ED_Moon_Stalker",
+              "ED_Sun_Queen"
+            ]
+          },
+          "==": 0,
+          "Then": -6000,
+          "Else": 0
+        },
+        "SwitchAfter": 5
+      },
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Monitor_Dimensional_Space": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "探测到维度空间波动",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -300,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": {
+          "Mutate": "RandomChoice",
+          "Choices": [
+            "ED_Dimensional_Space_SE",
+            "ED_Dimensional_Space_TE",
+            "ED_Dimensional_Space_Pr"
+          ],
+          "Weights": [
+            1,
+            1,
+            1
+          ]
+        },
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Dimensional_Space_SE": {
+      "Base": "ED_Prospector",
+      "DisplayName": "维度空间-DS-SE-I",
+      "Resistances": {
+        "DamageMultiplier": 77
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.5,
+        "MaxAcceleration": 1.5
+      },
+      "Materials": [
+        "M_Crystal_BlueGlow",
+        "M_BeachParty_Lantern_Blue"
+      ],
+      "Spawner": {
+        "ED": "ED_Dimensional_Space_I",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Dimensional_Space_TE": {
+      "Base": "ED_Prospector",
+      "DisplayName": "维度空间-DS-TE-II",
+      "Movement": {
+        "MaxPawnSpeed": 0.07,
+        "MaxAcceleration": 0.07
+      },
+      "Materials": [
+        "M_SpaceRig_Light01",
+        "M_Crystal_RedGlow"
+      ],
+      "Spawner": {
+        "ED": "ED_Dimensional_Space_II",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Dimensional_Space_Pr": {
+      "Base": "ED_Prospector",
+      "DisplayName": "维度空间-DS-Prototype",
+      "Materials": [
+        "M_Facility_Light_Accents",
+        "M_Scout_PJ_WhiteContrast_S05"
+      ],
+      "Spawner": {
+        "ED": "ED_Dimensional_Space_III",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Dimensional_Space_I": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "已展开维度空间-I",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -150,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Dimensional_Space_II": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "已展开维度空间-II",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -75,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Dimensional_Space_III": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "已展开维度空间-III",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -50,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Monitor_Team_Event": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "扫描到小队群袭",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -300,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Spawner": {
+        "ED": {
+          "Mutate": "RandomChoice",
+          "Choices": [
+            "ED_Crack_Team",
+            "ED_Miniature_Module_Team"
+          ],
+          "Weights": [
+            1,
+            3
+          ]
+        },
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Crack_Team": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "精锐小队",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": {
+        "InitialRate": 0,
+        "FinalRate": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Var": "Crack_Team_Count"
+          },
+          "==": 0,
+          "Then": -6000,
+          "Else": 0
+        },
+        "SwitchAfter": 5
+      },
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": "ED_ResupplySupport",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_ResupplySupport"
+          },
+          ">=": 1,
+          "Then": 0,
+          "Else": 1
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Crack_Code_Bee": {
+      "Base": "ED_JellyBreeder",
+      "DisplayName": "精锐小队◆代号：蜜蜂",
+      "DifficultyRating": 2,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 3
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0.07,
+        "MaxAcceleration": 0.07
+      },
+      "Materials": [
+        "M_Crystal_BlueGlow",
+        "M_Xmas_LightBlue",
+        "M_Crystal_BlueGlow",
+        "M_Crystal_BlueGlow",
+        "M_BeachParty_Lantern_Blue",
+        "M_BeachParty_Lantern_Blue",
+        "M_Crystal_BlueGlow"
+      ],
+      "Spawner": {
+        "ED": "ED_Spider_Grunt_Attacker",
+        "IntervalSpawnCount": 2,
+        "Interval": 4,
+        "OnDeathCount": 0,
+        "MaxSpawns": 10,
+        "OnDeathKillSpawns": true
+      },
+      "JellyBreeder": {
+        "EnemyToSpawn": "ED_Spider_Swarmer_Pheromone_NOFX",
+        "SpawnAmount": 5,
+        "TimeBetweenBursts": 3,
+        "EggBurstSize": 18,
+        "MaxJellies": 20,
+        "TimeBetweenEggs": 3,
+        "EggName": "卵",
+        "EggMaterial": "M_FaceAccessories_CigarLight",
+        "EggHealth": 50,
+        "EggTime": 5
+      }
+    },
+    "ED_Crack_Code_Elephant": {
+      "Base": "ED_Spider_Tank_HeavySpawn",
+      "DisplayName": "精锐小队◆代号：巨象",
+      "DifficultyRating": 2,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Courage": 1,
+      "Elite": true,
+      "ForceEliteBase": "ED_Spider_Tank",
+      "Scale": 1.3,
+      "Resistances": {
+        "DamageMultiplier": 0.3
+      },
+      "Movement": {
+        "MaxPawnSpeed": 2,
+        "MaxAcceleration": 2
+      },
+      "Materials": [
+        "M_MuleInfected_Black",
+        "M_Biome_AzureWeald_Flower_Orkidyellow"
+      ]
+    },
+    "ED_Crack_Code_Rhinoceros": {
+      "Base": "ED_Spider_Grunt_Guard",
+      "DisplayName": "精锐小队◆代号：犀牛",
+      "DifficultyRating": 2,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Courage": 1,
+      "Elite": true,
+      "Resistances": {
+        "DamageMultiplier": 0.3
+      },
+      "Movement": {
+        "MaxPawnSpeed": 2,
+        "MaxAcceleration": 2
+      },
+      "Materials": [
+        "M_RustedMetal_DarkGrey01",
+        "M_MuleInfected_Black",
+        "M_MuleInfected_Black"
+      ]
+    },
+    "ED_Crack_Code_Mantis": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "DisplayName": "精锐小队◆代号：螳螂",
+      "DifficultyRating": 2,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Courage": 1,
+      "Elite": true,
+      "Resistances": {
+        "DamageMultiplier": 0.3
+      },
+      "Movement": {
+        "MaxPawnSpeed": 2,
+        "MaxAcceleration": 2
+      },
+      "Materials": [
+        "M_HairColor_Black01",
+        "M_Mug_Metalic_Green",
+        "M_GreatEggHunt_LightChain_Green"
+      ]
+    },
+    "ED_Crack_Code_Crow": {
+      "Base": "ED_Mactera_Shooter_HeavyVeteran",
+      "DisplayName": "精锐小队◆代号：乌鸦",
+      "DifficultyRating": 2,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Courage": 1,
+      "Elite": true,
+      "Materials": [
+        "M_HairColor_Black01",
+        "M_StreamersBlack_Wobble"
+      ]
+    },
+    "ED_Miniature_Module_Team": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "微缩模块小队",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": {
+        "InitialRate": 0,
+        "FinalRate": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Var": "Miniature_Module_Team_Count"
+          },
+          "==": 0,
+          "Then": -6000,
+          "Else": 0
+        },
+        "SwitchAfter": 5
+      },
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": "ED_ResupplySupport",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_ResupplySupport"
+          },
+          ">=": 1,
+          "Then": 0,
+          "Else": 1
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Miniature_Module_Scout": {
+      "Base": "ED_PatrolBot",
+      "DisplayName": "微缩模块-侦查兵",
+      "DifficultyRating": 4,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "HealthMultiplier": 1.77,
+      "AttackDamageMultiplier": 0.037,
+      "Projectile": "PRJ_PlasmaCarbineShot_C",
+      "Materials": [
+        "M_Scout_PJ_DLC01_Stripes",
+        "M_Biome_CrystalCaves_Crystal01_Particles",
+        "M_PatrolBot_Status_Light",
+        "M_PatrolBot_Status_Light",
+        "M_Scout_PJ_DLC01_Stripes",
+        "M_SpaceRig_LightMachinery_White",
+        "M_Biome_CrystalCaves_Crystal01_Particles"
+      ],
+      "Direct": {
+        "Float:HackChance": 0,
+        "Float:SpawnRocketsChance": 0,
+        "Float:RollingAttackCooldown": 0.07,
+        "Float:FlyingAttackCooldown": 0.07
+      },
+      "Temperature": {
+        "DieIfBurning": false
+      }
+    },
+    "ED_Miniature_Module_Engineer": {
+      "Base": "ED_PatrolBot",
+      "DisplayName": "微缩模块-工程师",
+      "DifficultyRating": 4,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "HealthMultiplier": 1.77,
+      "AttackDamageMultiplier": 0.017,
+      "Projectile": "PRJ_PlatformMaker_C",
+      "Materials": [
+        "M_Engineer_PJ_BioHazard_Glow_DLC07",
+        "M_Engineer_PJ_DLC01_Cloth",
+        "M_PatrolBot_Status_Light",
+        "M_PatrolBot_Status_Light",
+        "M_Engineer_PJ_BioHazard_Glow_DLC07",
+        "M_SpaceRig_LightMachinery_White",
+        "M_Engineer_PJ_DLC01_Cloth"
+      ],
+      "Direct": {
+        "Float:HackChance": 0,
+        "Float:SpawnRocketsChance": 0,
+        "Float:RollingAttackCooldown": 1.5,
+        "Float:FlyingAttackCooldown": 1.5
+      },
+      "Temperature": {
+        "DieIfBurning": false
+      }
+    },
+    "ED_Miniature_Module_Driller": {
+      "Base": "ED_PatrolBot",
+      "DisplayName": "微缩模块-钻机手",
+      "DifficultyRating": 4,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "HealthMultiplier": 1.77,
+      "AttackDamageMultiplier": 0.017,
+      "Projectile": "PRJ_FlameWall_C",
+      "Materials": [
+        "M_Driller_PJ_DLC01_Stripes",
+        "M_ScratchedPaint_Yellow01",
+        "M_PatrolBot_Status_Light",
+        "M_PatrolBot_Status_Light",
+        "M_Driller_PJ_DLC01_Stripes",
+        "M_SpaceRig_LightMachinery_White",
+        "M_ScratchedPaint_Yellow01"
+      ],
+      "Direct": {
+        "Float:HackChance": 0,
+        "Float:SpawnRocketsChance": 0,
+        "Float:RollingAttackCooldown": 0.9,
+        "Float:FlyingAttackCooldown": 0.9
+      },
+      "Temperature": {
+        "DieIfBurning": false
+      }
+    },
+    "ED_Miniature_Module_Gunner": {
+      "Base": "ED_PatrolBot",
+      "DisplayName": "微缩模块-枪手",
+      "DifficultyRating": 4,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "HealthMultiplier": 1.77,
+      "AttackDamageMultiplier": 0.027,
+      "Projectile": "PRJ_Grenade_StickySmall_C",
+      "Materials": [
+        "M_Gunner_PJ_DLC01_Stripes",
+        "AnimSharingGreen",
+        "M_PatrolBot_Status_Light",
+        "M_PatrolBot_Status_Light",
+        "M_Gunner_PJ_DLC01_Stripes",
+        "M_SpaceRig_LightMachinery_White",
+        "AnimSharingGreen"
+      ],
+      "Direct": {
+        "Float:HackChance": 0,
+        "Float:SpawnRocketsChance": 0,
+        "Float:RollingAttackCooldown": 1.1,
+        "Float:FlyingAttackCooldown": 1.1
+      },
+      "Temperature": {
+        "DieIfBurning": false
+      }
+    },
+    "ED_ResupplySupport": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "免费补给已激活",
+      "AttackDamageMultiplier": 0,
+      "DifficultyRating": 777,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "IsBossFight": true,
+      "HealthRaw": 5000,
+      "Heal": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "TriggerOnChange",
+          "In": {
+            "Mutate": "ResuppliesCalled"
+          }
+        },
+        "Then": -6000,
+        "Else": 0
+      },
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Unknown_Biological_Invasion": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "ERR://23¤Y%/-未知生物入侵",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -300,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": "ED_Mia_M3c",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Mia_M3c": {
+      "Base": "ED_PatrolBot",
+      "DisplayName": "★Mia_M3c★",
+      "HealthMultiplier": 2.39,
+      "Heal": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Mia_Support"
+        },
+        ">=": 1,
+        "Then": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "Or",
+            "A": {
+              "Mutate": "TriggerOnChange",
+              "FallOnly": true,
+              "In": {
+                "Mutate": "DwarvesShield"
+              }
+            },
+            "B": {
+              "Mutate": "TriggerOnChange",
+              "FallOnly": true,
+              "In": {
+                "Mutate": "DwarvesHealth"
+              }
+            }
+          },
+          "Then": {
+            "Mutate": "Multiply",
+            "A": -177,
+            "B": {
+              "Mutate": "Add",
+              "A": {
+                "Mutate": "DwarvesShield"
+              },
+              "B": {
+                "Mutate": "DwarvesHealth"
+              }
+            }
+          },
+          "Else": 0
+        },
+        "Else": 0
+      },
+      "IsBossFight": true,
+      "AttackDamageMultiplier": 0.049,
+      "Scale": 1.2,
+      "Movement": {
+        "MaxPawnSpeed": 2,
+        "MaxAcceleration": 2
+      },
+      "Materials": [
+        "M_SpaceRig_Lamp",
+        "M_Guntower_ProgressBar",
+        "M_PatrolBot_Status_Light",
+        "M_PatrolBot_Status_Light",
+        "M_VanityBase_EyePupil",
+        "M_Facility_Machine_Base02",
+        "M_Forge_Buttons"
+      ],
+      "Projectile": "PRJ_Crye_SnowBall_C",
+      "Direct": {
+        "Float:HackedRegainModifier": 1,
+        "Float:HackChance": 100,
+        "Float:LaunchPower": 2399,
+        "Float:RollingAttackCooldown": 0.339,
+        "Float:FlyingAttackCooldown": 0.339
+      },
+      "Temperature": {
+        "DieIfBurning": false
+      },
+      "Spawner": {
+        "ED": "ED_Monitor_Mia_Killed",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 39,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Monitor_Mia_Killed": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "Mia检测器",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -100,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": "ED_Mia_Support",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 39,
+        "OnDeathCount": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Mia_M3c"
+          },
+          ">=": 1,
+          "Then": 1,
+          "Else": 0
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Mia_Support": {
+      "Base": "ED_Spider_Drone",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 3999,
+      "Heal": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "ED_Mia_M3c"
+        },
+        ">=": 1,
+        "Then": 0,
+        "Else": -7777
+      },
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Mission_Special_Event": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "任务专属事件",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 77,
+      "Heal": -777,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": {
+          "Mutate": "ByMissionType",
+          "Default": "NULL",
+          "Escort": "ED_Monitor_FlyingSmartRock_Attack"
+        },
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Monitor_FlyingSmartRock_Attack": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "扫描到：奥魔兰心之石-飞石袭击",
+      "AttackDamageMultiplier": 0,
+      "IsBossFight": true,
+      "HealthRaw": 5000,
+      "Heal": -300,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": "ED_FlyingSmartRock_Attack",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": {
+          "Mutate": "Random",
+          "Min": 40,
+          "Max": 60
+        },
+        "MaxSpawns": 60,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_FlyingSmartRock_Attack": {
+      "Base": "ED_FlyingSmartRock",
+      "Movement": {
+        "MaxPawnSpeed": 2,
+        "StrafeSpeed": 2,
+        "MaxStrafeDistance": 2,
+        "AlignDirectionSpeed": 2,
+        "MaxAcceleration": 2
+      }
+    },
+    "ED_Nitra_Resupply": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "消耗硝石呼叫补给",
+      "HealthRaw": 5000,
+      "Heal": -6000,
+      "Scale": 0,
+      "ShowHealthBar": false
+    },
+    "ED_Egg_Resupplies": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "虫蛋-补给",
+      "HealthRaw": 5000,
+      "Heal": -6000,
+      "Scale": 0,
+      "ShowHealthBar": false
+    },
+    "ED_NormalWave_Warn": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "额外自然潮剩余时间！做好准备！",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": {
+        "Mutate": "BySalvagePhase",
+        "Default": -7777,
+        "PreRefuel": -200
+      },
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Elimination_Threat_Level": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "威胁等级",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -6000,
+      "Scale": 0,
+      "ShowHealthBar": false
+    },
+    "ED_Spider_Boss_TwinA": {
+      "Base": "ED_Spider_Drone",
+      "AttackDamageMultiplier": 0,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "HealthRaw": 77,
+      "Heal": {
+        "InitialRate": 0,
+        "FinalRate": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "EDs": [
+              "ED_Rival_Boss_TwinA",
+              "ED_Spider_Boss_TwinA_Spawn"
+            ]
+          },
+          "==": 0,
+          "Then": -777,
+          "Else": 0
+        },
+        "SwitchAfter": 5
+      },
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "var": "Elimination_Threat_Level"
+          },
+          ">=": 2,
+          "Then": "ED_Rival_Boss_TwinA",
+          "Else": "ED_Spider_Boss_TwinA_Spawn"
+        },
+        "OnSpawnDelay": 0,
+        "OnSpawnCount": 1,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 0,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Spider_Boss_TwinB": {
+      "Base": "ED_Spider_Drone",
+      "AttackDamageMultiplier": 0,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "HealthRaw": 77,
+      "Heal": {
+        "InitialRate": 0,
+        "FinalRate": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "EDs": [
+              "ED_Rival_Boss_TwinB",
+              "ED_Spider_Boss_TwinB_Spawn"
+            ]
+          },
+          "==": 0,
+          "Then": -777,
+          "Else": 0
+        },
+        "SwitchAfter": 5
+      },
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "var": "Elimination_Threat_Level"
+          },
+          ">=": 2,
+          "Then": "ED_Rival_Boss_TwinB",
+          "Else": "ED_Spider_Boss_TwinB_Spawn"
+        },
+        "OnSpawnDelay": 0,
+        "OnSpawnCount": 1,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 0,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Spider_Boss_TwinA_Spawn": {
+      "Base": "ED_Spider_Boss_TwinA"
+    },
+    "ED_Spider_Boss_TwinB_Spawn": {
+      "Base": "ED_Spider_Boss_TwinB"
+    },
+    "ED_Rival_Boss_TwinA": {
+      "Base": "ED_Spider_Boss_TwinA",
+      "IsBossFight": true,
+      "DisplayName": "粉碎无畏异虫",
+      "Materials": [
+        "M_Greybox_Rock01",
+        "M_MetalBlack_A",
+        "M_MetalBlack_A",
+        "M_Vanity_Headwear_Headwear_SixpenceGrey"
+      ],
+      "Projectile": "PRJ_Spider_Lobber_Projectile_C",
+      "Spawner": {
+        "ED": "ED_Shredder",
+        "OnSpawnDelay": 10,
+        "IntervalSpawnCount": 10,
+        "Interval": 7,
+        "OnDeathCount": 10,
+        "MaxSpawns": 20,
+        "OnDeathKillSpawns": true
+      }
+    },
+    "ED_Rival_Boss_TwinB": {
+      "Base": "ED_Spider_Boss_TwinB",
+      "IsBossFight": true,
+      "DisplayName": "机械无畏异虫",
+      "Materials": [
+        "M_PatrolBot_Metal",
+        "M_Facility_Vault_Shield",
+        "M_PatrolBot_Metal",
+        "M_PatrolBot_Metal"
+      ],
+      "Projectile": "PRJ_CaretakerBarrier_C",
+      "Spawner": {
+        "ED": "ED_PatrolBot",
+        "OnSpawnDelay": 10,
+        "IntervalSpawnCount": 1,
+        "Interval": 7,
+        "OnDeathCount": 1,
+        "MaxSpawns": 2,
+        "OnDeathKillSpawns": true
+      }
+    },
+    "ED_Spider_Tank_Boss": {
+      "TimeDilation": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "var": "Elimination_Threat_Level"
+        },
+        "==": 2,
+        "Then": 1.2,
+        "Else": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "var": "Elimination_Threat_Level"
+          },
+          ">=": 3,
+          "Then": 1.4,
+          "Else": 1
+        }
+      }
+    },
+    "ED_Swarm_Army": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "虫群来袭",
+      "AttackDamageMultiplier": 0,
+      "IsBossFight": true,
+      "HealthRaw": {
+        "Mutate": "ByDNA",
+        "Default": 500,
+        "Refinery,2,2": 400,
+        "Refinery,2,3": 500
+      },
+      "Heal": {
+        "Mutate": "Add",
+        "A": {
+          "Mutate": "Subtract",
+          "A": 0,
+          "B": {
+            "Mutate": "Delta",
+            "Value": {
+              "Mutate": "EnemiesKilled"
+            }
+          }
+        },
+        "B": {
+          "Mutate": "Multiply",
+          "A": -30,
+          "B": {
+            "Mutate": "Delta",
+            "Value": {
+              "Mutate": "EnemiesKilled",
+              "EDs": [
+                "ED_Spider_Boss_Heavy_Weak",
+                "ED_Spider_Tank_Boss_Weak",
+                "ED_Spider_Boss_TwinA_Weak",
+                "ED_Spider_Boss_TwinB_Weak",
+                "ED_Spider_Boss_Aivore",
+                "ED_Spider_Boss_Eve",
+                "ED_Rival_Boss_TwinA_Weak",
+                "ED_Rival_Boss_TwinB_Weak"
+              ]
+            }
+          }
+        }
+      },
+      "ShowHealthBar": false,
+      "Scale": 0,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": "ED_Swarm_Rout",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Swarm_Rout": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "虫群已击溃",
+      "AttackDamageMultiplier": 0,
+      "IsBossFight": true,
+      "HealthRaw": {
+        "Mutate": "ByDNA",
+        "Default": 8750,
+        "Refinery,2,2": 7500,
+        "Refinery,2,3": 8750
+      },
+      "Heal": -50,
+      "ShowHealthBar": false,
+      "Scale": 0,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": "ED_Swarm_Army",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": {
+          "Mutate": "ByMissionType",
+          "Default": 1,
+          "Refinery": {
+            "Mutate": "ByRefineryPhase",
+            "Default": 1,
+            "RefiningComplete": 0,
+            "RocketLaunched": 0
+          }
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Monitor_Crystal_Condensed": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "水晶凝聚中",
+      "AttackDamageMultiplier": 0,
+      "IsBossFight": true,
+      "HealthRaw": {
+        "Mutate": "ByDNA",
+        "Default": 12000,
+        "DeepScan,1,2": 10000,
+        "DeepScan,2,3": 12000
+      },
+      "Heal": {
+        "Mutate": "Add",
+        "A": -50,
+        "B": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "DuringDrillevator"
+          },
+          "Then": -7777,
+          "Else": 0
+        },
+        "C": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "DuringGenericSwarm"
+          },
+          "Then": 50,
+          "Else": 0
+        },
+        "D": {
+          "Mutate": "Multiply",
+          "A": 3050,
+          "B": {
+            "Mutate": "Delta",
+            "Value": {
+              "Mutate": "EnemiesKilled",
+              "EDs": [
+                "ED_Crystal_Fragment_Resonance",
+                "ED_Crystal_Fragment_Resonant",
+                "ED_Crystal_Fragment_EtVibration"
+              ]
+            }
+          }
+        }
+      },
+      "ShowHealthBar": false,
+      "Scale": 0,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      },
+      "Spawner": {
+        "ED": "ED_Crystal_Condensed_Resonance",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "DuringDrillevator"
+          },
+          "Then": 0,
+          "Else": 1
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Crystal_Condensed_Resonance": {
+      "Base": "ED_Spider_Tank_HeavySpawn",
+      "DisplayName": "水晶奇点◆共振◆谐振◆永振",
+      "IsBossFight": true,
+      "Heal": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "DuringDrillevator"
+        },
+        "Then": -7777,
+        "Else": 0
+      },
+      "ShowHealthBar": false,
+      "Scale": 0.7,
+      "Resistances": {
+        "DamageMultiplier": 0.5
+      },
+      "Materials": [
+        "M_AlienRuin_Rock01",
+        "M_Biome_IceCaves_Rock01",
+        "M_AlienRuin_Rock01",
+        "M_AlienRuin_Rock01"
+      ],
+      "Spawner": {
+        "ED": "ED_Monitor_Crystal_Condensed",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 77,
+        "OnDeathCount": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "DuringDrillevator"
+          },
+          "Then": 0,
+          "Else": 1
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "ED_Crystal_Fragment_Resonance": {
+      "Base": "ED_FlyingSmartRock",
+      "DisplayName": "水晶碎片◆共振",
+      "Heal": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "DuringDrillevator"
+        },
+        "Then": -777,
+        "Else": 0
+      },
+      "ShowHealthBar": false,
+      "CustomVeterans": {
+        "ED_Crystal_Fragment_Resonance": 1,
+        "ED_Crystal_Fragment_Resonant": 1,
+        "ED_Crystal_Fragment_EtVibration": 1
+      },
+      "Materials": [
+        "M_ElectricCrystal01",
+        "M_ElectricCrystal01"
+      ]
+    },
+    "ED_Crystal_Fragment_Resonant": {
+      "Base": "ED_FlyingSmartRock",
+      "DisplayName": "水晶碎片◆谐振",
+      "Heal": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "DuringDrillevator"
+        },
+        "Then": -777,
+        "Else": 0
+      },
+      "ShowHealthBar": false,
+      "Materials": [
+        "M_ElectricCrystal01",
+        "M_ElectricCrystal01"
+      ]
+    },
+    "ED_Crystal_Fragment_EtVibration": {
+      "Base": "ED_FlyingSmartRock",
+      "DisplayName": "水晶碎片◆永振",
+      "Heal": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "DuringDrillevator"
+        },
+        "Then": -777,
+        "Else": 0
+      },
+      "ShowHealthBar": false,
+      "Materials": [
+        "M_ElectricCrystal01",
+        "M_ElectricCrystal01"
+      ]
+    },
+    "ED_Nisse": {
+      "Outline": {
+        "Enabled": true,
+        "Type": "Enemy"
+      }
+    },
+    "ED_GreatEggHunt_SpringBunny": {
+      "Outline": {
+        "Enabled": true,
+        "Type": "Enemy"
+      }
+    },
+    "ED_Secondary_Reward_Stage_II": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "额外补给增援",
+      "AttackDamageMultiplier": 0,
+      "IsBossFight": true,
+      "HealthRaw": 5000,
+      "Heal": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "TriggerOnChange",
+          "In": {
+            "Mutate": "ResuppliesCalled"
+          }
+        },
+        "Then": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "And",
+            "A": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "ResuppliesCalled"
+              },
+              ">": 1,
+              "Then": true,
+              "Else": false
+            },
+            "B": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "ED_ResupplySupport"
+              },
+              "==": 0,
+              "Then": true,
+              "Else": false
+            }
+          },
+          "Then": -3000,
+          "Else": 0
+        },
+        "Else": 0
+      },
+      "ShowHealthBar": false,
+      "Scale": 0,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Revive_Bonus": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "复活奖励",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": {
+        "Mutate": "Add",
+        "A": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "TriggerOnChange",
+            "In": {
+              "Mutate": "IWsLeft"
+            }
+          },
+          "Then": 888,
+          "Else": 0
+        },
+        "B": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "TriggerOnChange",
+            "In": {
+              "Mutate": "DwarvesRevives"
+            }
+          },
+          "Then": -888,
+          "Else": 0
+        },
+        "C": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "TriggerOnChange",
+            "In": {
+              "Mutate": "EnemiesKilled",
+              "ED": "ED_Monitor_Star_Killed"
+            }
+          },
+          "Then": 6000,
+          "Else": 0
+        }
+      },
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Vacuum_ZeroHeal_Long": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "真空零阻治疗-长效",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -25,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Vacuum_ZeroHeal_Enhance": {
+      "Base": "ED_Spider_Drone",
+      "DisplayName": "真空零阻治疗-强化",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -1500,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Resistances": {
+        "ColdDamageMultiplier": 0,
+        "CorrosiveDamageMultiplier": 0,
+        "ElectricDamageMultiplier": 0,
+        "ExplosionDamageMultiplier": 0,
+        "FireDamageMultiplier": 0,
+        "InternalDamageMultiplier": 0,
+        "KineticDamageMultiplier": 0,
+        "PhysicalDamageMultiplier": 0,
+        "PiercingDamageMultiplier": 0,
+        "PoisonDamageMultiplier": 0,
+        "RadiationDamageMultiplier": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0,
+        "MaxAcceleration": 0
+      }
+    },
+    "ED_Terrain_Destroyer": {
+      "Base": "ED_Spider_ExploderTank",
+      "DisplayName": "超维度地形摧毁者",
+      "AttackDamageMultiplier": 0,
+      "HealthRaw": 5000,
+      "Heal": -6000,
+      "Scale": 0,
+      "ShowHealthBar": false,
+      "Direct": {
+        "Float:PushForce": 0,
+        "Int:NumClusterBombs": 0,
+        "Float:CarveDiameter": 5777
+      }
+    }
+  },
+  "SpecialEncounters": [],
+  "Pools": {
+    "MinPoolSize": 177,
+    "DisruptiveEnemyPoolCount": {
+      "Min": 160,
+      "Max": 177
+    },
+    "StationaryEnemyCount": {
+      "Min": 6,
+      "Max": 6
+    },
+    "EnemyPool": {
+      "clear": false,
+      "Add": [
+        "ED_Spider_Grunt_Attacker_Elite",
+        "ED_Spider_Grunt_Guard_Elite",
+        "ED_PumpkinLootBug_Crystal",
+        "ED_Bomber_Explosive",
+        "ED_Bomber_Ice",
+        "ED_Spider_Tank_HeavySpawn_Spawn",
+        "ED_Spider_Tank_Ice",
+        "ED_Spider_Tank_Mutated",
+        "ED_Jelly_Swarmer",
+        "ED_Shredder",
+        "ED_Spider_Swarmer_Pheromone_NOFX_Spawn",
+        "ED_Spider_Grunt_RockpoxPlague",
+        "ED_Spider_Exploder_Rockpox_Plague",
+        "ED_Spider_Tank_RockpoxPlague",
+        "ED_Spider_Shooter_Rockpox_Plague",
+        "ED_JellyBreeder_NOFX",
+        "ED_Ossiran_Scrab",
+        "ED_Crawler",
+        "ED_PatrolBot",
+        "ED_Spider_ExploderTank",
+        "ED_Spider_Boss_Heavy_Weak",
+        "ED_Spider_Tank_Boss_Weak",
+        "ED_Spider_Boss_TwinA_Weak",
+        "ED_Spider_Boss_TwinB_Weak",
+        "ED_Spider_Boss_Aivore",
+        "ED_Spider_Boss_Eve",
+        "ED_Rival_Boss_TwinA_Weak",
+        "ED_Rival_Boss_TwinB_Weak",
+        "ED_Spider_ExploderTank"
+      ],
+      "Remove": []
+    },
+    "StationaryPool": {
+      "clear": false,
+      "Add": [
+        "ED_HydraWeed",
+        "ED_Prospector",
+        "ED_ShootingPlant_NOFX",
+        "ED_FacilityTurret_Barrier",
+        "ED_FacilityTurret_Burst",
+        "ED_FacilityTurret_Sniper"
+      ],
+      "Remove": [
+        "ED_JellyBreeder",
+        "ED_TentaclePlant"
+      ]
+    }
+  },
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": {
+      "Mutate": "IfFloat",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "ED": "ED_FlyingSmartRock_Attack"
+      },
+      ">=": 1,
+      "Then": 0.8,
+      "Else": {
+        "Mutate": "ByEscortPhase",
+        "Default": 0.94,
+        "FinalEventC": 0.95,
+        "FinalEventD": 0.96
+      }
+    },
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}

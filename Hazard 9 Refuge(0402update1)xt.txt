@@ -1,0 +1,4928 @@
+{
+  "Name": "Hazard 9 Refuge（CD2 RLTP8）",
+  "Description": "by MiA_M3c 20250402
+--------------------------------------------------------------------------------------------------------------------------------------------------------            
+                                                        《選別》 ～ Refuge
+                                                             9级多样性
+
+                                                             特殊生物§                                                                                                                    
+                                   [寒霜无畏异虫]双阶段首领无畏|[盾卫异虫]特殊禁卫|[灰烬巢主无畏]首领无畏
+                             [瘟疫强弩无畏]首领无畏|[裂变重斧无畏]首领无畏|[灰烬系列]特殊战士三兄弟|《自戒》蛭尾异虫
+                          《選別》精英吐酸|《真紅》精英典狱长|[瘟疫轰炸蝇]精英轰炸蝇|[失色系列]异虫|[寒霜无畏伴生体]精英三眼
+                        [巡游者系列]异虫|[奥魔兰系列]精英异虫|[LOP系列]战士三兄弟|[巡游水母]警告|[LOP异虫复制器]警告|[母舰]警告
+                                                 (详细信息及应对下拉至生物代码注释） 
+
+                                                        替换生物及特殊生物提示￠ 
+                                        母巢:生成物被替换为红蜂拥|异虫隧洞:生成物被替换为自爆异虫
+                                            岩痘水母:生成寒霜蜂拥|信息素火球:红蜂拥数量增加
+                               失色系列:受到非元素伤害降低,收到元素伤害提升|灰烬系列:生命值随时间流失,温度不会恢复
+--------------------------------------------------------------------------------------------------------------------------------------------------------            
+                                                          特殊虫潮虫潮信息￡                                                 
+                             原住民分布潮:首个伤害类远程固定单位死亡后25秒|循环潮(仅生成《選別》精英吐酸):每3:30
+
+                                                             增幅说明Ю
+        长线增强:当总击杀数到达3000/5000/8000时,自然潮间隔增加10/20/30秒|猫猫虫支援:在击杀数达到1250/4000时,将会在随机一名玩家身边生成支援猫猫虫
+        流速异常:在10分钟后,岩痘水母流速减半|上传压制:上传阶段四类双子无畏不再具有死亡衍生物,事件不再刷新|下降压制:深掘钴梯阶段事件不再刷新
+                    [仅消灭任务]推进阶段增益:补给消耗减少0/5/10/20|原生抗性降低0%/20%/32%/45%|自然潮削减0/200/400/800
+                                                 嗜矿异虫增益:被击杀后死亡获得75秒增益
+             无畏异虫抗性/异虫抗性下调10%|伤害下调至5.8|四类双子无畏死亡不再具有衍生物|岩痘水母收到持续伤害至死亡|《自戒》蛭尾异虫生成数量减半                              
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                             事件说明€
+                               首次事件将在80+120(仅深层扫描)/220/300秒刷新,事件间隔120(仅深层扫描)/220/300秒
+
+   [LOP异虫复制器警告]:生成LOP异虫复制器，倒计时90秒，在时间限制内击杀复制器获得90秒增益[所有蜂拥异虫流血死亡]，时间限制内若复制器仍然存活将生成LOP异虫
+   [母舰遭遇警告]:生成母舰与护卫舰,母舰持续生成舰载机,在护卫舰被摧毁前无敌.母舰被摧毁后获得持续一分钟增益[补给消耗减少20,异虫移动速度减缓至1.45]
+   [巡游水母遭遇警告]:生成巡游水母,巡游水母周期性生成巡游系列异虫，巡游水母被摧毁后持续获得90秒增益[呼吸回血不再限制并且与救援生命值提升至65%] 
+   (仅护送任务)[酸性环境警告]：持续2分钟，在酸性环境中掘进机抗性降低,浓度平衡时车抗增加
+   (仅深层扫描任务)[未知恶物警告]:将持续100秒，期间荧光棒视野下降，其他照明手段大幅下降，生成未知恶物并无法呼叫补给，存活一分钟获得增益[补给消耗减少20]  
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                             任务信息༒
+              搜救行动[三矿骡]:自然潮时间2:30-2:39|原住民点数2000|自然潮点数9000|具有原住民潮|虫量3.6|守点范围1.45倍|上传信号不再下降|
+              执勤护送[推车]:自然潮时间2:30-2:39|原住民点数4100|自然潮点数9000|无原住民潮|车抗0.93/0.94/0.94/0.95/0.96(随阶段上升)|
+                                      虫量3.6/4.1/4.5/4.9/5.4(随阶段上升)|具有独特事件:酸性环境警告|
+              深层扫描[三扫描]:无自然潮|播报潮时间2:10-2:15|原住民点数3500|具有原住民潮|虫量5.0|事件间隔缩短至120秒|具有独特事件:未知恶物警告
+              就地精炼[炼油]:自然潮时间3:00-3:09|播报潮时间2:15-2:25|原住民点数3200|具有原住民潮|虫量3.6/4.5/5.4(随阶段上升)|
+              消灭任务[三消灭]:自然潮时间2:50-2:55|原住民点数3600|具有原住民潮|与原生无畏异虫战斗时持续生成原生异虫|推进任务削减任务难度
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                            〥版本更新:《選別》 ～ Refuge version 1.22-1
+                                                            消灭任务更新2
+                                                新增机制[推进阶段],完成推进任务加速推进阶段
+                                                            消灭任务更新
+                                        消灭原生无畏异虫,进行战斗时自然潮、播报潮停止，持续生成原生异虫
+                             略微增加LOP异虫复制器,母舰,护卫舰自然生命值流失速度|更新代码说明|降低吐珠系列冻结值
+                                     长线增强:当总击杀数到达3000/5000/8000时,自然潮间隔增加10/20/30秒
+               上传阶段四类双子无畏不再具有死亡衍生物,上传阶段补给消耗降低10点,降低LOP事件失败时刷新异虫的数量，降低LOP异虫复制器抗性                                                                              
+--------------------------------------------------------------------------------------------------------------------------------------------------------                                   
+
+
+
+",
+  "Caps": {
+    "MaxActiveCritters": 40,
+    "MaxActiveSwarmers": 200,
+    "MaxActiveEnemies": 739
+  },
+  "NitraMultiplier": 1.1,
+  "Resupply": {
+    "Cost": {
+      "Mutate": "ByResuppliesCalled",
+      "Values": [
+        0,
+        {
+          "Mutate": "Add",
+          "A": 60,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "Escort": {
+              "Mutate": "ByEscortPhase",
+              "Default": 0,
+              "FinalEventA": -5,
+              "FinalEventB": -10,
+              "FinalEventC": -15,
+              "FinalEventD": -20
+            }
+          },
+          "C": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "母舰警告增益"
+            },
+            ">=": 1,
+            "Then": -20,
+            "Else": 0
+          },
+          "D": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "未知恶物事件"
+            },
+            ">=": 1,
+            "Then": 399,
+            "Else": 0
+          },
+          "E": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "未知恶物警告增益"
+            },
+            ">=": 1,
+            "Then": -20,
+            "Else": 0
+          },
+          "F": {
+            "Mutate": "ByRefineryPhase",
+            "Default": 0,
+            "PipesConnected": 0,
+            "Refining": -10,
+            "RefiningStalled": -10,
+            "RefiningComplete": -10,
+            "RocketLaunched": -10
+          },
+          "G": {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "DuringDefend"
+            },
+            "Then": -10,
+            "Else": 0
+          },
+          "H": {
+            "Mutate": "add",
+            "A": 0,
+            "B": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "Enemieskilled",
+                "ED": "消灭任务阶段阶段一"
+              },
+              ">=": 1,
+              "Then": -5,
+              "Else": 0
+            },
+            "C": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "Enemieskilled",
+                "ED": "消灭任务阶段阶段二"
+              },
+              ">=": 1,
+              "Then": -5,
+              "Else": 0
+            },
+            "D": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "Enemieskilled",
+                "ED": "消灭任务阶段阶段三"
+              },
+              ">=": 1,
+              "Then": -10,
+              "Else": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Salvage": {
+    "MiniMules": {
+      "LegDistance": 1200
+    },
+    "Uplink": {
+      "Scale": 1.45,
+      "LeavePenaltyMultiplier": 0
+    },
+    "Refuel": {
+      "Scale": 1.45,
+      "LeavePenaltyMultiplier": 0
+    }
+  },
+  "Darkness": {
+    "FlashlightStrength": {
+      "Mutate": "IfFloat",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "ED": "未知恶物事件"
+      },
+      ">=": 1,
+      "Then": 0.02,
+      "Else": 1
+    },
+    "PlayerIllumination": {
+      "Mutate": "IfFloat",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "ED": "未知恶物事件"
+      },
+      ">=": 1,
+      "Then": 0.02,
+      "Else": 1
+    },
+    "FlareStrength": {
+      "Mutate": "IfFloat",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "ED": "未知恶物事件"
+      },
+      ">=": 1,
+      "Then": 0.25,
+      "Else": 1
+    },
+    "EnvironmentalLight": {
+      "Mutate": "IfFloat",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "ED": "未知恶物事件"
+      },
+      ">=": 1,
+      "Then": 0.02,
+      "Else": 1
+    },
+    "FlareGunStrength": {
+      "Mutate": "IfFloat",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "ED": "未知恶物事件"
+      },
+      ">=": 1,
+      "Then": 0.02,
+      "Else": 1
+    },
+    "FlareGunDuration": 999,
+    "FlareDuration": 999
+  },
+  "WaveSpawners": [
+    {
+      "Enabled": true,
+      "Interval": 210,
+      "Enemies": [
+        "《選別》"
+      ],
+      "Difficulty": 100,
+      "Distance": 2400,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Accumulate",
+          "Value": {
+            "Mutate": "Clamp",
+            "Value": {
+              "Mutate": "Add",
+              "A": {
+                "Mutate": "EnemiesKilled",
+                "ED": "寒霜瘟疫吐珠"
+              },
+              "B": {
+                "Mutate": "EnemiesKilled",
+                "ED": "灰烬霰射吐珠"
+              },
+              "C": {
+                "Mutate": "EnemiesKilled",
+                "ED": "ED_FacilityTurret_Burst"
+              },
+              "E": {
+                "Mutate": "EnemiesKilled",
+                "ED": "ED_ShootingPlant"
+              },
+              "F": {
+                "Mutate": "EnemiesKilled",
+                "ED": "ED_BarrageInfector"
+              }
+            },
+            "Min": 0,
+            "Max": 1
+          },
+          "Min": 0,
+          "Max": 25
+        },
+        ">": 24,
+        "Then": true,
+        "Else": false
+      },
+      "Interval": 0,
+      "Enemies": [
+        "ED_Spider_Grunt_Attacker",
+        "ED_Spider_Grunt_Guard",
+        "ED_Spider_Grunt",
+        "NOFX",
+        "ED_Spider_Grunt_Attacker_Elite",
+        "ED_Spider_Tank_HeavySpawn_Spawn",
+        "ED_PumpkinLootBug_Helper",
+        "ED_Spider_Tank",
+        "ED_Spider_ShieldTank",
+        "ED_Spider_Tank_Mutated",
+        "ED_PatrolBot",
+        "ED_Crawler",
+        "ED_Bomber",
+        "ED_Bomber_Ice",
+        "ED_Bomber_Explosive",
+        "ED_Mactera_TripleShooter",
+        "ED_Mactera_Shooter_Normal",
+        "ED_Mactera_Shooter_HeavyVeteran",
+        "ED_Spider_Exploder",
+        "盾卫异虫",
+        "《真紅》",
+        "[表阶段]寒霜无畏异虫"
+      ],
+      "Difficulty": {
+        "Mutate": "Add",
+        "A": 900,
+        "B": {
+          "Mutate": "ByMissionType",
+          "Default": 0,
+          "Escort": -900,
+          "Deepscan": -200,
+          "Elimination": -900
+        }
+      },
+      "Distance": 3300,
+      "Locations": 3
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Bytime"
+        },
+        ">=": 60,
+        "Then": true,
+        "Else": false
+      },
+      "Interval": 0,
+      "Enemies": [
+        "ED_Spider_Grunt_Attacker",
+        "ED_Spider_Grunt_Guard",
+        "ED_Spider_Grunt",
+        "NOFX",
+        "ED_Spider_Grunt_Attacker_Elite",
+        "ED_Spider_Tank_HeavySpawn_Spawn",
+        "ED_PumpkinLootBug_Helper",
+        "ED_Spider_Tank",
+        "ED_Spider_ShieldTank",
+        "ED_Spider_Tank_Mutated",
+        "ED_PatrolBot",
+        "ED_Crawler",
+        "ED_Bomber",
+        "ED_Bomber_Ice",
+        "ED_Bomber_Explosive",
+        "ED_Mactera_TripleShooter",
+        "ED_Mactera_Shooter_Normal",
+        "ED_Mactera_Shooter_HeavyVeteran",
+        "ED_Spider_Exploder",
+        "盾卫异虫",
+        "《真紅》",
+        "[表阶段]寒霜无畏异虫"
+      ],
+      "Difficulty": {
+        "Mutate": "Add",
+        "A": 900,
+        "B": {
+          "Mutate": "ByMissionType",
+          "Default": 0,
+          "Salvage": -900,
+          "Refinery": -900,
+          "Escort": -900,
+          "Deepscan": -900,
+          "Elimination": 0
+        }
+      },
+      "Distance": 3300,
+      "Locations": 3
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Add",
+          "A": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Spider_Tank_Boss"
+          },
+          "B": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Spider_Boss_TwinA"
+          },
+          "C": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Spider_Boss_TwinB"
+          },
+          "D": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Spider_Boss_Heavy"
+          }
+        },
+        ">": 0,
+        "Then": true,
+        "Else": false
+      },
+      "Interval": 0,
+      "Enemies": [
+        "原生体警告"
+      ],
+      "Difficulty": 1,
+      "Distance": 2939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "原生体警告"
+        },
+        ">=": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Interval": {
+        "Mutate": "add",
+        "A": 16,
+        "B": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "消灭任务阶段阶段一"
+          },
+          ">=": 1,
+          "Then": 7,
+          "Else": 0
+        },
+        "C": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "消灭任务阶段阶段二"
+          },
+          ">=": 1,
+          "Then": 3,
+          "Else": 0
+        },
+        "D": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "消灭任务阶段阶段三"
+          },
+          ">=": 1,
+          "Then": 4,
+          "Else": 0
+        }
+      },
+      "Enemies": [
+        "原生自爆异虫",
+        "原生战士异虫",
+        "原生刀锋异虫",
+        "原生护卫异虫",
+        "原生坚甲异虫蝇",
+        "原生哨卫异虫"
+      ],
+      "Difficulty": {
+        "Mutate": "add",
+        "A": 136,
+        "B": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "消灭任务阶段阶段一"
+          },
+          ">=": 1,
+          "Then": -36,
+          "Else": 0
+        },
+        "C": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "消灭任务阶段阶段二"
+          },
+          ">=": 1,
+          "Then": -15,
+          "Else": 0
+        },
+        "D": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "消灭任务阶段阶段三"
+          },
+          ">=": 1,
+          "Then": -10,
+          "Else": 0
+        }
+      },
+      "Distance": 900,
+      "Locations": 3
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemiesKilled"
+        },
+        ">": 1250,
+        "Then": true,
+        "Else": false
+      },
+      "Interval": 0,
+      "Enemies": [
+        "ED_PumpkinLootBug_Helper"
+      ],
+      "Difficulty": 5,
+      "Distance": 100,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemiesKilled"
+        },
+        ">": 4000,
+        "Then": true,
+        "Else": false
+      },
+      "Interval": 0,
+      "Enemies": [
+        "ED_PumpkinLootBug_Helper"
+      ],
+      "Difficulty": 5,
+      "Distance": 100,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "[表阶段]寒霜无畏异虫"
+        },
+        ">": 0,
+        "Then": true,
+        "Else": false
+      },
+      "Interval": 0,
+      "Enemies": [
+        "寒霜无畏伴生体"
+      ],
+      "Difficulty": 1,
+      "Distance": 3300,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "Or",
+          "A": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "DefenseProgress"
+            },
+            ">=": 0.6,
+            "Then": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "DefenseProgress"
+              },
+              "<=": 0.65,
+              "Then": true,
+              "Else": false
+            }
+          },
+          "B": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "DefenseProgress"
+            },
+            ">=": 0.7,
+            "Then": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "DefenseProgress"
+              },
+              "<=": 0.75,
+              "Then": true,
+              "Else": false
+            }
+          }
+        },
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": {
+        "Mutate": "RandomChoice",
+        "Choices": [
+          [
+            "灰烬巢主无畏"
+          ],
+          [
+            "裂变重斧无畏",
+            "瘟疫强弩无畏"
+          ]
+        ],
+        "Weights": [
+          0.4,
+          0.6
+        ]
+      },
+      "Interval": 0,
+      "Difficulty": 25,
+      "Distance": 1699,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "EnemiesKilled",
+            "ED": "《自戒》"
+          }
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "失色刀锋异虫",
+        "失色禁卫异虫",
+        "失色吐刺异虫蝇"
+      ],
+      "Interval": 0,
+      "Difficulty": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "增益指示器"
+        },
+        ">": 0,
+        "Then": 155,
+        "Else": 250
+      },
+      "Distance": 1200,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Bytime"
+        },
+        ">": {
+          "Mutate": "ByMissionType",
+          "Default": 9999,
+          "Elimination": 15
+        },
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "消灭任务阶段阶段一"
+      ],
+      "Interval": 0,
+      "Difficulty": {
+        "Mutate": "ByMissionType",
+        "Default": 0,
+        "Elimination": 1
+      },
+      "Distance": 2939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Bytime"
+        },
+        ">": {
+          "Mutate": "ByMissionType",
+          "Default": 9999,
+          "Elimination": 15
+        },
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "推进任务1-1"
+      ],
+      "Interval": 0,
+      "Difficulty": {
+        "Mutate": "ByMissionType",
+        "Default": 0,
+        "Elimination": 1
+      },
+      "Distance": 2939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Bytime"
+        },
+        ">": {
+          "Mutate": "ByMissionType",
+          "Default": 9999,
+          "Elimination": 15
+        },
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "推进任务2-1"
+      ],
+      "Interval": 0,
+      "Difficulty": {
+        "Mutate": "ByMissionType",
+        "Default": 0,
+        "Elimination": 1
+      },
+      "Distance": 2939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Bytime"
+        },
+        ">": {
+          "Mutate": "ByMissionType",
+          "Default": 9999,
+          "Elimination": 15
+        },
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "推进任务3-1"
+      ],
+      "Interval": {
+        "Mutate": "ByMissionType",
+        "Default": 9999,
+        "Elimination": 0
+      },
+      "Difficulty": {
+        "Mutate": "ByMissionType",
+        "Default": 0,
+        "Elimination": 1
+      },
+      "Distance": 2939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "If",
+        "Condition": {
+          "Mutate": "DuringDefend"
+        },
+        "Then": false,
+        "Else": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "DuringDrillevator"
+          },
+          "Then": false,
+          "Else": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "ByTime"
+            },
+            ">": 80,
+            "Then": true,
+            "Else": false
+          }
+        }
+      },
+      "Enemies": {
+        "Mutate": "RandomChoice",
+        "Choices": [
+          [
+            "母舰事件警告"
+          ],
+          [
+            "LOP复制器事件警告"
+          ],
+          [
+            "巡游水母事件警告"
+          ],
+          [
+            "未知恶物事件警告"
+          ],
+          [
+            "酸性环境警告"
+          ]
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          {
+            "Mutate": "Add",
+            "A": 0,
+            "B": {
+              "Mutate": "ByMissionType",
+              "Default": 0,
+              "DeepScan": 1
+            }
+          },
+          {
+            "Mutate": "Add",
+            "A": 0,
+            "B": {
+              "Mutate": "ByMissionType",
+              "Default": 0,
+              "Escort": 1
+            }
+          }
+        ]
+      },
+      "Interval": {
+        "Mutate": "RandomChoice",
+        "Choices": [
+          130,
+          220,
+          300
+        ],
+        "Weights": [
+          {
+            "Mutate": "Add",
+            "A": 0,
+            "B": {
+              "Mutate": "ByMissionType",
+              "Default": 0,
+              "DeepScan": 1
+            }
+          },
+          {
+            "Mutate": "Add",
+            "A": 3,
+            "B": {
+              "Mutate": "ByMissionType",
+              "Default": 0,
+              "DeepScan": -3
+            }
+          },
+          {
+            "Mutate": "Add",
+            "A": 2,
+            "B": {
+              "Mutate": "ByMissionType",
+              "Default": 0,
+              "DeepScan": -2
+            }
+          }
+        ]
+      },
+      "Difficulty": 1,
+      "Distance": 2939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "EnemiesKilled",
+            "ED": "母舰事件警告"
+          }
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "母舰"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 1939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "母舰"
+        },
+        ">": 0,
+        "Then": true,
+        "Else": false
+      },
+      "Interval": 0,
+      "Enemies": [
+        "护卫舰"
+      ],
+      "Difficulty": 10,
+      "Distance": 3039,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "EnemiesKilled",
+            "ED": "母舰"
+          }
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "母舰警告增益"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 1999,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "EnemiesKilled",
+            "ED": "LOP复制器事件警告"
+          }
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "LOP异虫复制器"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 2939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "LOP异虫复制器"
+        },
+        ">": 0,
+        "Then": true,
+        "Else": false
+      },
+      "Interval": 0,
+      "Enemies": [
+        "LOP倒计时"
+      ],
+      "Difficulty": 1,
+      "Distance": 1999,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "EnemiesKilled",
+            "ED": "巡游水母事件警告"
+          }
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "巡游水母"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 2939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "EnemiesKilled",
+            "ED": "巡游水母"
+          }
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "巡游水母警告增益"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 1999,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "EnemiesKilled",
+            "ED": "未知恶物事件警告"
+          }
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "未知恶物事件"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 2939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "未知恶物事件"
+        },
+        ">": 0,
+        "Then": true,
+        "Else": false
+      },
+      "Interval": 0,
+      "Enemies": [
+        "未知恶物"
+      ],
+      "Difficulty": 540,
+      "Distance": 1939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "EnemiesKilled",
+            "ED": "未知恶物事件"
+          }
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "未知恶物警告增益"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 1999,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "EnemiesKilled",
+            "ED": "酸性环境警告"
+          }
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "酸性环境"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 2939,
+      "Locations": 1
+    },
+    {
+      "Enabled": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Delta",
+          "Value": {
+            "Mutate": "EnemiesKilled",
+            "ED": "酸性环境"
+          }
+        },
+        "==": 1,
+        "Then": true,
+        "Else": false
+      },
+      "Enemies": [
+        "酸性环境警告增益"
+      ],
+      "Interval": 0,
+      "Difficulty": 1,
+      "Distance": 2939,
+      "Locations": 1
+    }
+  ],
+  "DifficultySetting": {
+    "ExtraLargeEnemyDamageResistance": {
+      "Mutate": "IfFloat",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "ED": "增益指示器"
+      },
+      ">": 0,
+      "Then": 2.16,
+      "Else": 2.4
+    },
+    "ExtraLargeEnemyDamageResistanceB": 0.39,
+    "ExtraLargeEnemyDamageResistanceC": 0.39,
+    "ExtraLargeEnemyDamageResistanceD": 1.8,
+    "EnemyDamageResistance": {
+      "Mutate": "IfFloat",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "ED": "增益指示器"
+      },
+      ">=": 1,
+      "Then": 2.25,
+      "Else": 2.5
+    },
+    "SmallEnemyDamageResistance": 1.2,
+    "EnemyDamageModifier": {
+      "Mutate": "Add",
+      "A": 6.1,
+      "B": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "增益指示器"
+        },
+        ">=": 1,
+        "Then": -0.3,
+        "Else": 0
+      },
+      "C": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "DwarvesDown"
+        },
+        ">=": 3,
+        "Then": -3.05,
+        "Else": 0
+      }
+    },
+    "EnemyCountModifier": {
+      "Mutate": "Add",
+      "A": 3.6,
+      "B": {
+        "Mutate": "ByMissionType",
+        "Default": 0,
+        "DeepScan": 1.4,
+        "Escort": {
+          "Mutate": "ByEscortPhase",
+          "Default": 0,
+          "FinalEventA": 0.5,
+          "FinalEventB": 0.9,
+          "FinalEventC": 1.3,
+          "FinalEventD": 1.8
+        }
+      },
+      "C": {
+        "Mutate": "ByRefineryPhase",
+        "Default": 0,
+        "PipesConnected": -1.8,
+        "Refining": 1,
+        "RefiningStalled": -0.6,
+        "RefiningComplete": 0.9,
+        "RocketLaunched": 1.8
+      }
+    },
+    "EncounterDifficulty": [
+      {
+        "weight": 39,
+        "min": {
+          "Mutate": "Add",
+          "A": 639,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "Escort": 500,
+            "Elimination": 50,
+            "DeepScan": 50,
+            "Refinery": 240
+          }
+        },
+        "max": {
+          "Mutate": "Add",
+          "A": 650,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "Escort": 500,
+            "Elimination": 50,
+            "DeepScan": 50,
+            "Refinery": 240
+          }
+        }
+      }
+    ],
+    "StationaryDifficulty": [
+      {
+        "weight": 1,
+        "min": {
+          "Mutate": "Add",
+          "A": 939,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "DeepScan": -200,
+            "Refinery": -50
+          }
+        },
+        "max": {
+          "Mutate": "Add",
+          "A": 1080,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "DeepScan": -200,
+            "Refinery": -50
+          }
+        }
+      }
+    ],
+    "EnemyWaveInterval": [
+      {
+        "weight": 0,
+        "min": 399,
+        "max": 399
+      },
+      {
+        "weight": 8,
+        "min": {
+          "Mutate": "Add",
+          "A": 135,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "Elimination": 5,
+            "DeepScan": -5
+          }
+        },
+        "max": {
+          "Mutate": "Add",
+          "A": 145,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "Elimination": 10,
+            "DeepScan": -10
+          }
+        }
+      }
+    ],
+    "EnemyNormalWaveInterval": [
+      {
+        "weight": 0,
+        "min": 999,
+        "max": 999
+      },
+      {
+        "weight": 0.5,
+        "min": {
+          "Mutate": "Add",
+          "A": 150,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "Elimination": 20,
+            "Refinery": 30
+          },
+          "C": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemiesKilled"
+            },
+            ">": 3339,
+            "Then": 10,
+            "Else": 0
+          },
+          "D": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemiesKilled"
+            },
+            ">": 5339,
+            "Then": 10,
+            "Else": 0
+          },
+          "E": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemiesKilled"
+            },
+            ">": 8339,
+            "Then": 10,
+            "Else": 0
+          }
+        },
+        "max": {
+          "Mutate": "Add",
+          "A": 155,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "Elimination": 20,
+            "Refinery": 30
+          },
+          "C": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemiesKilled"
+            },
+            ">": 3339,
+            "Then": 10,
+            "Else": 0
+          },
+          "D": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemiesKilled"
+            },
+            ">": 5339,
+            "Then": 10,
+            "Else": 0
+          },
+          "E": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "EnemiesKilled"
+            },
+            ">": 8339,
+            "Then": 10,
+            "Else": 0
+          }
+        }
+      },
+      {
+        "weight": 0.5,
+        "min": {
+          "Mutate": "Add",
+          "A": 150,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "Refinery": 30
+          }
+        },
+        "max": {
+          "Mutate": "Add",
+          "A": 159,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "Refinery": 30
+          }
+        }
+      }
+    ],
+    "EnemyNormalWaveDifficulty": [
+      {
+        "weight": 39,
+        "min": {
+          "Mutate": "Add",
+          "A": 2409,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "DeepScan": -2409
+          },
+          "C": {
+            "Mutate": "ByRefineryPhase",
+            "Default": 0,
+            "PipesConnected": -2409
+          },
+          "D": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段一"
+            },
+            ">=": 1,
+            "Then": -200,
+            "Else": 0
+          },
+          "E": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段二"
+            },
+            ">=": 1,
+            "Then": -200,
+            "Else": 0
+          },
+          "F": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段三"
+            },
+            ">=": 1,
+            "Then": -300,
+            "Else": 0
+          }
+        },
+        "max": {
+          "Mutate": "Add",
+          "A": 2559,
+          "B": {
+            "Mutate": "ByMissionType",
+            "Default": 0,
+            "DeepScan": -2559
+          },
+          "C": {
+            "Mutate": "ByRefineryPhase",
+            "Default": 0,
+            "PipesConnected": -2559
+          },
+          "D": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段一"
+            },
+            ">=": 1,
+            "Then": -200,
+            "Else": 0
+          },
+          "E": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段二"
+            },
+            ">=": 1,
+            "Then": -200,
+            "Else": 0
+          },
+          "F": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段三"
+            },
+            ">=": 1,
+            "Then": -300,
+            "Else": 0
+          }
+        }
+      }
+    ],
+    "EnemyDiversity": [
+      {
+        "weight": 1,
+        "min": 119,
+        "max": 139
+      }
+    ],
+    "StationaryEnemyDiversity": [
+      {
+        "weight": 1,
+        "min": 39,
+        "max": 39
+      }
+    ],
+    "VeteranNormal": [
+      {
+        "weight": 0.9,
+        "min": 0.5,
+        "max": 0.8
+      },
+      {
+        "weight": 0.1,
+        "min": 0.8,
+        "max": 1
+      }
+    ],
+    "VeteranLarge": [
+      {
+        "weight": 1,
+        "min": 0.339,
+        "max": 0.339
+      }
+    ],
+    "EnvironmentalDamageModifier": 1.6,
+    "PointExtractionScalar": 1.6,
+    "FriendlyFireModifier": 0.9,
+    "WaveStartDelayScale": 0,
+    "SpeedModifier": {
+      "Mutate": "Add",
+      "A": 1.55,
+      "B": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "母舰警告增益"
+        },
+        ">=": 1,
+        "Then": -0.1,
+        "Else": 0
+      },
+      "C": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "未知恶物事件"
+        },
+        ">=": 1,
+        "Then": 0.15,
+        "Else": 0
+      }
+    },
+    "AttackCooldownModifier": 2.5,
+    "ProjectileSpeedModifier": 2.6,
+    "HealthRegenerationMax": {
+      "Mutate": "ifFloat",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "ED": "巡游水母警告增益"
+      },
+      ">=": 1,
+      "Then": 1,
+      "Else": 0.18
+    },
+    "ReviveHealthRatio": {
+      "Mutate": "ifFloat",
+      "Value": {
+        "Mutate": "EnemyCount",
+        "ED": "巡游水母警告增益"
+      },
+      ">=": 1,
+      "Then": 0.6,
+      "Else": 0.18
+    }
+  },
+  "Enemies": {
+    "ED_ShootingPlant": {
+      "Significance": "瘟疫吐珠",
+      "MinSpawnCount": 1.5,
+      "MaxSpawnCount": 1.5,
+      "Resistances": {
+        "FireDamageMultiplier": 2.45,
+        "KineticDamageMultiplier": 1.55
+      },
+      "Temperature": {
+        "FreezeTemperature": -40
+      }
+    },
+    "寒霜瘟疫吐珠": {
+      "Base": "ED_ShootingPlant",
+      "Significance": "寒霜瘟疫吐珠",
+      "DisplayName": "寒霜瘟疫吐珠",
+      "DifficultyRating": 100,
+      "MinSpawnCount": 0.5,
+      "MaxSpawnCount": 0.5,
+      "Projectile": "PRJ_Cryocannon_C",
+      "AttackDamageMultiplier": 0.05,
+      "Materials": [
+        "M_Xmas_LightBlue",
+        "M_Light_BlueX20",
+        "M_Light_BlueX20"
+      ],
+      "Resistances": {
+        "FireDamageMultiplier": 2.45,
+        "KineticDamageMultiplier": 1.55
+      },
+      "Temperature": {
+        "FreezeTemperature": -40
+      }
+    },
+    "ED_FacilityTurret_Burst": {
+      "Base": "ED_FacilityTurret_Burst",
+      "Significance": "火箭发射平台",
+      "DisplayName": "火箭发射平台",
+      "DifficultyRating": 40,
+      "Projectile": "PRJ_MicroMissile_Buck_C",
+      "AttackDamageMultiplier": 0.08,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 2,
+      "Materials": [
+        "M_Facility_Base02",
+        "M_Facility_Base01",
+        "M_Facility_Light_Lines",
+        "M_Facility_Light_DataCore02"
+      ],
+      "Resistances": {
+        "ColdDamageMultiplier": 2.39,
+        "PhysicalDamageMultiplier": 39,
+        "PiercingDamageMultiplier": 39,
+        "FireDamageMultiplier": 2.39,
+        "KineticDamageMultiplier": 11
+      }
+    },
+    "ED_BarrageInfector": {
+      "Significance": "瘟疫霰射吐珠",
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 1,
+      "Resistances": {
+        "DamageMultiplier": 2.2
+      },
+      "Temperature": {
+        "FreezeTemperature": -40,
+        "UnfreezeTemperature": 0
+      }
+    },
+    "灰烬霰射吐珠": {
+      "Base": "ED_BarrageInfector",
+      "Significance": "灰烬霰射吐珠",
+      "DisplayName": "灰烬霰射吐珠",
+      "DifficultyRating": 160,
+      "MinSpawnCount": 0.5,
+      "MaxSpawnCount": 0.5,
+      "TimeDilation": 0.8,
+      "AttackDamageMultiplier": 0.6,
+      "Projectile": "PRJ_Boss_Twin_Stomp_C",
+      "Resistances": {
+        "DamageMultiplier": 2.4
+      },
+      "Materials": [
+        "M_Uplink_Metal02",
+        "M_Bosco_PJ_AbyssalFrost",
+        "M_RockCracksGlowing_Inst",
+        "M_RockCracksGlowing_Inst",
+        "M_Bosco_PJ_AbyssalFrost",
+        "M_Light_BlueX20"
+      ],
+      "Temperature": {
+        "FreezeTemperature": -40,
+        "UnfreezeTemperature": 0
+      }
+    },
+    "ED_CaveLeech": {
+      "MaxSpawnCount": 4,
+      "MinSpawnCount": 4
+    },
+    "ED_SpiderSpawner": {
+      "Significance": "母巢",
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 2,
+      "Resistances": {
+        "FireDamageMultiplier": 1.5,
+        "DamageMultiplier": 1.5
+      },
+      "Temperature": {
+        "WarmingRate": 2.5
+      }
+    },
+    "ED_Spider_Spawn": {
+      "Significance": "母巢生产红蜂拥,1.05倍移动速度",
+      "Base": "ED_Spider_Swarmer_Pheromone_NOFX",
+      "Heal": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "LOP异虫复制器警告增益"
+        },
+        ">=": 1,
+        "Then": -20,
+        "Else": 0
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.05,
+        "StrafeSpeed": 1.05,
+        "MaxStrafeDistance": 1.05,
+        "AlignDirectionSpeed": 1.05,
+        "MaxAcceleration": 1.05
+      },
+      "Temperature": {
+        "FreezeTemperature": -5
+      }
+    },
+    "ED_Prospector": {
+      "Significance": "勘探无人机",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 200,
+      "TimeDilation": 0.1,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 24,
+      "Materials": [
+        "M_Donkey_Paint_Blue",
+        "M_Bosco_PJ_AbyssalFrost",
+        "M_Light_BlueX20",
+        "M_Facility_Light_Weakpoint",
+        "M_Facility_Light_Weakpoint",
+        "M_Light_BlueX20"
+      ],
+      "Resistances": {
+        "DamageMultiplier": 39,
+        "RadiationDamageMultiplier": 39
+      }
+    },
+    "ED_Spider_Hoarder": {
+      "Base": "ED_Spider_Hoarder",
+      "Significance": "嗜矿异虫，击杀后获得增益",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DisplayName": "说破无毒",
+      "Scale": 3,
+      "DifficultyRating": 150,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 15,
+      "Materials": [
+        "M_Greybox_Light_RedX200",
+        "M_Greybox_Light_RedX200"
+      ],
+      "Resistances": {
+        "DamageMultiplier": 0.1,
+        "ExplosionDamageMultiplier": 129,
+        "KineticDamageMultiplier": 165
+      },
+      "Spawner": {
+        "ED": "增益指示器",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 0,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "增益指示器": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "Significance": "增益剩余时间",
+      "DisplayName": "增益剩余时间",
+      "Materials": [
+        "M_Greybox_Light_RedX200",
+        "M_Greybox_Light_RedX200"
+      ],
+      "IsBossFight": true,
+      "HealthRaw": 60000,
+      "Heal": -800,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "ED_Bomber": {
+      "Base": "ED_Bomber",
+      "Significance": "粘液轰炸蝇",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 60,
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 2,
+      "Rarity": 10,
+      "Resistances": {
+        "DamageMultiplier": 2
+      },
+      "Temperature": {
+        "FreezeTemperature": -240
+      }
+    },
+    "ED_Bomber_Ice": {
+      "Base": "ED_Bomber_Ice",
+      "Significance": "冰霜轰炸蝇",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 65,
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 2,
+      "Rarity": 10,
+      "Resistances": {
+        "ColdDamageMultiplier": 4.5,
+        "ExplosionDamageMultiplier": 2.39,
+        "FireDamageMultiplier": 2.39,
+        "PoisonDamageMultiplier": 6
+      },
+      "Temperature": {
+        "FreezeTemperature": -240
+      }
+    },
+    "ED_Bomber_Explosive": {
+      "Base": "ED_Bomber_Explosive",
+      "Significance": "火焰轰炸蝇",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 70,
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 2,
+      "Rarity": 15,
+      "Resistances": {
+        "ColdDamageMultiplier": 4.5,
+        "ExplosionDamageMultiplier": 2.39,
+        "FireDamageMultiplier": 2.39,
+        "PoisonDamageMultiplier": 6
+      },
+      "Temperature": {
+        "FreezeTemperature": -200
+      }
+    },
+    "瘟疫轰炸蝇": {
+      "Base": "ED_Bomber_Explosive",
+      "Significance": "瘟疫轰炸蝇",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DisplayName": "瘟疫轰炸蝇",
+      "ForceEliteBase": "ED_Grabber",
+      "Elite": true,
+      "Projectile": "PRJ_StaticBomber_C",
+      "DifficultyRating": 100,
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 1,
+      "Rarity": 10,
+      "Materials": [
+        "M_Cave_Urchin",
+        "M_Flier_Bomber_Exploder_Sacks",
+        "M_PatrolBot_Status_Light",
+        "M_Flier_Bomber_Exploder_Hard"
+      ],
+      "Resistances": {
+        "DamageMultiplier": 0.8,
+        "ColdDamageMultiplier": 8
+      }
+    },
+    "ED_PatrolBot": {
+      "Significance": "飞天机气人",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 39,
+      "TimeDilation": 0.8,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 15,
+      "Resistances": {
+        "ElectricDamageMultiplier": 7,
+        "ExplosionDamageMultiplier": 6,
+        "FireDamageMultiplier": 2,
+        "KineticDamageMultiplier": 7,
+        "PhysicalDamageMultiplier": 9,
+        "PoisonDamageMultiplier": 9,
+        "RadiationDamageMultiplier": 6
+      },
+      "Temperature": {
+        "BurnTemperature": 50,
+        "FreezeTemperature": -60,
+        "DieIfFrozen": true
+      }
+    },
+    "ED_Woodlouse": {
+      "Significance": "黑滚滚",
+      "Resistances": {
+        "DamageMultiplier": 1.85
+      }
+    },
+    "ED_Spider_Swarmer": {
+      "Significance": "蜂拥",
+      "Heal": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "LOP异虫复制器警告增益"
+        },
+        ">=": 1,
+        "Then": -20,
+        "Else": 0
+      }
+    },
+    "ED_TunnelSwarmer": {
+      "Significance": "隧洞生成自爆",
+      "Base": "ED_Spider_Exploder",
+      "IdealSpawnSize": 25,
+      "MaxSpawnCount": 25,
+      "MinSpawnCount": 25
+    },
+    "NOFX": {
+      "Base": "ED_Spider_Swarmer_Pheromone_NOFX",
+      "Significance": "红蜂拥",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 15,
+      "IdealSpawnSize": 12,
+      "MaxSpawnCount": 15,
+      "MinSpawnCount": 10,
+      "Heal": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "LOP异虫复制器警告增益"
+        },
+        ">=": 1,
+        "Then": -20,
+        "Else": 0
+      },
+      "Rarity": 10,
+      "Temperature": {
+        "FreezeTemperature": -5
+      }
+    },
+    "ED_Crawler": {
+      "Significance": "吗喽",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 30,
+      "IdealSpawnSize": 5,
+      "MaxSpawnCount": 6,
+      "MinSpawnCount": 5,
+      "Rarity": 15,
+      "Resistances": {
+        "FireDamageMultiplier": 3
+      }
+    },
+    "ED_FlyingSmartRock": {
+      "Significance": "奥魔兰茧",
+      "DisplayName": "奥魔兰茧",
+      "HealthRaw": 8000,
+      "Heal": -1000,
+      "Spawner": {
+        "ED": "奥魔兰精英",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1
+      }
+    },
+    "奥魔兰精英": {
+      "Base": "ED_Jelly_Swarmer",
+      "CustomVeterans": {
+        "奥魔兰三颚异虫蝇": 0.4,
+        "奥魔兰吐酸异虫": 0.2,
+        "奥魔兰刀锋异虫": 0.4
+      }
+    },
+    "奥魔兰刀锋异虫": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "Significance": "奥魔兰刀锋异虫",
+      "DisplayName": "奥魔兰刀锋异虫",
+      "Elite": true,
+      "Materials": [
+        "M_ButterFly_Body",
+        "M_EscortShellLayer4",
+        "M_ButterFly_Body"
+      ],
+      "Resistances": {
+        "ColdDamageMultiplier": 8,
+        "ExplosionDamageMultiplier": 3,
+        "FireDamageMultiplier": 4,
+        "KineticDamageMultiplier": 2.5,
+        "PhysicalDamageMultiplier": 3,
+        "RadiationDamageMultiplier": 4
+      }
+    },
+    "奥魔兰吐酸异虫": {
+      "Base": "ED_Spider_Shooter",
+      "Significance": "奥魔兰吐酸异虫",
+      "DisplayName": "奥魔兰吐酸异虫",
+      "Elite": true,
+      "Materials": [
+        "M_ButterFly_Body",
+        "M_EscortShellLayer4"
+      ],
+      "Resistances": {
+        "ColdDamageMultiplier": 8,
+        "ExplosionDamageMultiplier": 2.5,
+        "FireDamageMultiplier": 3.5,
+        "KineticDamageMultiplier": 2.5,
+        "PhysicalDamageMultiplier": 3,
+        "RadiationDamageMultiplier": 4
+      }
+    },
+    "奥魔兰三颚异虫蝇": {
+      "Base": "ED_Mactera_TripleShooter",
+      "Significance": "奥魔兰三颚异虫蝇",
+      "DisplayName": "奥魔兰三颚异虫蝇",
+      "Elite": true,
+      "Materials": [
+        "M_EscortShellLayer4",
+        "M_EscortShellLayer4",
+        "M_ButterFly_Body"
+      ],
+      "Resistances": {
+        "ColdDamageMultiplier": 20,
+        "ExplosionDamageMultiplier": 3,
+        "FireDamageMultiplier": 4,
+        "KineticDamageMultiplier": 3,
+        "PhysicalDamageMultiplier": 4,
+        "RadiationDamageMultiplier": 10
+      }
+    },
+    "ED_Spider_Grunt_Attacker_Elite": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "Significance": "精英刀锋",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 30,
+      "IdealSpawnSize": 5,
+      "MaxSpawnCount": 6,
+      "MinSpawnCount": 4,
+      "Rarity": 10,
+      "Elite": true,
+      "Resistances": {
+        "ElectricDamageMultiplier": 2,
+        "ExplosionDamageMultiplier": 2.5,
+        "FireDamageMultiplier": 3.5,
+        "InternalDamageMultiplier": 2,
+        "KineticDamageMultiplier": 2.5,
+        "PhysicalDamageMultiplier": 3,
+        "PoisonDamageMultiplier": 7,
+        "RadiationDamageMultiplier": 3
+      },
+      "Temperature": {
+        "FreezeTemperature": -15,
+        "UnfreezeTemperature": 0,
+        "WarmingRate": 5
+      }
+    },
+    "ED_Spider_Grunt_Guard_Elite": {
+      "Base": "ED_Spider_Grunt_Guard",
+      "Significance": "精英护卫",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 30,
+      "IdealSpawnSize": 5,
+      "MaxSpawnCount": 4,
+      "MinSpawnCount": 3,
+      "Rarity": 10,
+      "Elite": true,
+      "Resistances": {
+        "ElectricDamageMultiplier": 2,
+        "ExplosionDamageMultiplier": 2.5,
+        "FireDamageMultiplier": 3.5,
+        "InternalDamageMultiplier": 1,
+        "KineticDamageMultiplier": 2.5,
+        "PhysicalDamageMultiplier": 4,
+        "PoisonDamageMultiplier": 9,
+        "RadiationDamageMultiplier": 3
+      },
+      "Temperature": {
+        "FreezeTemperature": -15,
+        "UnfreezeTemperature": 0,
+        "WarmingRate": 5
+      }
+    },
+    "ED_Spider_Tank_Ice": {
+      "Significance": "冰霜禁卫",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 60,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 30,
+      "Resistances": {
+        "FireDamageMultiplier": 2.39,
+        "ExplosionDamageMultiplier": 2.39
+      },
+      "Temperature": {
+        "FreezeTemperature": -120,
+        "UnfreezeTemperature": -80,
+        "WarmingRate": 8
+      }
+    },
+    "ED_Spider_Tank_Heavy": {
+      "Base": "ED_Spider_Tank_HeavySpawn",
+      "Significance": "哨卫异虫",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 70,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 15,
+      "Resistances": {
+        "FireDamageMultiplier": 3
+      },
+      "Temperature": {
+        "FreezeTemperature": -155,
+        "UnfreezeTemperature": -120,
+        "WarmingRate": 8
+      }
+    },
+    "ED_Spider_Tank_Mutated": {
+      "Significance": "辐射禁卫",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 65,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 25,
+      "Resistances": {
+        "ExplosionDamageMultiplier": 2.39,
+        "FireDamageMultiplier": 3
+      },
+      "Temperature": {
+        "FreezeTemperature": -120,
+        "UnfreezeTemperature": -80,
+        "WarmingRate": 8
+      }
+    },
+    "ED_Spider_Tank_RockpoxPlague": {
+      "Significance": "岩痘禁卫",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 55,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 25,
+      "Resistances": {
+        "DamageMultiplier": 1.3
+      },
+      "Temperature": {
+        "FreezeTemperature": -120,
+        "UnfreezeTemperature": -80,
+        "WarmingRate": 8
+      }
+    },
+    "ED_Spider_Tank": {
+      "Significance": "禁卫异虫",
+      "Temperature": {
+        "FreezeTemperature": -120,
+        "UnfreezeTemperature": -80,
+        "WarmingRate": 8
+      }
+    },
+    "ED_Spider_ShieldTank": {
+      "Significance": "暴君,近战抗性较低",
+      "Resistances": {
+        "PhysicalDamageMultiplier": 3
+      },
+      "Temperature": {
+        "FreezeTemperature": -200,
+        "UnfreezeTemperature": -150,
+        "WarmingRate": 45
+      }
+    },
+    "ED_Spider_Buffer": {
+      "Significance": "典狱长",
+      "Temperature": {
+        "FreezeTemperature": -60,
+        "WarmingRate": 5
+      }
+    },
+    "ED_Spider_RapidShooter": {
+      "Significance": "速射异虫，削弱抗性",
+      "Resistances": {
+        "FireDamageMultiplier": 1.5,
+        "DamageMultiplier": 1.5
+      },
+      "Temperature": {
+        "WarmingRate": 5
+      }
+    },
+    "ED_Spider_Shooter": {
+      "Significance": "吐酸异虫",
+      "Temperature": {
+        "FreezeTemperature": -40,
+        "WarmingRate": 0.39
+      }
+    },
+    "ED_Spider_Spitter": {
+      "Significance": "吐丝异虫",
+      "Temperature": {
+        "FreezeTemperature": -30,
+        "WarmingRate": 0.39
+      }
+    },
+    "ED_Mactera_Shooter_Normal": {
+      "Significance": "吐刺蝇",
+      "Temperature": {
+        "FreezeTemperature": -60,
+        "WarmingRate": 0.39
+      }
+    },
+    "ED_Mactera_Shooter_HeavyVeteran": {
+      "Significance": "坚甲蝇",
+      "Temperature": {
+        "FreezeTemperature": -70,
+        "WarmingRate": 0.39
+      }
+    },
+    "ED_Mactera_TripleShooter": {
+      "Significance": "三颚蝇",
+      "Temperature": {
+        "FreezeTemperature": -80,
+        "WarmingRate": 0.39
+      }
+    },
+    "ED_Grabber": {
+      "Significance": "捕手蝇",
+      "Temperature": {
+        "FreezeTemperature": -80,
+        "WarmingRate": 0.39
+      }
+    },
+    "ED_JellyBreeder_RockpoxPlague": {
+      "Significance": "岩痘水母，流速较高",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 39,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 3,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "增益指示器"
+        },
+        ">": 0,
+        "Then": -100,
+        "Else": 0
+      },
+      "Scale": 2,
+      "TimeDilation": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Bytime"
+        },
+        ">": 600,
+        "Then": 2,
+        "Else": 1
+      },
+      "Resistances": {
+        "DamageMultiplier": 6.39
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0.6,
+        "MaxStrafeDistance": 0.6,
+        "AlignDirectionSpeed": 0.6,
+        "MaxAcceleration": 0.6
+      }
+    },
+    "ED_PlagueLarva": {
+      "Significance": "Swarmer",
+      "Base": "ED_Spider_Swarmer_Pheromone_NOFX",
+      "DisplayName": "寒霜蜂拥异虫",
+      "Heal": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "LOP异虫复制器警告增益"
+        },
+        ">=": 1,
+        "Then": -20,
+        "Else": 0
+      },
+      "Materials": [
+        "M_Bosco_PJ_AbyssalFrost"
+      ],
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -5
+      }
+    },
+    "ED_PumpkinLootBug_Helper": {
+      "Base": "ED_PumpkinLootBug",
+      "Significance": "支援猫猫虫，提供硝石",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DisplayName": "支援猫猫虫",
+      "DifficultyRating": 10,
+      "IdealSpawnSize": 3,
+      "Scale": 1.2,
+      "MaxSpawnCount": 5,
+      "MinSpawnCount": 3,
+      "Rarity": 15,
+      "Materials": [
+        "M_WPN_PistolGrapplinggun_Metal03",
+        "M_ShieldGen_Lights"
+      ]
+    },
+    "ED_Spider_Grunt_RockpoxPlague": {
+      "Significance": "岩痘战士",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 40,
+      "IdealSpawnSize": 6,
+      "MaxSpawnCount": 6,
+      "MinSpawnCount": 3,
+      "Rarity": 20,
+      "Movement": {
+        "MaxPawnSpeed": 1.39,
+        "MaxStrafeDistance": 1.39,
+        "AlignDirectionSpeed": 1.39,
+        "MaxAcceleration": 1.39
+      },
+      "Resistances": {
+        "ExplosionDamageMultiplier": 1.39
+      },
+      "Temperature": {
+        "FreezeTemperature": -25,
+        "WarmingRate": 5
+      }
+    },
+    "ED_Spider_Shooter_Rockpox_Plague": {
+      "Significance": "岩痘吐酸",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 35,
+      "IdealSpawnSize": 3,
+      "MaxSpawnCount": 3,
+      "MinSpawnCount": 1,
+      "Rarity": 20,
+      "Resistances": {
+        "ExplosionDamageMultiplier": 2.39
+      },
+      "Temperature": {
+        "FreezeTemperature": -25,
+        "WarmingRate": 5
+      }
+    },
+    "ED_Spider_ExploderTank": {
+      "Significance": "精英大自爆",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "IsBossFight": true,
+      "DifficultyRating": 399,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 30,
+      "Elite": true,
+      "Resistances": {
+        "DamageMultiplier": 2.6,
+        "FireDamageMultiplier": 2.39
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -300,
+        "UnfreezeTemperature": -200,
+        "WarmingRate": 30
+      }
+    },
+    "酸性环境警告": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 2000,
+      "Heal": -100,
+      "DisplayName": "警告:检测到环境酸性浓度上升",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "酸性环境": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 12000,
+      "Heal": -100,
+      "DisplayName": "警告:酸性环境",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "酸性环境警告增益": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 12000,
+      "Heal": -100,
+      "DisplayName": "环境浓度平衡中",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "未知恶物事件警告": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 2000,
+      "Heal": -100,
+      "DisplayName": "警告:检测到电磁干扰",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "未知恶物事件": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 10000,
+      "Heal": -100,
+      "DisplayName": "检çæ测œˆè到 å¥½½å­ä¹¤¤å ",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "未知恶物": {
+      "Base": "ED_Spider_Grunt_Guard",
+      "DisplayName": "未知恶物",
+      "HealthRaw": 680,
+      "Heal": -2,
+      "Materials": [
+        "M_Scout_PJ_SubtleShadow_Cloth",
+        "M_AllBlack",
+        "M_AllBlack"
+      ],
+      "Resistances": {
+        "FireDamageMultiplier": 3,
+        "DamageMultiplier": 2.4
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.3,
+        "MaxStrafeDistance": 1.3,
+        "AlignDirectionSpeed": 1.3,
+        "MaxAcceleration": 1.3
+      }
+    },
+    "未知恶物警告增益": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 6000,
+      "Heal": -100,
+      "DisplayName": "未知恶物增益[补给消耗减少]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "巡游水母事件警告": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 2000,
+      "Heal": -100,
+      "DisplayName": "警告:巡游水母即将抵达",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "巡游水母": {
+      "Base": "ED_JellyBreeder",
+      "Scale": 1.5,
+      "HealthRaw": 9500,
+      "DisplayName": "巡游水母",
+      "Heal": -6,
+      "IsBossFight": true,
+      "Projectile": "PRJ_Spider_Tank_Boss_Eggshot_C",
+      "TimeDilation": 0.8,
+      "Materials": [
+        "M_ChargeBlaster_Default",
+        "M_Greybox_Forcefield_Horisontal",
+        "M_DamageEnhancer_Field_ProgressBAr",
+        "M_Slug_Skin",
+        "M_Facility_Light_Weakpoint",
+        "M_Facility_Light_Weakpoint",
+        "M_Facility_Light_Weakpoint",
+        "M_Facility_Light_Weakpoint"
+      ],
+      "Resistances": {
+        "DamageMultiplier": 12
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.3,
+        "MaxStrafeDistance": 1.3,
+        "AlignDirectionSpeed": 1.3,
+        "MaxAcceleration": 1.3
+      }
+    },
+    "巡游水母警告增益": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 9000,
+      "Heal": -100,
+      "DisplayName": "巡游水母增益[生命回复上限增加]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "ED_Spider_Swarmer_Pheromone_NOFX": {
+      "Significance": "巡游者",
+      "MaxSpawnCount": 10,
+      "MinSpawnCount": 10,
+      "CustomVeterans": {
+        "巡游者刀锋": 0.3,
+        "巡游者水母": 0.6,
+        "巡游者吐酸异虫": 0.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -5
+      }
+    },
+    "巡游者刀锋": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "Significance": "巡游者刀锋",
+      "DisplayName": "巡游者刀锋异虫",
+      "Materials": [
+        "M_Greybox_Forcefield_Horisontal",
+        "M_Greybox_Forcefield_Horisontal",
+        "M_DamageEnhancer_Field_ProgressBAr"
+      ]
+    },
+    "巡游者水母": {
+      "Base": "ED_Jelly_Swarmer",
+      "Significance": "巡游者水母",
+      "DisplayName": "巡游者水母",
+      "Materials": [
+        "M_Greybox_Forcefield_Horisontal",
+        "M_Greybox_Forcefield_Horisontal",
+        "M_DamageEnhancer_Field_ProgressBAr",
+        "M_Greybox_Forcefield_Horisontal"
+      ]
+    },
+    "巡游者吐酸异虫": {
+      "Base": "ED_Spider_Shooter",
+      "Significance": "巡游者吐酸异虫",
+      "DisplayName": "巡游者吐酸异虫",
+      "Projectile": "PRJ_PatrolBotLaser_Flying_C",
+      "AttackDamageMultiplier": 0.3,
+      "Materials": [
+        "M_Greybox_Forcefield_Horisontal",
+        "M_DamageEnhancer_Field_ProgressBAr"
+      ]
+    },
+    "LOP复制器事件警告": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 2000,
+      "Heal": -100,
+      "DisplayName": "警告:LOP复制器即将抵达",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "LOP异虫复制器": {
+      "DifficultyRating": 10,
+      "Base": "ED_Terminator",
+      "Scale": 2.5,
+      "HealthRaw": 14000,
+      "Heal": -6,
+      "DisplayName": "LOP异虫复制器",
+      "IsBossFight": true,
+      "Materials": [
+        "M_Gatling_BarrelOverheatNew",
+        "M_CaveHolo_Transition",
+        "M_CaveHolo_Transition",
+        "M_Slug_Skin",
+        "M_Facility_Light_Weakpoint",
+        "M_Facility_Light_Weakpoint",
+        "M_Facility_Light_Weakpoint",
+        "M_Facility_Light_Weakpoint"
+      ],
+      "Resistances": {
+        "DamageMultiplier": 25
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0.01,
+        "MaxStrafeDistance": 0.01,
+        "AlignDirectionSpeed": 0.01,
+        "MaxAcceleration": 0.01
+      },
+      "Spawner": {
+        "ED": "LOP异虫复制器警告增益",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": {
+          "Mutate": "ifFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "LOP倒计时"
+          },
+          "<": 1,
+          "Then": 0,
+          "Else": 1
+        }
+      }
+    },
+    "LOP倒计时": {
+      "Base": "ED_Spider_Drone",
+      "DifficultyRating": 10,
+      "Scale": 0,
+      "HealthRaw": 9000,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "LOP异虫复制器"
+        },
+        "<": 1,
+        "Then": -2000,
+        "Else": -100
+      },
+      "DisplayName": "LOP复制即将到来",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "LOP异虫",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": {
+          "Mutate": "ifFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "LOP异虫复制器"
+          },
+          "<": 1,
+          "Then": 0,
+          "Else": 140
+        }
+      }
+    },
+    "LOP异虫": {
+      "Base": "ED_Jelly_Swarmer",
+      "CustomVeterans": {
+        "LOP战士": 0.5,
+        "LOP护卫": 0.3,
+        "LOP刀锋": 0.2
+      }
+    },
+    "LOP战士": {
+      "Base": "ED_Spider_Grunt",
+      "Significance": "LOP战士",
+      "DisplayName": "LOP战士",
+      "Materials": [
+        "M_WPN_ChargeBlaster_A_Light",
+        "M_DamageEnhancer_Field"
+      ]
+    },
+    "LOP护卫": {
+      "Base": "ED_Spider_Grunt_Guard",
+      "Significance": "LOP护卫",
+      "DisplayName": "LOP护卫",
+      "Materials": [
+        "M_WPN_ChargeBlaster_A_Light",
+        "M_WPN_ChargeBlaster_A_Light",
+        "M_DamageEnhancer_Field"
+      ]
+    },
+    "LOP刀锋": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "Significance": "LOP刀锋",
+      "DisplayName": "LOP刀锋",
+      "Materials": [
+        "M_WPN_ChargeBlaster_A_Light",
+        "M_WPN_ChargeBlaster_A_Light",
+        "M_DamageEnhancer_Field"
+      ]
+    },
+    "LOP异虫复制器警告增益": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 9000,
+      "Heal": -100,
+      "DisplayName": "异虫复制器增益[蜂拥异虫已清除]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "母舰事件警告": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 2000,
+      "Heal": -100,
+      "DisplayName": "警告:母舰即将抵达",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "母舰": {
+      "Base": "ED_Terminator",
+      "Significance": "母舰持续生成舰载机,在护卫舰被摧毁前无敌.母舰被摧毁后获得持续一分钟增益[补给消耗减少至40,异虫移动速度减缓至1.45] ",
+      "Scale": 1.8,
+      "Heal": -5,
+      "HealthRaw": 9800,
+      "DisplayName": "母舰",
+      "IsBossFight": true,
+      "Materials": [
+        "M_ChargeBlaster_Default",
+        "M_Greybox_Forcefield_Horisontal",
+        "M_DamageEnhancer_Field_ProgressBAr",
+        "M_Slug_Skin",
+        "M_Facility_Light_Weakpoint",
+        "M_Facility_Light_Weakpoint",
+        "M_Facility_Light_Weakpoint",
+        "M_Facility_Light_Weakpoint"
+      ],
+      "Resistances": {
+        "DamageMultiplier": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "护卫舰"
+          },
+          ">": 0,
+          "Then": 0.1,
+          "Else": 20
+        }
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0.01,
+        "MaxStrafeDistance": 0.01,
+        "AlignDirectionSpeed": 0.01,
+        "MaxAcceleration": 0.01
+      },
+      "Spawner": {
+        "ED": "舰载机",
+        "OnSpawnDelay": 10,
+        "IntervalSpawnCount": 15,
+        "Interval": 7,
+        "OnDeathCount": 35,
+        "MaxSpawns": 35,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "舰载机": {
+      "Base": "ED_Shredder",
+      "Scale": 1.2,
+      "DisplayName": "舰载机",
+      "Materials": [
+        "M_FuelLine_Light01",
+        "M_Facility_Metal01",
+        "M_Light_BlueX20"
+      ]
+    },
+    "护卫舰": {
+      "Base": "ED_PatrolBot_Caretaker",
+      "DifficultyRating": 1,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 2,
+      "Scale": 1.8,
+      "HealthRaw": 1200,
+      "Heal": -3,
+      "TimeDilation": 1,
+      "DisplayName": "护卫舰",
+      "IsBossFight": true,
+      "Projectile": "PRJ_SentryOvercharge_Projectile_C",
+      "AttackDamageMultiplier": 0.04,
+      "Materials": [
+        "M_DamageEnhancer_Field_ProgressBAr",
+        "M_DamageEnhancer_Field",
+        "M_DamageEnhancer_Field_ProgressBAr",
+        "M_DamageEnhancer_Field_ProgressBAr",
+        "M_DamageEnhancer_Field_ProgressBAr"
+      ],
+      "Resistances": {
+        "ColdDamageMultiplier": 1.4,
+        "DamageMultiplier": 3
+      }
+    },
+    "母舰警告增益": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 6000,
+      "Heal": -100,
+      "DisplayName": "母舰增益[补给消耗减少]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "《選別》": {
+      "Base": "ED_Spider_Shooter",
+      "Significance": "《選別》精英吐酸 每三分半生成一只 生命值9500，发射物为鞭策",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DisplayName": "《選別》",
+      "Projectile": "PRJ_SentryOvercharge_Projectile_C",
+      "IsBossFight": true,
+      "AttackDamageMultiplier": 0.08,
+      "Elite": true,
+      "Scale": 1.3,
+      "TimeDilation": 0.6,
+      "ForceEliteBase": "ED_Grabber",
+      "Materials": [
+        "M_Biome_Azure_MagicRock_Terrain",
+        "M_Refrigerator_Chrome"
+      ],
+      "DifficultyRating": 339,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 30,
+      "HealthRaw": 8500,
+      "Resistances": {
+        "CorrosiveDamageMultiplier": 6,
+        "ElectricDamageMultiplier": 6,
+        "ExplosionDamageMultiplier": 18,
+        "FireDamageMultiplier": 36,
+        "InternalDamageMultiplier": 6,
+        "KineticDamageMultiplier": 6,
+        "PhysicalDamageMultiplier": 10,
+        "PoisonDamageMultiplier": 14,
+        "RadiationDamageMultiplier": 7
+      },
+      "Movement": {
+        "MaxPawnSpeed": 0.8,
+        "StrafeSpeed": 0.8,
+        "MaxStrafeDistance": 0.8,
+        "AlignDirectionSpeed": 0.8,
+        "MaxAcceleration": 0.8
+      },
+      "Temperature": {
+        "FreezeTemperature": -40,
+        "UnfreezeTemperature": -20,
+        "WarmingRate": 8
+      }
+    },
+    "盾卫异虫": {
+      "Base": "ED_Spider_Tank",
+      "Significance": "盾卫异虫,死亡生成15只护卫异虫",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 80,
+      "Scale": 1.3,
+      "DisplayName": "盾卫异虫",
+      "Materials": [
+        "M_Bosco_PJ_CyberNinja",
+        "M_Biome_AzureWeald_Rockformations_Terrain"
+      ],
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 1,
+      "Rarity": 10,
+      "Resistances": {
+        "DamageMultiplier": 1.8
+      },
+      "Spawner": {
+        "ED": "ED_Spider_Grunt_Guard",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 15,
+        "MaxSpawns": 15,
+        "OnDeathKillSpawns": false
+      },
+      "Temperature": {
+        "FreezeTemperature": -120,
+        "UnfreezeTemperature": -80,
+        "WarmingRate": 8
+      }
+    },
+    "《自戒》": {
+      "Base": "ED_Spider_Stinger",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "Significance": "《自戒》",
+      "DifficultyRating": 950,
+      "Scale": 1.3,
+      "HealthRaw": 3500,
+      "Heal": -20,
+      "IsBossFight": true,
+      "DisplayName": "《自戒》",
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 1,
+      "Rarity": 20,
+      "Materials": [
+        "M_Mug_Metalic_White",
+        "M_Snowflake_White",
+        "M_Biome_AzureWeald_Flower_OrkidWhite",
+        "M_Bosco_PJ_AbyssalFrost"
+      ],
+      "Resistances": {
+        "DamageMultiplier": 1.2
+      }
+    },
+    "失色刀锋异虫": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "Significance": "失色刀锋异虫,受到非元素伤害降低",
+      "DisplayName": "失色刀锋异虫",
+      "HealthRaw": 280,
+      "Rarity": 5,
+      "Materials": [
+        "M_Snowflake_White",
+        "M_Snowflake_White",
+        "M_SpaceRig_LightMachinery_White"
+      ],
+      "Resistances": {
+        "ColdDamageMultiplier": 20,
+        "KineticDamageMultiplier": 0.8,
+        "PhysicalDamageMultiplier": 0.8,
+        "ExplosionDamageMultiplier": 2.39,
+        "FireDamageMultiplier": 2.39,
+        "RadiationDamageMultiplier": 2.39
+      },
+      "Temperature": {
+        "FreezeTemperature": -1000
+      }
+    },
+    "失色禁卫异虫": {
+      "Base": "ED_Spider_Tank_Amber",
+      "Significance": "失色禁卫异虫,受到非元素伤害降低",
+      "DifficultyRating": 110,
+      "DisplayName": "失色禁卫异虫",
+      "HealthRaw": 940,
+      "Rarity": 15,
+      "Materials": [
+        "M_Snowflake_White",
+        "M_Snowflake_White"
+      ],
+      "Resistances": {
+        "ColdDamageMultiplier": 39,
+        "KineticDamageMultiplier": 0.8,
+        "PhysicalDamageMultiplier": 0.8,
+        "ExplosionDamageMultiplier": 6.69,
+        "FireDamageMultiplier": 6.69,
+        "RadiationDamageMultiplier": 6.69
+      },
+      "Temperature": {
+        "FreezeTemperature": -1000
+      }
+    },
+    "失色吐刺异虫蝇": {
+      "Base": "ED_Mactera_Shooter_HeavyVeteran",
+      "Significance": "失色吐刺异虫蝇,受到非元素伤害降低",
+      "DisplayName": "失色吐刺异虫蝇",
+      "DifficultyRating": 20,
+      "HealthRaw": 280,
+      "Rarity": 12,
+      "Materials": [
+        "M_Snowflake_White",
+        "M_SpaceRig_LightMachinery_White"
+      ],
+      "Resistances": {
+        "ColdDamageMultiplier": 12,
+        "KineticDamageMultiplier": 0.8,
+        "PhysicalDamageMultiplier": 0.8,
+        "ExplosionDamageMultiplier": 3.39,
+        "FireDamageMultiplier": 3.39,
+        "RadiationDamageMultiplier": 3.39
+      },
+      "Temperature": {
+        "FreezeTemperature": -1000
+      }
+    },
+    "《真紅》": {
+      "Base": "ED_Spider_Buffer",
+      "Significance": "《真紅》典狱长，抗性较高,随时间流失生命
+                        死亡后生成真紅遗产",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 539,
+      "HealthRaw": 5000,
+      "Scale": 1.5,
+      "Heal": -60,
+      "IsBossFight": true,
+      "DisplayName": "《真紅》",
+      "Elite": true,
+      "ForceEliteBase": "ED_Grabber",
+      "Materials": [
+        "M_Pickaxe_Guerrilla_S05",
+        "MP_HPC_Magma",
+        "M_Vanity_Headwear_HalfCyborgMask_S02",
+        "M_MuleInfected_LightFlood"
+      ],
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 1,
+      "Rarity": 10,
+      "Resistances": {
+        "DamageMultiplier": 2.4,
+        "ExplosionDamageMultiplier": 2.5,
+        "FireDamageMultiplier": 3.5,
+        "InternalDamageMultiplier": 2,
+        "KineticDamageMultiplier": 2.5,
+        "PhysicalDamageMultiplier": 3,
+        "RadiationDamageMultiplier": 3
+      },
+      "Spawner": {
+        "ED": "真紅遗产",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 120,
+        "MaxSpawns": 120,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "真紅遗产": {
+      "Base": "ED_Jelly_Swarmer",
+      "CustomVeterans": {
+        "ED_Spider_Grunt_Guard": 0.21,
+        "ED_Spider_Grunt_Attacker": 0.21,
+        "ED_Spider_Grunt": 0.41,
+        "NOFX": 0.15,
+        "ED_Crawler": 0.04,
+        "ED_Spider_Exploder": 0.03,
+        "ED_Spider_Tank": 0.02,
+        "ED_Spider_Tank_Ice": 0.01,
+        "ED_Bomber": 0.01,
+        "ED_Bomber_Ice": 0.005,
+        "ED_Bomber_Explosive": 0.005
+      }
+    },
+    "ED_Spider_Boss_TwinA_LES": {
+      "Base": "ED_Spider_Boss_TwinA",
+      "Significance": "强弩无畏,死亡生成氪石苍蝇",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 30,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Materials": [
+        "M_Refrigerator_Chrome"
+      ],
+      "Resistances": {
+        "ExplosionDamageMultiplier": 5.39,
+        "FireDamageMultiplier": 12,
+        "KineticDamageMultiplier": 4.39,
+        "PhysicalDamageMultiplier": 10,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.15,
+        "StrafeSpeed": 1.15,
+        "MaxStrafeDistance": 1.15,
+        "AlignDirectionSpeed": 1.15,
+        "MaxAcceleration": 1.15
+      },
+      "Temperature": {
+        "FreezeTemperature": -139,
+        "UnfreezeTemperature": -80,
+        "WarmingRate": 25
+      },
+      "Spawner": {
+        "ED": "强弩异虫蝇",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": {
+          "Mutate": "Add",
+          "A": 10,
+          "B": {
+            "Mutate": "ifFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "增益指示器"
+            },
+            ">=": 1,
+            "Then": -10,
+            "Else": 0
+          },
+          "C": {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "DuringDefend"
+            },
+            "Then": {
+              "Mutate": "ifFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "增益指示器"
+              },
+              ">=": 1,
+              "Then": 0,
+              "Else": -10
+            },
+            "Else": 0
+          }
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "强弩异虫蝇": {
+      "Base": "ED_Mactera_Shooter_HeavyVeteran",
+      "Significance": "强弩异虫蝇",
+      "DisplayName": "强弩异虫蝇",
+      "Materials": [
+        "M_Spider_Dreadnought_Twin_Shooter_Armor",
+        "M_Spider_Dreadnought_Twin_Shooter_Armor"
+      ]
+    },
+    "ED_Spider_Boss_TwinB_LES": {
+      "Significance": "重斧无畏,死亡生成重斧吐酸异虫",
+      "Base": "ED_Spider_Boss_TwinB",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 30,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 12,
+      "Materials": [
+        "M_Refrigerator_Chrome"
+      ],
+      "Resistances": {
+        "ExplosionDamageMultiplier": 5.39,
+        "FireDamageMultiplier": 11,
+        "KineticDamageMultiplier": 4,
+        "PhysicalDamageMultiplier": 10,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -139,
+        "UnfreezeTemperature": -80,
+        "WarmingRate": 25
+      },
+      "Spawner": {
+        "ED": "重斧吐酸异虫",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": {
+          "Mutate": "Add",
+          "A": 7,
+          "B": {
+            "Mutate": "ifFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "增益指示器"
+            },
+            ">=": 1,
+            "Then": -7,
+            "Else": 0
+          },
+          "C": {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "DuringDefend"
+            },
+            "Then": {
+              "Mutate": "ifFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "增益指示器"
+              },
+              ">=": 1,
+              "Then": 0,
+              "Else": -7
+            },
+            "Else": 0
+          }
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "重斧吐酸异虫": {
+      "Base": "ED_Spider_Shooter",
+      "Significance": "重斧吐酸异虫",
+      "DisplayName": "重斧吐酸异虫",
+      "AttackDamageMultiplier": 0.5,
+      "Materials": [
+        "M_Spider_Dreadnought_Twin_Melee_Legs",
+        "M_Spider_Dreadnought_Twin_Melee_Legs"
+      ]
+    },
+    "瘟疫强弩无畏": {
+      "Base": "ED_Spider_Boss_TwinA",
+      "Significance": "瘟疫强弩无畏,死亡生成脓毒",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DisplayName": "瘟疫强弩无畏",
+      "DifficultyRating": 30,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 18,
+      "Projectile": "PRJ_StaticBomber_C",
+      "Materials": [
+        "M_Refrigerator_Chrome",
+        "M_Dreadnaught_Heavy_Spawn_Body"
+      ],
+      "Resistances": {
+        "ExplosionDamageMultiplier": 5.39,
+        "FireDamageMultiplier": 12,
+        "KineticDamageMultiplier": 4.39,
+        "PhysicalDamageMultiplier": 10,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.15,
+        "StrafeSpeed": 1.15,
+        "MaxStrafeDistance": 1.15,
+        "AlignDirectionSpeed": 1.15,
+        "MaxAcceleration": 1.15
+      },
+      "Temperature": {
+        "FreezeTemperature": -139,
+        "UnfreezeTemperature": -80,
+        "WarmingRate": 25
+      },
+      "Spawner": {
+        "ED": "脓毒",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": {
+          "Mutate": "Add",
+          "A": 7,
+          "B": {
+            "Mutate": "ifFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "增益指示器"
+            },
+            ">=": 1,
+            "Then": -7,
+            "Else": 0
+          },
+          "C": {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "DuringDefend"
+            },
+            "Then": {
+              "Mutate": "ifFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "增益指示器"
+              },
+              ">=": 1,
+              "Then": 0,
+              "Else": -7
+            },
+            "Else": 0
+          }
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "裂变重斧无畏": {
+      "Significance": "裂变重斧无畏,死亡生成孽生兽",
+      "Base": "ED_Spider_Boss_TwinB",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 30,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "AttackDamageMultiplier": 0.18,
+      "DisplayName": "裂变重斧无畏",
+      "Projectile": "PRJ_LineCutter2_C",
+      "Materials": [
+        "M_Refrigerator_Chrome",
+        "M_BurstMineElectric"
+      ],
+      "Resistances": {
+        "ExplosionDamageMultiplier": 5.39,
+        "FireDamageMultiplier": 11,
+        "KineticDamageMultiplier": 4,
+        "PhysicalDamageMultiplier": 10,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -139,
+        "UnfreezeTemperature": -80,
+        "WarmingRate": 25
+      },
+      "Spawner": {
+        "ED": "ED_Crawler",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": {
+          "Mutate": "Add",
+          "A": 10,
+          "B": {
+            "Mutate": "ifFloat",
+            "Value": {
+              "Mutate": "EnemyCount",
+              "ED": "增益指示器"
+            },
+            ">=": 1,
+            "Then": -10,
+            "Else": 0
+          },
+          "C": {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "DuringDefend"
+            },
+            "Then": {
+              "Mutate": "ifFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "增益指示器"
+              },
+              ">=": 1,
+              "Then": 0,
+              "Else": -10
+            },
+            "Else": 0
+          }
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "脓毒": {
+      "Base": "ED_Spider_Lobber",
+      "Significance": "脓毒",
+      "HealthRaw": 100,
+      "Materials": [
+        "M_SpaceRig_GlassDark_LS",
+        "M_SpaceRig_GlassDark_LS",
+        "M_SpaceRig_GlassDark_LS",
+        "M_SpaceRig_GlassDark_LS"
+      ],
+      "Scale": 1.2,
+      "Heal": -100
+    },
+    "灰烬巢主无畏": {
+      "Base": "ED_Spider_Boss_Heavy",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "Significance": "巢主无畏,生成后12秒自动解除无敌
+                       解除后使用C4击杀/连锁两轮后核弹击杀",
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "DisplayName": "灰烬巢主无畏",
+      "IsBossFight": true,
+      "DifficultyRating": 639,
+      "Materials": [
+        "M_GreatEggHunt_Soil",
+        "M_GlobalSkin_DLC02"
+      ],
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Resistances": {
+        "CorrosiveDamageMultiplier": 7,
+        "ElectricDamageMultiplier": 7,
+        "ExplosionDamageMultiplier": 21,
+        "FireDamageMultiplier": 7,
+        "InternalDamageMultiplier": 7,
+        "KineticDamageMultiplier": 7,
+        "PhysicalDamageMultiplier": 14,
+        "PoisonDamageMultiplier": 14,
+        "RadiationDamageMultiplier": 7
+      },
+      "Temperature": {
+        "FreezeTemperature": -120,
+        "UnfreezeTemperature": -100,
+        "WarmingRate": 10
+      }
+    },
+    "ED_Spider_Tank_HeavySpawn": {
+      "Base": "ED_FlyingSmartRock",
+      "DisplayName": "死亡遗物",
+      "HealthRaw": 12000,
+      "Scale": 0.6,
+      "Heal": {
+        "Mutate": "Add",
+        "A": -1000,
+        "B": {
+          "Mutate": "ByMissionType",
+          "Default": 0,
+          "Escort": -1000
+        }
+      },
+      "Significance": "巢主召唤物，12秒后自动死亡,推车事件内6秒死亡",
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Materials": [
+        "M_EscortHeart",
+        "M_MuleInfected_Black"
+      ],
+      "Spawner": {
+        "ED": "死亡遗物",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 15,
+        "MaxSpawns": 15,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "死亡遗物": {
+      "Base": "ED_Jelly_Swarmer",
+      "CustomVeterans": {
+        "灰烬战士": 0.5,
+        "灰烬护卫": 0.3,
+        "灰烬刀锋": 0.2
+      }
+    },
+    "灰烬战士": {
+      "Base": "ED_Spider_Grunt",
+      "Significance": "灰烬战士,生命逐渐流失，移速较快",
+      "DisplayName": "灰烬战士",
+      "HealthRaw": 180,
+      "Heal": -4.5,
+      "Materials": [
+        "MP_HPC_Magma",
+        "M_HairColor_Black01"
+      ],
+      "Movement": {
+        "MaxPawnSpeed": 1.25,
+        "MaxStrafeDistance": 1.25,
+        "AlignDirectionSpeed": 1.25,
+        "MaxAcceleration": 1.25
+      },
+      "Temperature": {
+        "WarmingRate": 0
+      }
+    },
+    "灰烬护卫": {
+      "Base": "ED_Spider_Grunt_Guard",
+      "Significance": "灰烬护卫,生命逐渐流失，移速较快",
+      "DisplayName": "灰烬护卫",
+      "HealthRaw": 450,
+      "Heal": -12,
+      "Materials": [
+        "MP_HPC_Magma",
+        "M_HairColor_Black01",
+        "M_HairColor_Black01"
+      ],
+      "Movement": {
+        "MaxPawnSpeed": 1.25,
+        "MaxStrafeDistance": 1.25,
+        "AlignDirectionSpeed": 1.25,
+        "MaxAcceleration": 1.25
+      },
+      "Temperature": {
+        "WarmingRate": 0
+      }
+    },
+    "灰烬刀锋": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "Significance": "灰烬刀锋,生命逐渐流失，移速较快",
+      "DisplayName": "灰烬刀锋",
+      "HealthRaw": 280,
+      "Heal": -7,
+      "Materials": [
+        "MP_HPC_Magma",
+        "M_HairColor_Black01",
+        "M_HairColor_Black01"
+      ],
+      "Movement": {
+        "MaxPawnSpeed": 1.25,
+        "MaxStrafeDistance": 1.25,
+        "AlignDirectionSpeed": 1.25,
+        "MaxAcceleration": 1.25
+      },
+      "Temperature": {
+        "WarmingRate": 0
+      }
+    },
+    "[表阶段]寒霜无畏异虫": {
+      "Base": "ED_Spider_Tank_Boss",
+      "Significance": "寒霜无畏异虫,双阶段,一阶段释放雪球，二阶段释放弱收容
+                       伴生体未被击杀前死亡则会生成二阶段.",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "Materials": [
+        "M_Scout_PJ_DLC01_Cloth",
+        "M_Bosco_PJ_AbyssalFrost"
+      ],
+      "DisplayName": "[表阶段]寒霜无畏异虫",
+      "Projectile": "PRJ_Crye_SnowBall_C",
+      "IsBossFight": true,
+      "DifficultyRating": 1239,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Resistances": {
+        "CorrosiveDamageMultiplier": 6,
+        "ElectricDamageMultiplier": 6,
+        "ExplosionDamageMultiplier": 6,
+        "FireDamageMultiplier": 24,
+        "InternalDamageMultiplier": 6,
+        "KineticDamageMultiplier": 6,
+        "PhysicalDamageMultiplier": 14,
+        "PoisonDamageMultiplier": 14,
+        "RadiationDamageMultiplier": 7
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Spawner": {
+        "ED": "[里阶段]暗影无畏异虫",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": {
+          "Mutate": "ifFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "寒霜无畏伴生体"
+          },
+          "<": 1,
+          "Then": 0,
+          "Else": 1
+        },
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      },
+      "Temperature": {
+        "FreezeTemperature": -189,
+        "UnfreezeTemperature": -120,
+        "WarmingRate": 45
+      }
+    },
+    "寒霜无畏伴生体": {
+      "Base": "ED_Mactera_TripleShooter",
+      "Significance": "寒霜无畏伴生体",
+      "DisplayName": "寒霜无畏伴生体",
+      "DifficultyRating": 50,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "HealthRaw": 1000,
+      "Scale": 1.3,
+      "Elite": true,
+      "IsBossFight": true,
+      "Materials": [
+        "M_Bosco_PJ_AbyssalFrost",
+        "M_Light_BlueX20",
+        "M_Light_BlueX20"
+      ],
+      "Resistances": {
+        "ColdDamageMultiplier": 19,
+        "ExplosionDamageMultiplier": 1.5,
+        "KineticDamageMultiplier": 1.5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.25,
+        "MaxStrafeDistance": 1.25,
+        "AlignDirectionSpeed": 1.25,
+        "MaxAcceleration": 1.25
+      },
+      "Temperature": {
+        "FreezeTemperature": -1000,
+        "WarmingRate": 0.39
+      }
+    },
+    "[里阶段]暗影无畏异虫": {
+      "Base": "ED_Spider_Tank_Boss",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "Materials": [
+        "M_RockCracker_RedLight_AlwaysOn",
+        "M_Flier_Bomber_Exploder_Body"
+      ],
+      "IsBossFight": true,
+      "DisplayName": "[里阶段]暗影无畏异虫",
+      "Projectile": "PRJ_ChargedBlasterShot_C",
+      "DifficultyRating": 1350,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 1,
+      "Rarity": 10,
+      "Resistances": {
+        "ColdDamageMultiplier": 24,
+        "CorrosiveDamageMultiplier": 6,
+        "ElectricDamageMultiplier": 6,
+        "ExplosionDamageMultiplier": 9,
+        "FireDamageMultiplier": 24,
+        "InternalDamageMultiplier": 6,
+        "KineticDamageMultiplier": 6,
+        "PhysicalDamageMultiplier": 14,
+        "PoisonDamageMultiplier": 14,
+        "RadiationDamageMultiplier": 5
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.3,
+        "StrafeSpeed": 1.3,
+        "MaxStrafeDistance": 1.3,
+        "AlignDirectionSpeed": 1.3,
+        "MaxAcceleration": 1.3
+      },
+      "Temperature": {
+        "FreezeTemperature": -189,
+        "UnfreezeTemperature": -120,
+        "WarmingRate": 45
+      }
+    },
+    "消灭任务阶段阶段一": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 30000,
+      "Heal": {
+        "Mutate": "Add",
+        "A": -100,
+        "B": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务1-1"
+          },
+          ">=": 1,
+          "Then": -40,
+          "Else": 0
+        },
+        "C": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务1-2"
+          },
+          ">=": 1,
+          "Then": -40,
+          "Else": 0
+        },
+        "D": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务1-3"
+          },
+          ">=": 1,
+          "Then": -40,
+          "Else": 0
+        },
+        "E": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务2-1"
+          },
+          ">=": 1,
+          "Then": -70,
+          "Else": 0
+        },
+        "F": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务2-2"
+          },
+          ">=": 1,
+          "Then": -70,
+          "Else": 0
+        },
+        "G": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务2-3"
+          },
+          ">=": 1,
+          "Then": -70,
+          "Else": 0
+        },
+        "H": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务3-1"
+          },
+          ">=": 1,
+          "Then": -80,
+          "Else": 0
+        },
+        "I": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务3-2"
+          },
+          ">=": 1,
+          "Then": -80,
+          "Else": 0
+        },
+        "J": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务3-3"
+          },
+          ">=": 1,
+          "Then": -80,
+          "Else": 0
+        }
+      },
+      "DisplayName": "推进阶段一",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "消灭任务阶段阶段二",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "消灭任务阶段阶段二": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 60000,
+      "Heal": {
+        "Mutate": "Add",
+        "A": -100,
+        "B": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务1-1"
+          },
+          ">=": 1,
+          "Then": -40,
+          "Else": 0
+        },
+        "C": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务1-2"
+          },
+          ">=": 1,
+          "Then": -40,
+          "Else": 0
+        },
+        "D": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务1-3"
+          },
+          ">=": 1,
+          "Then": -40,
+          "Else": 0
+        },
+        "E": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务2-1"
+          },
+          ">=": 1,
+          "Then": -70,
+          "Else": 0
+        },
+        "F": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务2-2"
+          },
+          ">=": 1,
+          "Then": -70,
+          "Else": 0
+        },
+        "G": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务2-3"
+          },
+          ">=": 1,
+          "Then": -70,
+          "Else": 0
+        },
+        "H": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务3-1"
+          },
+          ">=": 1,
+          "Then": -80,
+          "Else": 0
+        },
+        "I": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务3-2"
+          },
+          ">=": 1,
+          "Then": -80,
+          "Else": 0
+        },
+        "J": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务3-3"
+          },
+          ">=": 1,
+          "Then": -80,
+          "Else": 0
+        }
+      },
+      "DisplayName": "推进阶段二",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "消灭任务阶段阶段三",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "消灭任务阶段阶段三": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 80000,
+      "Heal": {
+        "Mutate": "Add",
+        "A": -100,
+        "B": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务1-1"
+          },
+          ">=": 1,
+          "Then": -40,
+          "Else": 0
+        },
+        "C": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务1-2"
+          },
+          ">=": 1,
+          "Then": -40,
+          "Else": 0
+        },
+        "D": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务1-3"
+          },
+          ">=": 1,
+          "Then": -40,
+          "Else": 0
+        },
+        "E": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务2-1"
+          },
+          ">=": 1,
+          "Then": -70,
+          "Else": 0
+        },
+        "F": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务2-2"
+          },
+          ">=": 1,
+          "Then": -70,
+          "Else": 0
+        },
+        "G": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务2-3"
+          },
+          ">=": 1,
+          "Then": -70,
+          "Else": 0
+        },
+        "H": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务3-1"
+          },
+          ">=": 1,
+          "Then": -80,
+          "Else": 0
+        },
+        "I": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务3-2"
+          },
+          ">=": 1,
+          "Then": -80,
+          "Else": 0
+        },
+        "J": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "Enemieskilled",
+            "ED": "推进任务3-3"
+          },
+          ">=": 1,
+          "Then": -80,
+          "Else": 0
+        }
+      },
+      "DisplayName": "推进阶段三",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "消灭任务阶段阶段四",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "消灭任务阶段阶段四": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 10000,
+      "DisplayName": "推进阶段四",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 0.01
+      },
+      "Spawner": {
+        "ED": "消灭任务阶段阶段四",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务1-1": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "Enemieskilled"
+        },
+        ">": 500,
+        "Then": -2500,
+        "Else": 0
+      },
+      "DisplayName": "推进任务1-1[击杀数达到600]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务1-2",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务1-2": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "Enemieskilled"
+        },
+        ">": 1200,
+        "Then": -2500,
+        "Else": 0
+      },
+      "DisplayName": "推进任务1-2[击杀数达到1200]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务1-3",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务1-3": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "Enemieskilled"
+        },
+        ">": 1600,
+        "Then": -2500,
+        "Else": 0
+      },
+      "DisplayName": "推进任务1-3[击杀数达到1600]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务一完成",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务一完成": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "DisplayName": "推进任务一完成",
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务一完成",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务2-1": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "Add",
+          "A": {
+            "Mutate": "EnemiesKilled",
+            "ED": "寒霜瘟疫吐珠"
+          },
+          "B": {
+            "Mutate": "EnemiesKilled",
+            "ED": "灰烬霰射吐珠"
+          },
+          "C": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_FacilityTurret_Burst"
+          },
+          "E": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_ShootingPlant"
+          },
+          "F": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_BarrageInfector"
+          }
+        },
+        ">": 5,
+        "Then": -2500,
+        "Else": 0
+      },
+      "DisplayName": "推进任务2-1[远程固定单位击杀达到6]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务2-2",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务2-2": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "Add",
+          "A": {
+            "Mutate": "EnemiesKilled",
+            "ED": "寒霜瘟疫吐珠"
+          },
+          "B": {
+            "Mutate": "EnemiesKilled",
+            "ED": "灰烬霰射吐珠"
+          },
+          "C": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_FacilityTurret_Burst"
+          },
+          "E": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_ShootingPlant"
+          },
+          "F": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_BarrageInfector"
+          }
+        },
+        ">": 8,
+        "Then": -2500,
+        "Else": 0
+      },
+      "DisplayName": "推进任务2-2[远程固定单位击杀达到9]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务2-3",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务2-3": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "Add",
+          "A": {
+            "Mutate": "EnemiesKilled",
+            "ED": "寒霜瘟疫吐珠"
+          },
+          "B": {
+            "Mutate": "EnemiesKilled",
+            "ED": "灰烬霰射吐珠"
+          },
+          "C": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_FacilityTurret_Burst"
+          },
+          "E": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_ShootingPlant"
+          },
+          "F": {
+            "Mutate": "EnemiesKilled",
+            "ED": "ED_BarrageInfector"
+          }
+        },
+        ">": 11,
+        "Then": -1000,
+        "Else": 0
+      },
+      "DisplayName": "推进任务2-3[远程固定单位击杀达到12]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务二完成",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务二完成": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "DisplayName": "推进任务二完成",
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务二完成",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务3-1": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "Enemieskilled",
+          "ED": "《選別》"
+        },
+        ">=": 1,
+        "Then": -2500,
+        "Else": 0
+      },
+      "DisplayName": "推进任务3-1[《選別》精英吐酸击杀数达到1]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务3-2",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务3-2": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "Enemieskilled",
+          "ED": "《選別》"
+        },
+        ">=": 2,
+        "Then": -2500,
+        "Else": 0
+      },
+      "DisplayName": "推进任务3-2[《選別》精英吐酸击杀数达到2]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务3-3",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务3-3": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "Heal": {
+        "Mutate": "ifFloat",
+        "Value": {
+          "Mutate": "Enemieskilled",
+          "ED": "《選別》"
+        },
+        ">=": 4,
+        "Then": -2500,
+        "Else": 0
+      },
+      "DisplayName": "推进任务3-3[《選別》精英吐酸击杀数达到4]",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务三完成",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "推进任务三完成": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 3000,
+      "DisplayName": "推进任务三完成",
+      "Resistances": {
+        "DamageMultiplier": 1
+      },
+      "Spawner": {
+        "ED": "推进任务三完成",
+        "OnSpawnDelay": 0,
+        "IntervalSpawnCount": 0,
+        "Interval": 399,
+        "OnDeathCount": 1,
+        "MaxSpawns": 1,
+        "OnDeathKillSpawns": false
+      }
+    },
+    "原生体警告": {
+      "Base": "ED_Spider_Drone",
+      "Scale": 0,
+      "HealthRaw": 6000,
+      "Heal": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "Add",
+          "A": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Spider_Tank_Boss"
+          },
+          "B": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Spider_Boss_TwinA"
+          },
+          "C": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Spider_Boss_TwinB"
+          },
+          "D": {
+            "Mutate": "EnemyCount",
+            "ED": "ED_Spider_Boss_Heavy"
+          }
+        },
+        "<=": 0,
+        "Then": -3000,
+        "Else": 0
+      },
+      "DisplayName": "侦测到原生异虫",
+      "IsBossFight": true,
+      "Resistances": {
+        "DamageMultiplier": 1
+      }
+    },
+    "原生护卫异虫": {
+      "Base": "ED_Spider_Grunt_Guard",
+      "Significance": "原生护卫异虫",
+      "DisplayName": "原生护卫异虫",
+      "HealthRaw": 480,
+      "Materials": [
+        "M_Spider_Miniboss_Armor",
+        "MP_Spider_Dreadnought_Twin_Armor",
+        "MP_Spider_Dreadnought_Twin_Armor"
+      ]
+    },
+    "原生刀锋异虫": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "Significance": "原生刀锋异虫",
+      "DisplayName": "原生刀锋异虫",
+      "HealthRaw": 270,
+      "Materials": [
+        "M_Spider_Miniboss_Armor",
+        "MP_Spider_Dreadnought_Twin_Armor",
+        "MP_Spider_Dreadnought_Twin_Armor"
+      ]
+    },
+    "原生自爆异虫": {
+      "Base": "ED_Spider_Exploder",
+      "Significance": "原生自爆异虫",
+      "DisplayName": "原生自爆异虫",
+      "HealthRaw": 220,
+      "Materials": [
+        "M_Spider_Miniboss_Armor",
+        "MP_Spider_Dreadnought_Twin_Armor"
+      ]
+    },
+    "原生哨卫异虫": {
+      "Base": "ED_Spider_Tank_HeavySpawn",
+      "DifficultyRating": 90,
+      "Significance": "原生哨卫异虫",
+      "DisplayName": "原生哨卫异虫",
+      "HealthRaw": 650,
+      "Materials": [
+        "M_Spider_Miniboss_Armor",
+        "MP_Spider_Dreadnought_Twin_Armor"
+      ]
+    },
+    "原生坚甲异虫蝇": {
+      "Base": "ED_Mactera_Shooter_HeavyVeteran",
+      "Significance": "原生坚甲异虫蝇",
+      "DisplayName": "原生坚甲异虫蝇",
+      "HealthRaw": 450,
+      "Materials": [
+        "M_Spider_Miniboss_Armor",
+        "MP_Spider_Dreadnought_Twin_Armor"
+      ]
+    },
+    "ED_Spider_Tank_Boss": {
+      "Significance": "原生无畏异虫",
+      "DisplayName": "原生无畏异虫",
+      "Scale": 1.2,
+      "HealthRaw": 60000,
+      "Projectile": "PRJ_Spider_Tank_Boss_C",
+      "Materials": [
+        "M_WoodLouse_A_Flesh_Glow",
+        "M_GlobalSkin_NeoTokyo_s05"
+      ],
+      "Resistances": {
+        "DamageMultiplier": {
+          "Mutate": "add",
+          "A": 12.5,
+          "B": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段一"
+            },
+            ">=": 1,
+            "Then": -2.5,
+            "Else": 0
+          },
+          "C": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段二"
+            },
+            ">=": 1,
+            "Then": -1.5,
+            "Else": 0
+          },
+          "D": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段三"
+            },
+            ">=": 1,
+            "Then": -1.5,
+            "Else": 0
+          }
+        },
+        "ExplosionDamageMultiplier": 1.5,
+        "FireDamageMultiplier": 2,
+        "KineticDamageMultiplier": 1.5,
+        "PhysicalDamageMultiplier": 2.4,
+        "RadiationDamageMultiplier": 2
+      },
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "StrafeSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Temperature": {
+        "FreezeTemperature": -289,
+        "UnfreezeTemperature": -220,
+        "WarmingRate": 60
+      }
+    },
+    "ED_Spider_Boss_Heavy": {
+      "Significance": "原生灰烬巢主无畏",
+      "DisplayName": "原生灰烬巢主无畏",
+      "Scale": 1.2,
+      "HealthRaw": 60000,
+      "Materials": [
+        "M_Plague_WormBallProjectile_GlowWobble",
+        "M_BahBarnacle_Armor",
+        "M_Spider_Dreadnought_Heavy_Back_DarkGold_Variant",
+        "M_Spider_Dreadnought_Heavy_Back_DarkGold_Variant",
+        "M_Spider_Dreadnought_Heavy_Back_DarkGold_Variant",
+        "M_Spider_Dreadnought_Heavy_Back_DarkGold_Variant",
+        "M_Spider_Dreadnought_Heavy_Back_DarkGold_Variant",
+        "M_Spider_Dreadnought_Heavy_Back_DarkGold_Variant",
+        "M_BahBarnacle_Armor"
+      ],
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Resistances": {
+        "DamageMultiplier": {
+          "Mutate": "add",
+          "A": 11,
+          "B": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段一"
+            },
+            ">=": 1,
+            "Then": -2,
+            "Else": 0
+          },
+          "C": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段二"
+            },
+            ">=": 1,
+            "Then": -1,
+            "Else": 0
+          },
+          "D": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段三"
+            },
+            ">=": 1,
+            "Then": -1,
+            "Else": 0
+          }
+        },
+        "CorrosiveDamageMultiplier": 2,
+        "ElectricDamageMultiplier": 2,
+        "ExplosionDamageMultiplier": 1.6,
+        "FireDamageMultiplier": 2,
+        "InternalDamageMultiplier": 2,
+        "KineticDamageMultiplier": 1.5,
+        "PhysicalDamageMultiplier": 2.4,
+        "PoisonDamageMultiplier": 2,
+        "RadiationDamageMultiplier": 2
+      },
+      "Temperature": {
+        "FreezeTemperature": -229,
+        "UnfreezeTemperature": -199,
+        "WarmingRate": 14
+      }
+    },
+    "ED_Spider_Boss_TwinA": {
+      "Significance": "原生强弩无畏",
+      "DisplayName": "原生强弩无畏",
+      "Scale": 1.2,
+      "HealthRaw": 30000,
+      "Materials": [
+        "M_Plague_Glyphid_NoWobb",
+        "M_SuckingPlantDirectional_Glow",
+        "M_SuckingPlantDirectional_Glow",
+        "M_SuckingPlantDirectional_Glow"
+      ],
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Resistances": {
+        "DamageMultiplier": {
+          "Mutate": "add",
+          "A": 12,
+          "B": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段一"
+            },
+            ">=": 1,
+            "Then": -2,
+            "Else": 0
+          },
+          "C": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段二"
+            },
+            ">=": 1,
+            "Then": -1,
+            "Else": 0
+          },
+          "D": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段三"
+            },
+            ">=": 1,
+            "Then": -1,
+            "Else": 0
+          }
+        },
+        "CorrosiveDamageMultiplier": 2,
+        "ElectricDamageMultiplier": 2,
+        "ExplosionDamageMultiplier": 1.6,
+        "FireDamageMultiplier": 2,
+        "InternalDamageMultiplier": 2,
+        "KineticDamageMultiplier": 1.4,
+        "PhysicalDamageMultiplier": 2.4,
+        "PoisonDamageMultiplier": 2,
+        "RadiationDamageMultiplier": 2
+      },
+      "Temperature": {
+        "FreezeTemperature": -189,
+        "UnfreezeTemperature": -139,
+        "WarmingRate": 45
+      }
+    },
+    "ED_Spider_Boss_TwinB": {
+      "Significance": "原生重斧无畏",
+      "DisplayName": "原生重斧无畏",
+      "Scale": 1.2,
+      "HealthRaw": 30000,
+      "Materials": [
+        "M_Plague_Glyphid_NoWobb",
+        "M_Spider_Hoarder_Mineral02",
+        "M_Spider_Hoarder_Mineral02",
+        "M_Spider_Hoarder_Mineral02"
+      ],
+      "Movement": {
+        "MaxPawnSpeed": 1.1,
+        "MaxStrafeDistance": 1.1,
+        "AlignDirectionSpeed": 1.1,
+        "MaxAcceleration": 1.1
+      },
+      "Resistances": {
+        "DamageMultiplier": {
+          "Mutate": "add",
+          "A": 12,
+          "B": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段一"
+            },
+            ">=": 1,
+            "Then": -2,
+            "Else": 0
+          },
+          "C": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段二"
+            },
+            ">=": 1,
+            "Then": -1,
+            "Else": 0
+          },
+          "D": {
+            "Mutate": "IfFloat",
+            "Value": {
+              "Mutate": "Enemieskilled",
+              "ED": "消灭任务阶段阶段三"
+            },
+            ">=": 1,
+            "Then": -1,
+            "Else": 0
+          }
+        },
+        "CorrosiveDamageMultiplier": 2,
+        "ElectricDamageMultiplier": 2,
+        "ExplosionDamageMultiplier": 1.6,
+        "FireDamageMultiplier": 2,
+        "InternalDamageMultiplier": 2,
+        "KineticDamageMultiplier": 1.4,
+        "PhysicalDamageMultiplier": 2.4,
+        "PoisonDamageMultiplier": 2,
+        "RadiationDamageMultiplier": 2
+      },
+      "Temperature": {
+        "FreezeTemperature": -189,
+        "UnfreezeTemperature": -139,
+        "WarmingRate": 45
+      }
+    },
+    "ED_WalkingPlagueheart": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 1,
+      "IdealSpawnSize": 0,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99
+    },
+    "ED_InfectedMule": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 1,
+      "IdealSpawnSize": 0,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99
+    },
+    "ED_Terminator": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 1,
+      "IdealSpawnSize": 0,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99
+    },
+    "ED_HydraWeed": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 1,
+      "IdealSpawnSize": 0,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99
+    },
+    "ED_Spider_ExploderTank_King": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": false,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 1,
+      "IdealSpawnSize": 0,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 0,
+      "Rarity": 99
+    }
+  },
+  "Pools": {
+    "MinPoolSize": 139,
+    "DisruptiveEnemyPoolCount": {
+      "min": 139,
+      "max": 139
+    },
+    "StationaryEnemyCount": {
+      "Min": 7,
+      "Max": 7
+    },
+    "EnemyPool": {
+      "clear": false,
+      "Add": [
+        "[表阶段]寒霜无畏异虫",
+        "ED_Spider_Hoarder",
+        "灰烬巢主无畏",
+        "瘟疫强弩无畏",
+        "裂变重斧无畏",
+        "ED_Spider_Boss_TwinA_LES",
+        "ED_Spider_Boss_TwinB_LES",
+        "《自戒》"
+      ],
+      "Remove": []
+    },
+    "CommonEnemies": {
+      "Add": [
+        "[表阶段]寒霜无畏异虫",
+        "灰烬巢主无畏",
+        "瘟疫强弩无畏",
+        "裂变重斧无畏",
+        "盾卫异虫",
+        "ED_PumpkinLootBug_Helper",
+        "NOFX",
+        "ED_Bomber_Explosive",
+        "ED_Spider_Grunt_Guard_Elite",
+        "ED_Spider_Grunt_Attacker_Elite",
+        "ED_Spider_Grunt_RockpoxPlague",
+        "ED_Spider_Boss_TwinA_LES",
+        "ED_Spider_Boss_TwinB_LES",
+        "ED_PatrolBot",
+        "ED_Crawler"
+      ]
+    },
+    "SpecialEnemies": {
+      "clear": false,
+      "Add": [
+        "[表阶段]寒霜无畏异虫",
+        "灰烬巢主无畏",
+        "瘟疫强弩无畏",
+        "裂变重斧无畏",
+        "瘟疫轰炸蝇",
+        "盾卫异虫",
+        "ED_PumpkinLootBug_Helper",
+        "NOFX",
+        "ED_JellyBreeder_RockpoxPlague",
+        "ED_Spider_Grunt_Guard_Elite",
+        "ED_Spider_Grunt_Attacker_Elite",
+        "ED_Spider_Tank_Heavy",
+        "ED_Spider_Shooter_Rockpox_Plague",
+        "ED_Spider_Boss_TwinA_LES",
+        "ED_Spider_Boss_TwinB_LES",
+        "ED_PatrolBot",
+        "ED_Crawler"
+      ],
+      "Remove": []
+    },
+    "DisruptiveEnemies": {
+      "Add": [
+        "[表阶段]寒霜无畏异虫",
+        "灰烬巢主无畏",
+        "瘟疫强弩无畏",
+        "裂变重斧无畏",
+        "瘟疫轰炸蝇",
+        "盾卫异虫",
+        "《自戒》",
+        "ED_Spider_Tank_Ice",
+        "ED_Bomber_Ice",
+        "ED_PumpkinLootBug_Helper",
+        "ED_Spider_ExploderTank",
+        "NOFX",
+        "ED_Spider_Grunt_Guard_Elite",
+        "ED_Spider_Grunt_Attacker_Elite",
+        "ED_Spider_Boss_TwinA_LES",
+        "ED_Spider_Boss_TwinB_LES",
+        "ED_Spider_Tank_Heavy",
+        "ED_Spider_Tank_Mutated",
+        "ED_PatrolBot",
+        "ED_Crawler",
+        "ED_Spider_Hoarder"
+      ]
+    },
+    "StationaryPool": {
+      "clear": false,
+      "Add": [
+        "ED_Prospector",
+        "ED_FacilityTurret_Burst",
+        "灰烬霰射吐珠",
+        "寒霜瘟疫吐珠"
+      ],
+      "Remove": [
+        "ED_JellyBreeder",
+        "ED_TentaclePlant"
+      ]
+    }
+  },
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": {
+      "Mutate": "Add",
+      "A": 0.93,
+      "B": {
+        "Mutate": "ByMissionType",
+        "Default": 0,
+        "Escort": {
+          "Mutate": "ByEscortPhase",
+          "Default": 0,
+          "FinalEventA": 0.01,
+          "FinalEventB": 0.01,
+          "FinalEventC": 0.02,
+          "FinalEventD": 0.03
+        }
+      },
+      "C": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "酸性环境"
+        },
+        ">=": 1,
+        "Then": {
+          "Mutate": "ByMissionType",
+          "Default": 0,
+          "Escort": {
+            "Mutate": "ByEscortPhase",
+            "Default": -0.05,
+            "FinalEventA": -0.03,
+            "FinalEventB": -0.03,
+            "FinalEventC": -0.04,
+            "FinalEventD": -0.05
+          }
+        },
+        "Else": 0
+      },
+      "D": {
+        "Mutate": "IfFloat",
+        "Value": {
+          "Mutate": "EnemyCount",
+          "ED": "酸性环境警告增益"
+        },
+        ">=": 1,
+        "Then": 0.01,
+        "Else": 0
+      }
+    },
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}
